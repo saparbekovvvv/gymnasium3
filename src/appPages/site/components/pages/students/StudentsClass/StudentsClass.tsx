@@ -1,19 +1,19 @@
 import React from "react";
-import scss from "./GraduatesThirdTab.module.scss";
+import scss from "./StudentsClass.module.scss";
 import avatar from "../../../../../../assets/tableAvatar.png";
 import Image from "next/image";
 
-const GraduatesThirdTab = () => {
+const StudentsClass = () => {
     return (
-        <section className={scss.GraduatesThirdTab}>
+        <section className={scss.StudentsClass}>
             <div className="container">
                 <div className={scss.content}>
-                    <h2 className={scss.title}>Список выпускников 2021-22</h2>
+                    <h2 className={scss.title}>4 Класс</h2>
                     <div className={scss.table}>
                         <div className={scss.tableTitle}>
                             <h1 className={scss.titleText}>No.</h1>
-                            <h1 className={scss.titleText}>Имя выпускника</h1>
-                            <h1 className={scss.titleText}>ОРТ</h1>
+                            <h1 className={scss.titleText}>Имя ученика</h1>
+                            <h1 className={scss.titleText}>Класс</h1>
                             <h1 className={scss.titleText}>Кл. руководитель</h1>
                         </div>
                         <div className={scss.tableContent}>
@@ -39,4 +39,4 @@ const GraduatesThirdTab = () => {
     );
 };
 
-export default GraduatesThirdTab;
+export default StudentsClass;
