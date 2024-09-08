@@ -12,10 +12,12 @@ const HomePage = () => {
       <div className={scss.content}>
         <HeroContent />
         <NewsContent />
-        <StudentsContent />
-        <TeachersContent />
-        <GalleryContent />
+        <div className={scss.personas}>
+          <StudentsContent />
+          <TeachersContent />
+        </div>
         <GraduatesContent />
+        <GalleryContent />
         <DirectorContent />
       </div>
     </>
