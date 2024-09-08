@@ -1,5 +1,6 @@
 namespace NEWS {
   interface INews {
+    id: number;
     author: string;
     image: string;
     content: string;

@@ -3,6 +3,12 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  padding-top: 100px;
   padding-bottom: 30px;
+}
+
+.personas {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  padding: 40px 0;
 }
