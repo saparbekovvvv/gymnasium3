@@ -4,16 +4,18 @@ import GraduatesSecondTab from "./graduates/GraduatesSecondTab/GraduatesSecondTa
 import GraduatesThirdTab from "./graduates/GraduatesThirdTab/GraduatesThirdTab";
 import scss from "./GraduatesPage.module.scss";
 const GraduatesPage = () => {
-  return (
-    <>
-      <div className={scss.content}>
-        <GraduatesMainContent />
-        <GraduatesFirstTab />
-        <GraduatesSecondTab />
-        <GraduatesThirdTab />
-      </div>
-    </>
-  );
+    return (
+        <>
+            <div className={scss.content}>
+                <GraduatesMainContent />
+                <div className={scss.graduatesTable}>
+                    <GraduatesFirstTab />
+                    <GraduatesSecondTab />
+                    <GraduatesThirdTab />
+                </div>
+            </div>
+        </>
+    );
 };
 
 export default GraduatesPage;
