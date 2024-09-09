@@ -1,33 +1,23 @@
 import Link from "next/link";
 import scss from "./StudentsMainContent.module.scss";
+
 const StudentsMainContent = () => {
+    const numbers = [4, 5, 6, 7, 8, 9, 10, 11];
+
+    
+
     return (
         <section className={scss.content}>
             <div className={scss.classes}>
-                <Link href={"/students/studentsClass"} className={scss.block}>
-                    <h1 className={scss.block_text}>4 класс</h1>
-                </Link>{" "}
-                <Link href={"#"} className={scss.block}>
-                    <h1 className={scss.block_text}>5 класс</h1>
-                </Link>{" "}
-                <Link href={"#"} className={scss.block}>
-                    <h1 className={scss.block_text}>6 класс</h1>
-                </Link>{" "}
-                <Link href={"#"} className={scss.block}>
-                    <h1 className={scss.block_text}>7 класс</h1>
-                </Link>{" "}
-                <Link href={"#"} className={scss.block}>
-                    <h1 className={scss.block_text}>8 класс</h1>
-                </Link>{" "}
-                <Link href={"#"} className={scss.block}>
-                    <h1 className={scss.block_text}>9 класс</h1>
-                </Link>{" "}
-                <Link href={"#"} className={scss.block}>
-                    <h1 className={scss.block_text}>10 класс</h1>
-                </Link>{" "}
-                <Link href={"#"} className={scss.block}>
-                    <h1 className={scss.block_text}>11 класс</h1>
-                </Link>{" "}
+                {numbers.map((number) => (
+                    <Link
+                        key={number}
+                        href={`/students/studentsClass/${number}`}
+                        className={scss.block}
+                    >
+                        <h1 className={scss.block_text}>{number} класс</h1>
+                    </Link>
+                ))}
             </div>
         </section>
     );

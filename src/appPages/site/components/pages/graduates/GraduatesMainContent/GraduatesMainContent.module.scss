@@ -29,6 +29,10 @@
     font-weight: 600;
     line-height: 36.72px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-direction: column;
 }
 
 .graduateDate {
@@ -49,6 +53,9 @@
     border-bottom: 8px solid #fb8f8f;
     border-right: 5px solid #fb8f8f;
     border-left: 5px solid #fb8f8f;
+    width: 350px;
+    border-radius: 15px;
+    height: 450px;
 }
 
 .mainContent_graduates {
@@ -62,6 +69,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .mainContent {
