@@ -9,9 +9,12 @@ import { useRouter } from "next/router";
 
 const StudentClassTable = () => {
     const router = useRouter();
-    const { number } = router.query;
+    const { studentClass } = router.query;
 
     const { data, isLoading, isError } = useGetStudentsQuery();
+    const filteredData = data?.filter(
+        (student) => student.school_class.grade.toString() === number
+    );
 
     if (isLoading) return <div>Загрузка...</div>;
     if (isError || !data) return <div>Ошибка при загрузке данных.</div>;
@@ -32,7 +35,7 @@ const StudentClassTable = () => {
                         </div>
                         <div className={scss.tableContent}>
                             <div className={scss.hr}></div>
-                            {data.map((item, index: number) => (
+                            {filteredData?.map((item, index: number) => (
                                 <div
                                     key={`${item.surname}-${item.name}-${item.last_name}-${index}`}
                                     className={scss.studentInfo}
