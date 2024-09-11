@@ -10,7 +10,7 @@ const StudentsMainContent = () => {
                 {numbers.map((number) => (
                     <Link
                         key={number}
-                        href={`/students/studentsClass/${number}`}
+                        href={`/students/studentsClass${number}`}
                         className={scss.block}
                     >
                         <h1 className={scss.block_text}>{number} класс</h1>

@@ -5,36 +5,24 @@ import scss from "./StudentsClassTable.module.scss";
 import avatar from "../../../../../../assets/tableAvatar.png";
 import Image from "next/image";
 import { useGetStudentsQuery } from "@/redux/api/students";
-
-interface GraduatesTab {
-    name: string;
-    surname: string;
-    last_name: string;
-    year: number;
-    olympian_status?: { choosing: string };
-    school_class: { grade: string; parallel: string };
-    classroom_teacher: [
-        {
-            last_name: string;
-            name: string;
-            surname: string;
-        }
-    ];
-}
+import { useRouter } from "next/router";
 
 const StudentClassTable = () => {
-    const { data, isLoading, isError } = useGetStudentsQuery<GraduatesTab[]>();
+    const router = useRouter();
+    const { number } = router.query;
+
+    const { data, isLoading, isError } = useGetStudentsQuery();
 
     if (isLoading) return <div>Загрузка...</div>;
     if (isError || !data) return <div>Ошибка при загрузке данных.</div>;
 
-    console.log(data);
+    console.log(number);
 
     return (
-        <section className={scss.StudentClass}>
+        <section className={scss.StudentClassTable}>
             <div className="container">
                 <div className={scss.content}>
-                    <h2 className={scss.title}>Класс</h2>
+                    <h2 className={scss.title}>{number} Класс</h2>
                     <div className={scss.table}>
                         <div className={scss.tableTitle}>
                             <h1 className={scss.titleText}>No.</h1>
@@ -44,7 +32,7 @@ const StudentClassTable = () => {
                         </div>
                         <div className={scss.tableContent}>
                             <div className={scss.hr}></div>
-                            {data.map((item: GraduatesTab, index: number) => (
+                            {data.map((item, index: number) => (
                                 <div
                                     key={`${item.surname}-${item.name}-${item.last_name}-${index}`}
                                     className={scss.studentInfo}
@@ -67,7 +55,9 @@ const StudentClassTable = () => {
                                     </h1>
                                     <h1 className={scss.tableText}>
                                         {item.classroom_teacher
-                                            .map((teacher) => teacher.name)
+                                            ?.map(
+                                                (teacher: any) => teacher.name
+                                            )
                                             .join(", ")}
                                     </h1>
                                 </div>

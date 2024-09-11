@@ -3,27 +3,14 @@
 import React from "react";
 import scss from "./GraduatesMainContent.module.scss";
 import Image from "next/image";
-import graduates from "../../../../../../assets/images/graduates.png";
 import {} from "@/redux/api/our_achievements";
 import { useGetSuccessfulGraduatesQuery } from "@/redux/api/successful_graduates";
 
-interface Successfulgraduates {
-    content: string;
-    content_ky: string;
-    content_ru: string;
-    graduate: {
-        last_name: string;
-        name: string;
-        surname: string;
-        year: number;
-    };
-    image: string;
-    year: number;
-}
-
 const GraduatesMainContent = () => {
-    const { data, isLoading } =
-        useGetSuccessfulGraduatesQuery<Successfulgraduates[]>() || undefined;
+    const { data, isLoading, isError } = useGetSuccessfulGraduatesQuery();
+
+    if (isLoading) return <div>Загрузка...</div>;
+    if (isError || !data) return <div>Ошибка при загрузке данных.</div>;
 
     console.log(data);
 
@@ -37,7 +24,7 @@ const GraduatesMainContent = () => {
                             Гордость гимназии
                         </h1>
                         <div className={scss.graduates}>
-                            {data?.map((item: Successfulgraduates) => (
+                            {data?.map((item) => (
                                 <div
                                     key={item.graduate.name}
                                     className={scss.mainContent_graduates}
