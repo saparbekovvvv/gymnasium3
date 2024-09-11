@@ -1,5 +1,6 @@
 namespace TEACHERS {
   interface ITeacher {
+    id?: number;
     surname: string;
     name: string;
     last_name: string;
@@ -18,4 +19,6 @@ namespace TEACHERS {
 
   type GetTeachersResponse = ITeacher[];
   type GetTeachersRequest = void;
+  type GetDetTeachersResponse = ITeacher;
+  type GetDetTeachersRequest = string | number;
 }
