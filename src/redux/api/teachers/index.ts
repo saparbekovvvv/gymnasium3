@@ -12,17 +12,19 @@ const api = index.injectEndpoints({
         url: `${ENDPOINTS}/teachers/`,
         method: "GET",
       }),
+
       providesTags: ["teachers"],
     }),
-    postTeacher: build.mutation<TEACHERS.ITeacher, TEACHERS.ITeacher>({
-      query: (data) => ({
-        url: `${ENDPOINTS}/teachers/`,
-        method: "POST",
-        body: data,
+    getDetTeacher: build.query<
+      TEACHERS.GetDetTeachersResponse,
+      TEACHERS.GetDetTeachersRequest
+    >({
+      query: (id) => ({
+        url: `${ENDPOINTS}/teachers/${id}`,
+        method: "GET",
       }),
-      invalidatesTags: ["teachers"],
     }),
   }),
 });
 
-export const { useGetTeachersQuery, usePostTeacherMutation } = api;
+export const { useGetTeachersQuery, useGetDetTeacherQuery } = api;

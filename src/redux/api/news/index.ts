@@ -11,7 +11,14 @@ const api = index.injectEndpoints({
       }),
       providesTags: ["news"],
     }),
+    getDetNews: build.query<NEWS.GetDetNewsResponse, NEWS.GetDetNewsRequest>({
+      query: (id) => ({
+        url: `${ENDPOINTS}/news/${id}`,
+        method: "GET",
+      }),
+      providesTags: ["news"],
+    }),
   }),
 });
 
-export const { useGetNewsQuery } = api;
+export const { useGetNewsQuery, useGetDetNewsQuery } = api;
