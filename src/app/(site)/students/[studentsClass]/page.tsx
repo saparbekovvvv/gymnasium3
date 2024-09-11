@@ -1,4 +1,4 @@
-import StudentsClass from "@/appPages/site/components/pages/students/StudentsClass/StudentsClass";
+import StudentsClass from "@/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable";
 import React from "react";
 
 const page = () => {
