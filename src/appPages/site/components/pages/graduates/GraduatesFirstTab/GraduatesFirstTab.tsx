@@ -1,9 +1,39 @@
+"use client";
+
 import React from "react";
 import scss from "./GraduatesFirstTab.module.scss";
-import avatar from "../../../../../../assets/tableAvatar.png";
+import profile from "../../../../../../assets/images/defaultProfile.png";
 import Image from "next/image";
+import { useGetGraduatesQuery } from "@/redux/api/graduates";
+
+interface GraduatesTab {
+    name: string;
+    surname: string;
+    last_name: string;
+    year: number;
+    ort: number;
+}
 
 const GraduatesFirstTab = () => {
+    const { data, isLoading, error } =
+        useGetGraduatesQuery<GraduatesTab[]>() || undefined;
+
+    if (isLoading) {
+        return (
+            <div className={scss.isLoadingBlock}>
+                <p className={scss.isLoading}>Загрузка...</p>
+            </div>
+        );
+    }
+
+    if (error) {
+        return (
+            <div className={scss.errorBlock}>
+                <p className={scss.error}>Ошибка загрузки данных</p>
+            </div>
+        );
+    }
+
     return (
         <section className={scss.GraduatesFirstTab}>
             <div className="container">
@@ -13,24 +43,29 @@ const GraduatesFirstTab = () => {
                         <div className={scss.tableTitle}>
                             <h1 className={scss.titleText}>No.</h1>
                             <h1 className={scss.titleText}>Имя выпускника</h1>
-                            <h1 className={scss.titleText}>ОРТ</h1>
-                            <h1 className={scss.titleText}>Кл. руководитель</h1>
+                            <h1 className={scss.titleText}>Орт</h1>
                         </div>
                         <div className={scss.tableContent}>
                             <div className={scss.hr}></div>
-                            <div className={scss.studentInfo}>
-                                <h1 className={scss.tableTextNumber}>1</h1>
-                                <h1 className={scss.tableName}>
-                                    <Image
-                                        className={scss.studentIcon}
-                                        src={avatar}
-                                        alt=""
-                                    />
-                                    Абдрахманов Айдарбек Капарович
-                                </h1>
-                                <h1 className={scss.tableText}>4 а</h1>
-                                <h1 className={scss.tableText}>М. Тарэловна</h1>
-                            </div>
+                            {data?.map((item: GraduatesTab, index: number) => (
+                                <div key={index} className={scss.studentInfo}>
+                                    <h1 className={scss.tableTextNumber}>
+                                        {index + 1}
+                                    </h1>
+                                    <h1 className={scss.tableName}>
+                                        <Image
+                                            className={scss.studentIcon}
+                                            src={profile}
+                                            alt=""
+                                        />
+                                        {item.surname} {item.name}{" "}
+                                        {item.last_name}
+                                    </h1>
+                                    <h1 className={scss.tableText}>
+                                        {item.ort}
+                                    </h1>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>

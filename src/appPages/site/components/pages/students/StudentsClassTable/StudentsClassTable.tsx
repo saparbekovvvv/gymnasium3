@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import scss from "./StudentClass.module.scss";
+import scss from "./StudentsClassTable.module.scss";
 import avatar from "../../../../../../assets/tableAvatar.png";
 import Image from "next/image";
 import { useGetStudentsQuery } from "@/redux/api/students";
@@ -22,9 +22,11 @@ interface GraduatesTab {
     ];
 }
 
-const StudentClass = () => {
-    const { data, isLoading } =
-        useGetStudentsQuery<GraduatesTab[]>() || undefined;
+const StudentClassTable = () => {
+    const { data, isLoading, isError } = useGetStudentsQuery<GraduatesTab[]>();
+
+    if (isLoading) return <div>Загрузка...</div>;
+    if (isError || !data) return <div>Ошибка при загрузке данных.</div>;
 
     console.log(data);
 
@@ -78,4 +80,4 @@ const StudentClass = () => {
     );
 };
 
-export default StudentClass;
+export default StudentClassTable;

@@ -29,14 +29,14 @@
 
 .tableTitle {
     display: grid;
-    grid-template-columns: 0.3fr 2fr 0.5fr 1fr;
-    gap: 50px;
+    grid-template-columns: 0.3fr 2.5fr 0.5fr;
+    gap: 80px;
 }
 .studentInfo {
     display: grid;
     padding: 10px 0;
-    grid-template-columns: 0.3fr 2fr 0.5fr 1fr;
-    gap: 50px;
+    grid-template-columns: 0.3fr 2.5fr 0.5fr;
+    gap: 80px;
 }
 
 .titleText {
@@ -58,7 +58,6 @@
 
 .tableContent {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 10px;
@@ -99,4 +98,19 @@
     border-radius: 50%;
     width: 35px;
     height: 35px;
+}
+.isLoadingBlock {
+    display: flex;
+    width: 100%;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorBlock {
+    padding: 5px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
