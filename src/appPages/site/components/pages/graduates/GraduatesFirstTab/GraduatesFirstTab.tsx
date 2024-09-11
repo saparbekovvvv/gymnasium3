@@ -11,6 +11,7 @@ interface GraduatesTab {
     surname: string;
     last_name: string;
     year: number;
+    ort: number;
 }
 
 const GraduatesFirstTab = () => {
@@ -42,7 +43,7 @@ const GraduatesFirstTab = () => {
                         <div className={scss.tableTitle}>
                             <h1 className={scss.titleText}>No.</h1>
                             <h1 className={scss.titleText}>Имя выпускника</h1>
-                            <h1 className={scss.titleText}>Год</h1>
+                            <h1 className={scss.titleText}>Орт</h1>
                         </div>
                         <div className={scss.tableContent}>
                             <div className={scss.hr}></div>
@@ -61,7 +62,7 @@ const GraduatesFirstTab = () => {
                                         {item.last_name}
                                     </h1>
                                     <h1 className={scss.tableText}>
-                                        {item.year}
+                                        {item.ort}
                                     </h1>
                                 </div>
                             ))}

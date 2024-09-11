@@ -4,8 +4,6 @@ import scss from "./StudentsMainContent.module.scss";
 const StudentsMainContent = () => {
     const numbers = [4, 5, 6, 7, 8, 9, 10, 11];
 
-    
-
     return (
         <section className={scss.content}>
             <div className={scss.classes}>
