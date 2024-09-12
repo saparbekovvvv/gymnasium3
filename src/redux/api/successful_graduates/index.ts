@@ -9,7 +9,7 @@ const api = index.injectEndpoints({
             SUCCESSFUL_GRADUATES.GetSuccessfulGraduatesRequest
         >({
             query: () => ({
-                url: `${ENDPOINTS}/successful_graduates/`,
+                url: `${ENDPOINTS}/successful-graduates/`,
                 method: "GET",
             }),
             providesTags: ["successful_graduates"],
