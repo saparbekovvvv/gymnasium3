@@ -114,3 +114,149 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 1140px) {
+    .title {
+        font-size: 17px;
+    }
+
+    .titleText {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .tableText {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .tableTextNumber {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .tableName {
+        font-size: 17px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 740px) {
+    .tableTitle {
+        display: grid;
+        grid-template-columns: 0.1fr 2.3fr 0.4fr;
+        gap: 20px;
+    }
+    .title {
+        font-size: 15px;
+    }
+
+    .studentInfo {
+        display: grid;
+        padding: 2px 0;
+        grid-template-columns: 0.1fr 2.3fr 0.4fr;
+        gap: 20px;
+    }
+
+    .titleText {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .tableText {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .tableTextNumber {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .tableName {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .studentIcon {
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tableTitle {
+        display: grid;
+        grid-template-columns: 0.1fr 2.3fr 0.4fr;
+        gap: 10px;
+    }
+    .title {
+        font-size: 12px;
+    }
+    .studentIcon {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .studentInfo {
+        display: grid;
+        padding: 2px 0;
+        grid-template-columns: 0.1fr 2.3fr 0.4fr;
+        gap: 10px;
+    }
+
+    .titleText {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .tableText {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .tableTextNumber {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .tableName {
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 380px) {
+    .tableTitle {
+        display: grid;
+        grid-template-columns: 0.1fr 2.3fr 0.4fr;
+        gap: 8px;
+    }
+    .title {
+        font-size: 12px;
+    }
+
+    .studentInfo {
+        display: grid;
+        padding: 2px 0;
+        grid-template-columns: 0.1fr 2.3fr 0.4fr;
+        gap: 8px;
+    }
+
+    .titleText {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .tableText {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .tableTextNumber {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .tableName {
+        font-size: 10px;
+        font-weight: 400;
+    }
+}

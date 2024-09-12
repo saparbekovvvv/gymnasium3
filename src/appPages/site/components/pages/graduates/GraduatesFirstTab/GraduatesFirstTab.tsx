@@ -6,17 +6,8 @@ import profile from "../../../../../../assets/images/defaultProfile.png";
 import Image from "next/image";
 import { useGetGraduatesQuery } from "@/redux/api/graduates";
 
-interface GraduatesTab {
-    name: string;
-    surname: string;
-    last_name: string;
-    year: number;
-    ort: number;
-}
-
 const GraduatesFirstTab = () => {
-    const { data, isLoading, error } =
-        useGetGraduatesQuery<GraduatesTab[]>() || undefined;
+    const { data, isLoading, error } = useGetGraduatesQuery();
 
     if (isLoading) {
         return (
@@ -47,7 +38,7 @@ const GraduatesFirstTab = () => {
                         </div>
                         <div className={scss.tableContent}>
                             <div className={scss.hr}></div>
-                            {data?.map((item: GraduatesTab, index: number) => (
+                            {data?.map((item, index: number) => (
                                 <div key={index} className={scss.studentInfo}>
                                     <h1 className={scss.tableTextNumber}>
                                         {index + 1}

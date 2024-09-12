@@ -1,22 +1,22 @@
 "use client";
 
 import React from "react";
-import scss from "./StudentsClassTable.module.scss";
+import scss from "./StudentsParliamentTable.module.scss";
 import avatar from "../../../../../../assets/images/defaultProfile.png";
 import Image from "next/image";
 import { useGetStudentsQuery } from "@/redux/api/students";
 
-const StudentClassTable = () => {
+const StudentsParliamentTable = () => {
     const { data, isLoading, isError } = useGetStudentsQuery();
 
     if (isLoading) return <div>Загрузка...</div>;
     if (isError || !data) return <div>Ошибка при загрузке данных.</div>;
 
     return (
-        <section className={scss.StudentClassTable}>
+        <section className={scss.StudentsParliamentTable}>
             <div className="container">
                 <div className={scss.content}>
-                    <h2 className={scss.title}>{} Класс</h2>
+                    <h2 className={scss.title}>Школьный парламент</h2>
                     <div className={scss.table}>
                         <div className={scss.tableTitle}>
                             <h1 className={scss.titleText}>No.</h1>
@@ -64,4 +64,4 @@ const StudentClassTable = () => {
     );
 };
 
-export default StudentClassTable;
+export default StudentsParliamentTable;
