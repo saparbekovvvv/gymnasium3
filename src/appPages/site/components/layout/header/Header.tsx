@@ -10,7 +10,7 @@ import { useRouter } from "next/navigation";
 const Header = () => {
   const router = useRouter();
   const handleNavigate = () => {
-    router.push("https://gimnasium.onrender.com/accounts/login/");
+    router.push("https://3-gymnasium.kg/accounts/");
   };
 
   return (
