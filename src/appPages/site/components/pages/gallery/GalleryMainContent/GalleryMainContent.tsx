@@ -19,11 +19,11 @@ const GalleryMainContent = () => {
               <div key={index} className={scss.galleryItem}>
                 <Image
                   src={item.image}
+                  alt="img"
                   width={700}
                   height={500}
                   priority
                   quality={70}
-                  alt="img"
                 />
               </div>
             ))}
