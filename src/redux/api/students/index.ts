@@ -14,6 +14,15 @@ const api = index.injectEndpoints({
             }),
             providesTags: ["students"],
         }),
+        getStudentsClass: build.query<
+            STUDENTS.GetStudentsResponse,
+            STUDENTS.GetStudentsRequest
+        >({
+            query: (id) => ({
+                url: `${ENDPOINTS}/students/studentclass${id}`,
+                method: "GET",
+            }),
+        }),
     }),
 });
 

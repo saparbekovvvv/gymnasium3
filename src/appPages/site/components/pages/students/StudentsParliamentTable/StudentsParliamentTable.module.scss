@@ -11,6 +11,14 @@
     grid-template-columns: 0.3fr 2fr 0.5fr 1fr;
     gap: 50px;
 }
+.loading {
+    width: 100%;
+    text-align: center;
+}
+.error {
+    width: 100%;
+    text-align: center;
+}
 .studentInfo {
     display: grid;
     padding: 10px 0;

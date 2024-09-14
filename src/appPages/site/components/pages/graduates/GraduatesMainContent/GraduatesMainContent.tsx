@@ -9,8 +9,9 @@ import { useGetSuccessfulGraduatesQuery } from "@/redux/api/successful_graduates
 const GraduatesMainContent = () => {
     const { data, isLoading, isError } = useGetSuccessfulGraduatesQuery();
 
-    if (isLoading) return <div>Загрузка...</div>;
-    if (isError || !data) return <div>Ошибка при загрузке данных.</div>;
+    if (isLoading) return <div className={scss.loading}>Загрузка...</div>;
+    if (isError || !data)
+        return <div className={scss.error}>Ошибка при загрузке данных.</div>;
 
     console.log(data);
 

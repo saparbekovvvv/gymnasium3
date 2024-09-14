@@ -7,23 +7,13 @@ import Image from "next/image";
 import { useGetGraduatesQuery } from "@/redux/api/graduates";
 
 const GraduatesFirstTab = () => {
-    const { data, isLoading, error } = useGetGraduatesQuery();
+    const { data, isLoading, isError } = useGetGraduatesQuery();
 
-    if (isLoading) {
-        return (
-            <div className={scss.isLoadingBlock}>
-                <p className={scss.isLoading}>Загрузка...</p>
-            </div>
-        );
-    }
+    if (isLoading) return <div className={scss.loading}>Загрузка...</div>;
+    if (isError || !data)
+        return <div className={scss.error}>Ошибка при загрузке данных.</div>;
 
-    if (error) {
-        return (
-            <div className={scss.errorBlock}>
-                <p className={scss.error}>Ошибка загрузки данных</p>
-            </div>
-        );
-    }
+    console.log(data);
 
     return (
         <section className={scss.GraduatesFirstTab}>

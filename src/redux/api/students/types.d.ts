@@ -18,4 +18,7 @@ namespace STUDENTS {
     type GetStudentsResponse = IClasses[];
 
     type GetStudentsRequest = void;
+
+    type GetStudentsResponse = IClasses;
+    type GetStudentsRequest = string | number;
 }
