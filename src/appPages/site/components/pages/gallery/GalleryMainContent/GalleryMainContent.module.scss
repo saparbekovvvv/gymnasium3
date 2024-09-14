@@ -1,5 +1,9 @@
 .GalleryMainContent {
   .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     .galleryHead {
       display: flex;
       justify-content: center;
@@ -25,20 +29,104 @@
       margin-top: 42px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      gap: 24px;
-
+      justify-content: center;
+      gap: 20px;
       .galleryItem {
         img {
           cursor: pointer;
-          width: 380px;
-
-          height: 258px;
+          width: 360px;
+          margin: 0 auto;
+          object-fit: cover;
+          height: 250px;
           border-radius: 10px;
 
           &:hover {
             transform: scale(1.01);
             box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .GalleryMainContent {
+    .content {
+      .gallery_card {
+        gap: 26px;
+        .galleryItem {
+          img {
+            cursor: pointer;
+            width: 360px;
+            height: 250px;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .GalleryMainContent {
+    .content {
+      .gallery_card {
+        gap: 28px;
+        .galleryItem {
+          img {
+            width: 300px;
+            height: 190px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .GalleryMainContent {
+    .content {
+      .gallery_card {
+        gap: 28px;
+        .galleryItem {
+          img {
+            width: 270px;
+            height: 180px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .GalleryMainContent {
+    .content {
+      .gallery_card {
+        gap: 18px;
+        .galleryItem {
+          img {
+            width: 228px;
+            height: 170px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .GalleryMainContent {
+    .content {
+      .gallery_card {
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+        .galleryItem {
+          img {
+            width: 250px;
+            height: 170px;
           }
         }
       }
