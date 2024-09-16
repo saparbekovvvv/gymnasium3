@@ -23,7 +23,7 @@ const Header = () => {
     return { full_name: query };
   }, [query]);
 
-  const { data, error, isLoading } = useGetSearchQuery(searchRequest, {
+  const { data, error, isLoading } = useGetSearchQuery(searchRequest!, {
     skip: !searchRequest,
   });
   useEffect(() => {
@@ -120,7 +120,7 @@ const Header = () => {
         {query.length >= 2 && (
           <div className={scss.searchResults}>
             {isLoading && <p>Загрузка...</p>}
-            {error && <p>Произошла ошибка при поиске</p>}
+            {/* {error && <p>Произошла ошибка при поиске</p>} */}
             {!isLoading && !error && data && data.length > 0 ? (
               <ul>
                 {data.map((result) => (
