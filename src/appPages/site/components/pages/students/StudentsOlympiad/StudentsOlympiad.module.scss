@@ -1,8 +1,21 @@
 .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
-  padding-top: 100px;
-  padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.OlimpBlock {
+    width: 249px;
+    height: 324px;
+    border-radius: 10px;
+
+    padding: 20px;
+    text-decoration: none;
+    background-image: url(../../../../../../assets/images/studnets_olimpic.svg);
+}
+
+.OlimpBlock_text {
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+    text-align: left;
 }

@@ -1,4 +1,33 @@
+.StudentsPage {
+    height: 100vh;
+}
+
 .content {
-  display: flex;
-  padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 0 0;
+    gap: 50px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.heroContent {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
