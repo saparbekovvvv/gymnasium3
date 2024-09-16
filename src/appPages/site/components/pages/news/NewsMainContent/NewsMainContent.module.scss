@@ -43,7 +43,10 @@
         align-items: center;
         justify-content: space-between;
         gap: 22px;
-        background: #fff6f6;
+        background: #fffdfd;
+        -webkit-box-shadow: 23px -2px 61px 20px rgba(0, 0, 0, 0.09);
+        -moz-box-shadow: 23px -2px 61px 20px rgba(0, 0, 0, 0.09);
+        box-shadow: 23px -2px 61px 20px rgba(0, 0, 0, 0.09);
         padding: 20px;
         transition: transform 0.3s ease-in-out;
 

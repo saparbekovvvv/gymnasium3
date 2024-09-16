@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useGetGalleryQuery } from "@/redux/api/gallery";
 import scss from "./GalleryMainContent.module.scss";
 import Image from "next/image";
-import { ChevronLeft, ChevronRight, X } from "lucide-react";
+import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 
 interface ZoomedImageProps {
   images: GALLERY.IGallery[];
@@ -36,16 +36,16 @@ const ZoomedImage: React.FC<ZoomedImageProps> = ({
           className={`${scss.navButton} ${scss.prevButton}`}
           onClick={onPrev}
         >
-          <ChevronLeft />
+          <BiChevronLeft />
         </button>
         <button
           className={`${scss.navButton} ${scss.nextButton}`}
           onClick={onNext}
         >
-          <ChevronRight />
+          <BiChevronRight />
         </button>
         <button className={scss.closeButton} onClick={onClose}>
-          <X />
+          X
         </button>
       </div>
       <div className={scss.imageCaption}>{currentImage.content}</div>
