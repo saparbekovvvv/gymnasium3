@@ -38,6 +38,7 @@ const Search = () => {
       ) : !isLoading && !error ? (
         <p>Результатов не найдено</p>
       ) : null}
+      <h1>Студенты</h1>
     </div>
   );
 };
