@@ -1,57 +1,336 @@
 "use client";
-import Image from "next/image";
-import { useParams } from "next/navigation";
-import scss from "./NewsDetailContent.module.scss";
-import { useGetDetNewsQuery } from "@/redux/api/news";
-import { BiLike, BiSolidLike } from "react-icons/bi";
-import { useState } from "react";
 
-const NewsDetailContent = () => {
-  const { newsDetail } = useParams();
-  const { data } = useGetDetNewsQuery(String(newsDetail));
-  console.log(data, "data");
-  const [like, setLike] = useState(false);
+import React, { useState, useEffect, useCallback } from "react";
+import { useParams } from "next/navigation";
+import Image from "next/image";
+import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
+import {
+  MoreVertical,
+  Edit,
+  Trash2,
+  MessageCircle,
+  ThumbsUp,
+} from "lucide-react";
+import scss from "./NewsDetailContent.module.scss";
+import {
+  useGetDetNewsQuery,
+  useGetCommentsQuery,
+  useAddCommentMutation,
+  useUpdateCommentMutation,
+  useDeleteCommentMutation,
+  useLikeCommentMutation,
+} from "@/redux/api/news";
+
+const NewsDetailContent: React.FC = () => {
+  const params = useParams();
+  const newsId =
+    typeof params.newsDetail === "string"
+      ? parseInt(params.newsDetail, 10)
+      : NaN;
+  const [commentText, setCommentText] = useState("");
+  const [editingComment, setEditingComment] = useState<{
+    id: number;
+    text: string;
+    parentId?: number;
+  } | null>(null);
+  const [replyingTo, setReplyingTo] = useState<{
+    id: number;
+    author: string;
+  } | null>(null);
+  const [currentUser, setCurrentUser] = useState<string | null>(null);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const {
+    data: newsData,
+    isLoading: newsLoading,
+    error: newsError,
+  } = useGetDetNewsQuery(newsId);
+  const {
+    data: commentsData,
+    isLoading: commentsLoading,
+    error: commentsError,
+  } = useGetCommentsQuery(newsId);
+  const [addComment] = useAddCommentMutation();
+  const [updateComment] = useUpdateCommentMutation();
+  const [deleteComment] = useDeleteCommentMutation();
+  const [likeComment] = useLikeCommentMutation();
+
+  useEffect(() => {
+    const checkAuthStatus = async () => {
+      try {
+        const response = await fetch(
+          `${process.env.NEXT_PUBLIC_API}/${process.env.NEXT_PUBLIC_ENDPOINT}/accounts/user/`,
+          {
+            credentials: "include",
+          }
+        );
+        if (response.ok) {
+          const userData = await response.json();
+          setIsLoggedIn(userData.isAuthenticated);
+          setCurrentUser(userData.username);
+        } else {
+          setIsLoggedIn(false);
+          setCurrentUser(null);
+        }
+      } catch (error) {
+        console.error("Ошибка при проверке статуса аутентификации:", error);
+        setIsLoggedIn(false);
+        setCurrentUser(null);
+      }
+    };
+
+    checkAuthStatus();
+  }, []);
+
+  const handleAddComment = useCallback(async () => {
+    if (commentText.trim() && isLoggedIn) {
+      try {
+        await addComment({
+          newsId,
+          text: commentText,
+          parentId: replyingTo?.id,
+        }).unwrap();
+        setCommentText("");
+        setReplyingTo(null);
+      } catch (error) {
+        console.error("Ошибка при добавлении комментария:", error);
+      }
+    }
+  }, [addComment, commentText, isLoggedIn, newsId, replyingTo]);
+
+  const handleUpdateComment = useCallback(async () => {
+    if (editingComment && editingComment.text.trim()) {
+      try {
+        await updateComment({
+          commentId: editingComment.id,
+          text: editingComment.text,
+          parentId: editingComment.parentId,
+        }).unwrap();
+        setEditingComment(null);
+      } catch (error) {
+        console.error("Ошибка при обновлении комментария:", error);
+      }
+    }
+  }, [editingComment, updateComment]);
+
+  const handleDeleteComment = useCallback(
+    async (commentId: number, parentId?: number) => {
+      try {
+        await deleteComment({ commentId, parentId }).unwrap();
+      } catch (error) {
+        console.error("Ошибка при удалении комментария:", error);
+      }
+    },
+    [deleteComment]
+  );
+
+  const handleLikeComment = useCallback(
+    async (commentId: number) => {
+      if (isLoggedIn) {
+        try {
+          await likeComment({ commentId }).unwrap();
+        } catch (error) {
+          console.error("Ошибка при лайке комментария:", error);
+        }
+      }
+    },
+    [isLoggedIn, likeComment]
+  );
+
+  const renderCommentForm = useCallback(
+    (onSubmit: () => void, cancelAction: () => void) => (
+      <div className={scss.commentForm}>
+        <textarea
+          value={editingComment ? editingComment.text : commentText}
+          onChange={(e) =>
+            editingComment
+              ? setEditingComment({ ...editingComment, text: e.target.value })
+              : setCommentText(e.target.value)
+          }
+          placeholder="Напишите ваш комментарий"
+        />
+        <div className={scss.formActions}>
+          <button onClick={onSubmit} className={scss.submitButton}>
+            Отправить
+          </button>
+          <button onClick={cancelAction} className={scss.cancelButton}>
+            Отмена
+          </button>
+        </div>
+      </div>
+    ),
+    [editingComment, commentText]
+  );
+
+  const renderCommentActions = useCallback(
+    (comment: any, depth: number) => (
+      <div className={scss.commentActions}>
+        <button
+          onClick={() => handleLikeComment(comment.id)}
+          className={scss.actionButton}
+        >
+          <ThumbsUp size={16} />
+          <span>{comment.likes_count}</span>
+        </button>
+        {isLoggedIn && depth === 0 && (
+          <button
+            onClick={() =>
+              setReplyingTo({ id: comment.id, author: comment.author })
+            }
+            className={scss.actionButton}
+          >
+            <MessageCircle size={16} />
+            <span>Ответить</span>
+          </button>
+        )}
+        {currentUser === comment.author && (
+          <Menu>
+            <MenuButton as="button" className={scss.moreButton}>
+              <MoreVertical size={16} />
+            </MenuButton>
+            <MenuList>
+              <MenuItem
+                onClick={() =>
+                  setEditingComment({
+                    id: comment.id,
+                    text: comment.text,
+                    parentId: comment.parent,
+                  })
+                }
+              >
+                <Edit size={16} />
+                <span>Редактировать</span>
+              </MenuItem>
+              <MenuItem
+                onClick={() => handleDeleteComment(comment.id, comment.parent)}
+              >
+                <Trash2 size={16} />
+                <span>Удалить</span>
+              </MenuItem>
+            </MenuList>
+          </Menu>
+        )}
+      </div>
+    ),
+    [currentUser, handleDeleteComment, handleLikeComment, isLoggedIn]
+  );
+
+  const renderComment = useCallback(
+    (comment: any, depth = 0) => (
+      <div
+        key={comment.id}
+        className={`${scss.comment} ${depth > 0 ? scss.reply : ""}`}
+      >
+        <div className={scss.commentHeader}>
+          <Image
+            src={`https://api.dicebear.com/6.x/initials/svg?seed=${comment.author}`}
+            alt={comment.author}
+            width={40}
+            height={40}
+            className={scss.avatar}
+          />
+          <div className={scss.commentInfo}>
+            <span className={scss.commentAuthor}>{comment.author}</span>
+            <span className={scss.commentDate}>
+              {new Date(comment.created_at).toLocaleString()}
+            </span>
+          </div>
+        </div>
+        <p className={scss.commentContent}>{comment.text}</p>
+        {renderCommentActions(comment, depth)}
+        {editingComment &&
+          editingComment.id === comment.id &&
+          renderCommentForm(handleUpdateComment, () => setEditingComment(null))}
+        {comment.replies &&
+          comment.replies.map((reply: any) => (
+            <div key={reply.id} className={scss.replyWrapper}>
+              {renderComment(reply, depth + 1)}
+            </div>
+          ))}
+      </div>
+    ),
+    [
+      editingComment,
+      handleUpdateComment,
+      renderCommentActions,
+      renderCommentForm,
+    ]
+  );
+
+  if (isNaN(newsId)) {
+    return <div className={scss.error}>Неверный идентификатор новости</div>;
+  }
+
+  if (newsLoading || commentsLoading)
+    return <div className={scss.loading}>Загрузка...</div>;
+  if (newsError || commentsError)
+    return (
+      <div className={scss.error}>Произошла ошибка при загрузке данных</div>
+    );
+  if (!newsData) return <div className={scss.error}>Новость не найдена</div>;
 
   return (
     <div className={scss.NewsDetailContent}>
       <div className="container">
         <div className={scss.content}>
-          <div className={scss.newsText}>
-            <h2>Новости</h2>
+          <div className={scss.news_head}>
+            <h1>Новости</h1>
+            <hr />
           </div>
-          <h1>{data?.description}</h1>
-          <h6>{data?.updated_at.slice(0, 10)}</h6>
-          {data?.image && (
+          <div className={scss.newsContent}>
+            <h1>{newsData.description}</h1>
             <Image
-              src={data.image}
-              alt="img"
-              width={1000}
+              src={newsData.image}
+              alt={newsData.description}
+              width={700}
               height={500}
               quality={70}
-              priority
+              property="img"
             />
-          )}
-          <div className={scss.poragraf}>
-            <p>
-              В народе его прозвали Дуйшеном наших дней («Первый учитель» Ч.
-              Айтматова), Геродотом Лейлека, кыргызским Сухомлинским и т.д. Речь
-              идет о педагоге-новаторе Гапыре Мадаминове – заслуженном учителе
-              КР, директоре экспериментальной гимназии №3 с. Жаны-Жер
-              Лейлекского района Баткенской области. На днях и.о. главы
-              Минобразования Каныбек Иманалиев на своей странице в соцсети
-              сообщил, что Гапыр Маматкулович назначен советником министра
-              образования на общественных началах. Limon.KG собрал интересные
-              факты из биографии уважаемого и почитаемого педагога страны.
-            </p>
-            <div className={scss.poragrafNext}>
-              <p>{data?.content}</p>
+            <p>{newsData.content}</p>
+            <div className={scss.newsInfo}>
+              <p>Автор: {newsData.author}</p>
+              <p>
+                Дата публикации:{" "}
+                {new Date(newsData.created_at).toLocaleString()}
+              </p>
+              <p>
+                Последнее обновление:{" "}
+                {new Date(newsData.updated_at).toLocaleString()}
+              </p>
             </div>
+            <hr />
           </div>
-          <hr />
+          <div className={scss.commentsSection}>
+            <h2>Комментарии</h2>
+            {commentsData &&
+              commentsData.map((comment) => renderComment(comment))}
+            {isLoggedIn ? (
+              <div className={scss.addComment}>
+                {replyingTo ? (
+                  <p className={scss.replyingTo}>
+                    Ответ на комментарий пользователя {replyingTo.author}:
+                  </p>
+                ) : (
+                  <p className={scss.addNewComment}>
+                    Добавить новый комментарий:
+                  </p>
+                )}
+                {renderCommentForm(handleAddComment, () => {
+                  setReplyingTo(null);
+                  setCommentText("");
+                })}
+              </div>
+            ) : (
+              <p className={scss.loginPrompt}>
+                Пожалуйста, войдите в систему, чтобы оставить комментарий.
+              </p>
+            )}
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default NewsDetailContent;
+export default React.memo(NewsDetailContent);
