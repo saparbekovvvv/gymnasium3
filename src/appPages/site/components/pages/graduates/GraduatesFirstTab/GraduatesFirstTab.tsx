@@ -32,11 +32,7 @@ const GraduatesFirstTab = () => {
         <section className={scss.GraduatesFirstTab}>
             <div className="container">
                 <div className={scss.content}>
-                    <h2
-                        className={scss.title}
-                    >
-                        Список выпускников
-                    </h2>
+                    <h2 className={scss.title}>Список выпускников</h2>
                     <div className={scss.show}>
                         <h1 className={scss.showTitle}>Фильтрация</h1>
                         <div className={scss.selector}>

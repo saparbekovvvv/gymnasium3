@@ -3,7 +3,6 @@
 import React from "react";
 import scss from "./GraduatesMainContent.module.scss";
 import Image from "next/image";
-import {} from "@/redux/api/our_achievements";
 import { useGetSuccessfulGraduatesQuery } from "@/redux/api/successful_graduates";
 
 const GraduatesMainContent = () => {
@@ -12,8 +11,6 @@ const GraduatesMainContent = () => {
     if (isLoading) return <div className={scss.loading}>Загрузка...</div>;
     if (isError || !data)
         return <div className={scss.error}>Ошибка при загрузке данных.</div>;
-
-    console.log(data);
 
     return (
         <section className={scss.GraduatesMainContent}>
@@ -25,10 +22,13 @@ const GraduatesMainContent = () => {
                             Гордость гимназии
                         </h1>
                         <div className={scss.graduates}>
-                            {data?.map((item) => (
+                            {data?.map((item, index) => (
                                 <div
                                     key={item.graduate.name}
-                                    className={scss.mainContent_graduates}
+                                    className={`${scss.mainContent_graduates} ${scss.animateFromTop}`}
+                                    style={{
+                                        animationDelay: `${index * 0.1}s`,
+                                    }} // Установка задержки анимации
                                 >
                                     <Image
                                         quality={70}

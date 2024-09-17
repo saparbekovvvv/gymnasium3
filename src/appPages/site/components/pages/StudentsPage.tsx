@@ -1,26 +1,41 @@
 "use client";
-import { useGetStudentsQuery } from "@/redux/api/students";
+
+import React, { useEffect, useState } from "react";
 import scss from "./StudentsPage.module.scss";
 import StudentsMainContent from "./students/studentMainContent/StudentsMainContent";
 import StudentsOlympiad from "./students/StudentsOlympiad/StudentsOlympiad";
 import StudentsParliament from "./students/StudentsParliament/StudentsParliament";
-import StudentClassTable from "./students/StudentsClassTable/StudentsClassTable";
 
 const StudentsPage = () => {
+    const [showContent, setShowContent] = useState(false);
+
+    useEffect(() => {
+        // Trigger animation after component mounts
+        setShowContent(true);
+    }, []);
+
     return (
         <section className={scss.StudentsPage}>
             <div className="container">
                 <div className={scss.content}>
                     <h1 className={scss.Title}>Все ученики</h1>
                     <div className={scss.heroContent}>
-                        <div className={scss.StudentsMainContent}>
+                        <div
+                            className={`${scss.StudentsMainContent} ${
+                                showContent ? scss.visible : ""
+                            }`}
+                        >
                             <StudentsMainContent />
                         </div>
-                        <div className={scss.blocks}>
+                        <div
+                            className={`${scss.blocks} ${
+                                showContent ? scss.visible : ""
+                            }`}
+                        >
                             <StudentsOlympiad />
                             <StudentsParliament />
                         </div>
-                    </div>{" "}
+                    </div>
                 </div>
             </div>
         </section>

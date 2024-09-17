@@ -7,18 +7,16 @@ import Image from "next/image";
 import { useGetStudentsClassQuery } from "@/redux/api/students";
 import { useSearchParams } from "next/navigation";
 
-const StudentClassTable = () => {
+const StudentClassTable: React.FC = () => {
     const searchParams = useSearchParams();
-    const classId = searchParams.get("grade"); // Получаем classId из параметров запроса
+    const classId = searchParams.get("grade");
 
-    // Using the defined types
     const {
         data: studentsData,
         isLoading,
         isError,
     } = useGetStudentsClassQuery(String(classId));
     const [filteredData, setFilteredData] = useState<STUDENTS.IStudent[]>([]);
-    const [classExists, setClassExists] = useState<boolean>(true);
 
     useEffect(() => {
         if (studentsData) {
@@ -26,9 +24,6 @@ const StudentClassTable = () => {
                 (student) => student.school_class.grade === String(classId)
             );
             setFilteredData(filtered);
-
-            // Check if there are any students for the current classId
-            setClassExists(filtered.length > 0);
         }
     }, [studentsData, classId]);
 
@@ -37,22 +32,14 @@ const StudentClassTable = () => {
         return <div>Ошибка при загрузке данных.</div>;
 
     const filterDataByParallel = (parallel?: string) => {
-        if (parallel) {
-            const result = studentsData.filter(
-                (item) =>
-                    item.school_class.parallel.toLowerCase() ===
-                        parallel.toLowerCase() &&
-                    item.school_class.grade === String(classId)
-            );
-            setFilteredData(result);
-            setClassExists(result.length > 0);
-        } else {
-            const filtered = studentsData.filter(
-                (item) => item.school_class.grade === String(classId)
-            );
-            setFilteredData(filtered);
-            setClassExists(filtered.length > 0);
-        }
+        const result = studentsData.filter(
+            (item) =>
+                (parallel
+                    ? item.school_class.parallel.toLowerCase() ===
+                      parallel.toLowerCase()
+                    : true) && item.school_class.grade === String(classId)
+        );
+        setFilteredData(result);
     };
 
     const uniqueParallels = Array.from(
@@ -62,27 +49,28 @@ const StudentClassTable = () => {
     return (
         <section className={scss.StudentClassTable}>
             <div className="container">
-                <div className={scss.content}>
+                <div className={`${scss.content} ${scss.animateFromLeft}`}>
                     <div className={scss.titleBlock}>
                         <h2 className={scss.title}>{classId} Класс</h2>
                         <div className={scss.filterButtons}>
                             <button
                                 className={scss.button}
                                 onClick={() => filterDataByParallel()}
+                                aria-label="Показать всех учеников"
                             >
                                 Все
                             </button>
                             {uniqueParallels.map((parallel) => (
-                                <div key={parallel}>
-                                    <button
-                                        className={scss.button}
-                                        onClick={() =>
-                                            filterDataByParallel(parallel)
-                                        }
-                                    >
-                                        {parallel}
-                                    </button>
-                                </div>
+                                <button
+                                    key={parallel}
+                                    className={scss.button}
+                                    onClick={() =>
+                                        filterDataByParallel(parallel)
+                                    }
+                                    aria-label={`Показать учеников параллели ${parallel}`}
+                                >
+                                    {parallel}
+                                </button>
                             ))}
                         </div>
                     </div>
@@ -95,11 +83,14 @@ const StudentClassTable = () => {
                         </div>
                         <div className={scss.tableContent}>
                             <div className={scss.hr}></div>
-                            {classExists ? (
+                            {filteredData.length > 0 ? (
                                 filteredData.map((item, index) => (
                                     <div
-                                        key={`${item.surname}-${item.name}-${item.last_name}-${index}`}
-                                        className={scss.studentInfo}
+                                        key={`${item.surname}-${item.name}-${index}`}
+                                        className={`${scss.studentInfo} ${scss.animateFromLeft}`}
+                                        style={{
+                                            animationDelay: `${index * 0.1}s`,
+                                        }}
                                     >
                                         <h1 className={scss.tableTextNumber}>
                                             {index + 1}
@@ -108,7 +99,7 @@ const StudentClassTable = () => {
                                             <Image
                                                 className={scss.studentIcon}
                                                 src={avatar}
-                                                alt="Аватар студента"
+                                                alt={`Аватар студента ${item.name} ${item.surname}`}
                                             />
                                             {item.surname} {item.name}
                                         </h1>
