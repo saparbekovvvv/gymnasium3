@@ -10,7 +10,6 @@ const StudentsPage = () => {
     const [showContent, setShowContent] = useState(false);
 
     useEffect(() => {
-        // Trigger animation after component mounts
         setShowContent(true);
     }, []);
 

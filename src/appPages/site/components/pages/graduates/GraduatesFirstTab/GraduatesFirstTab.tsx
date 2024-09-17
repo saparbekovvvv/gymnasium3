@@ -8,7 +8,6 @@ import { useGetGraduatesQuery } from "@/redux/api/graduates";
 
 const GraduatesFirstTab = () => {
     const { data, isLoading, isError } = useGetGraduatesQuery();
-    // const [show, setShow] = useState(false);
     const [filteredData, setFilteredData] = useState(data || []);
 
     if (isLoading) return <div className={scss.loading}>Загрузка...</div>;

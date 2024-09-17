@@ -11,9 +11,6 @@ const StudentsMainContent = () => {
 
     console.log(data);
 
-    // if (isLoading) return <div>Загрузка...</div>;
-    // if (isError || !data) return <div>Ошибка при загрузке данных.</div>;
-
     return (
         <section className={scss.content}>
             <div className={scss.classes}>
