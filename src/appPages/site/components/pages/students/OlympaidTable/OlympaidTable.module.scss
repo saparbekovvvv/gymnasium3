@@ -9,7 +9,7 @@
 .tableTitle {
     display: grid;
     grid-template-columns: 0.3fr 2fr 1fr;
-    gap: 50px;
+    gap: 80px;
 }
 
 .loading {
@@ -24,10 +24,11 @@
     display: grid;
     padding: 10px 0;
     grid-template-columns: 0.3fr 2fr 1fr;
-    gap: 50px;
+    gap: 80px;
 }
 
 .titleText {
+    padding: 0 50px 0 0;
     font-size: 20px;
     font-weight: 600;
     line-height: 27.24px;
@@ -35,6 +36,8 @@
     color: #afafaf;
 }
 .tableText {
+    padding: 0 50px 0 0;
+
     font-size: 20px;
     font-weight: 600;
     line-height: 27.24px;
@@ -172,10 +175,14 @@
     }
 
     .titleText {
+        padding: 0 25px 0 0;
+
         font-size: 12px;
         font-weight: 500;
     }
     .tableText {
+            padding: 0 25px 0 0;
+
         font-size: 12px;
         font-weight: 500;
     }
