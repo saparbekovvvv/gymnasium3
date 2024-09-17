@@ -1,9 +1,10 @@
 "use client";
 import { useGetStudentsQuery } from "@/redux/api/students";
 import scss from "./StudentsPage.module.scss";
-import StudentsMainContent from "./students/StudentsMainContent/StudentsMainContent";
+import StudentsMainContent from "./students/studentMainContent/StudentsMainContent";
 import StudentsOlympiad from "./students/StudentsOlympiad/StudentsOlympiad";
 import StudentsParliament from "./students/StudentsParliament/StudentsParliament";
+import StudentClassTable from "./students/StudentsClassTable/StudentsClassTable";
 
 const StudentsPage = () => {
     return (

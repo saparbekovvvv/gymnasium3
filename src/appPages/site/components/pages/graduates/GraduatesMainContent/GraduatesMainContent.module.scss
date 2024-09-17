@@ -7,6 +7,15 @@
     position: relative;
 }
 
+.loading {
+    width: 100%;
+    text-align: center;
+}
+.error {
+    width: 100%;
+    text-align: center;
+}
+
 .titleText::after {
     content: "";
     position: absolute;
