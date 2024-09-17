@@ -5,13 +5,16 @@ import scss from "./OlympaidTable.module.scss";
 import avatar from "../../../../../../assets/images/defaultProfile.png";
 import Image from "next/image";
 import { useGetStudentsQuery } from "@/redux/api/students";
+import { useGetOlympiansQuery } from "@/redux/api/olympians";
 
 const OlympaidTable = () => {
-    const { data, isLoading, isError } = useGetStudentsQuery();
+    const { data, isLoading, isError } = useGetOlympiansQuery();
 
     if (isLoading) return <div className={scss.loading}>Загрузка...</div>;
     if (isError || !data)
         return <div className={scss.error}>Ошибка при загрузке данных.</div>;
+
+    console.log(data);
 
     return (
         <section className={scss.OlympaidTable}>
@@ -22,14 +25,13 @@ const OlympaidTable = () => {
                         <div className={scss.tableTitle}>
                             <h1 className={scss.titleText}>No.</h1>
                             <h1 className={scss.titleText}>Имя ученика</h1>
-                            <h1 className={scss.titleText}>Класс</h1>
-                            <h1 className={scss.titleText}>Кл. руководитель</h1>
+                            <h1 className={scss.titleText}>Олимпиада</h1>
                         </div>
                         <div className={scss.tableContent}>
                             <div className={scss.hr}></div>
                             {data?.map((item, index: number) => (
                                 <div
-                                    key={`${item.surname}-${item.name}-${item.last_name}-${index}`}
+                                    key={`${item.student.name}-${item.student.surname}-${index}`}
                                     className={scss.studentInfo}
                                 >
                                     <h1 className={scss.tableTextNumber}>
@@ -41,19 +43,11 @@ const OlympaidTable = () => {
                                             src={avatar}
                                             alt="Аватар студента"
                                         />
-                                        {item.surname} {item.name}{" "}
-                                        {item.last_name}
+                                        {item.student.surname}{" "}
+                                        {item.student.name}{" "}
                                     </h1>
                                     <h1 className={scss.tableText}>
-                                        {item.school_class.grade}-
-                                        {item.school_class.parallel}
-                                    </h1>
-                                    <h1 className={scss.tableText}>
-                                        {item.classroom_teacher
-                                            ?.map(
-                                                (teacher: any) => teacher.name
-                                            )
-                                            .join(", ")}
+                                        {item.name_of_olympia.choosing}
                                     </h1>
                                 </div>
                             ))}

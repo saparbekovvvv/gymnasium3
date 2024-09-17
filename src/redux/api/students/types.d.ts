@@ -15,10 +15,9 @@ namespace STUDENTS {
         ];
     }
 
-    type GetStudentsResponse = IClasses[];
-
+    type GetStudentsResponse = IStudent[];
     type GetStudentsRequest = void;
 
-    type GetStudentsResponse = IClasses;
-    type GetStudentsRequest = string | number;
+    type GetStudentsClassResponse = IStudent[];
+    type GetStudentsClassRequest = string | number | void;
 }

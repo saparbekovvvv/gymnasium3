@@ -5,13 +5,16 @@ import scss from "./StudentsParliamentTable.module.scss";
 import avatar from "../../../../../../assets/images/defaultProfile.png";
 import Image from "next/image";
 import { useGetStudentsQuery } from "@/redux/api/students";
+import { useGetSchoolParliamentQuery } from "@/redux/api/school_parliament";
 
 const StudentsParliamentTable = () => {
-    const { data, isLoading, isError } = useGetStudentsQuery();
+    const { data, isLoading, isError } = useGetSchoolParliamentQuery();
 
-  if (isLoading) return <div className={scss.loading}>Загрузка...</div>;
-  if (isError || !data)
-      return <div className={scss.error}>Ошибка при загрузке данных.</div>;
+    if (isLoading) return <div className={scss.loading}>Загрузка...</div>;
+    if (isError || !data)
+        return <div className={scss.error}>Ошибка при загрузке данных.</div>;
+
+    console.log(data);
 
     return (
         <section className={scss.StudentsParliamentTable}>
@@ -22,16 +25,12 @@ const StudentsParliamentTable = () => {
                         <div className={scss.tableTitle}>
                             <h1 className={scss.titleText}>No.</h1>
                             <h1 className={scss.titleText}>Имя ученика</h1>
-                            <h1 className={scss.titleText}>Класс</h1>
-                            <h1 className={scss.titleText}>Кл. руководитель</h1>
+                            <h1 className={scss.titleText}>Должность</h1>
                         </div>
                         <div className={scss.tableContent}>
                             <div className={scss.hr}></div>
                             {data?.map((item, index: number) => (
-                                <div
-                                    key={`${item.surname}-${item.name}-${item.last_name}-${index}`}
-                                    className={scss.studentInfo}
-                                >
+                                <div key={index} className={scss.studentInfo}>
                                     <h1 className={scss.tableTextNumber}>
                                         {index + 1}
                                     </h1>
@@ -41,19 +40,17 @@ const StudentsParliamentTable = () => {
                                             src={avatar}
                                             alt="Аватар студента"
                                         />
-                                        {item.surname} {item.name}{" "}
-                                        {item.last_name}
+                                        <div className={scss.nameContent}>
+                                            <h1 className={scss.tableText}>
+                                                {item.student[0].surname}
+                                            </h1>
+                                            <h1 className={scss.tableText}>
+                                                {item.student[0].name}
+                                            </h1>
+                                        </div>
                                     </h1>
-                                    <h1 className={scss.tableText}>
-                                        {item.school_class.grade}-
-                                        {item.school_class.parallel}
-                                    </h1>
-                                    <h1 className={scss.tableText}>
-                                        {item.classroom_teacher
-                                            ?.map(
-                                                (teacher: any) => teacher.name
-                                            )
-                                            .join(", ")}
+                                    <h1 className={scss.tableTextNumber}>
+                                        {item.type_of_administrator.choosing}
                                     </h1>
                                 </div>
                             ))}
