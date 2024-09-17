@@ -1,21 +1,48 @@
-import { api as index } from ".."; // Импорт основного API-конфига
+import { api } from "..";
 
-// const ENDPOINTS = process.env.NEXT_PUBLIC_API;
+const ENDPOINTS = process.env.NEXT_PUBLIC_ENDPOINT;
 
-const api = index.injectEndpoints({
+interface IAccount {
+  user: string;
+  avatar: string | null;
+  about: string | null;
+}
+
+type GetAccountResponse = IAccount;
+type GetAccountRequest = null;
+
+type UpdateAccountResponse = IAccount;
+type UpdateAccountRequest = FormData;
+
+const getCSRFToken = (): string | null => {
+  const csrfToken = document.cookie
+    .split('; ')
+    .find((row) => row.startsWith('csrftoken='))
+    ?.split('=')[1];
+  return csrfToken || null;
+};
+
+export const profileApi = api.injectEndpoints({
   endpoints: (build) => ({
-    getAccount: build.query<
-      ACCOUNT.GetAccountResponse,
-      ACCOUNT.GetAccountRequest
-    >({
+    getAccount: build.query<GetAccountResponse, GetAccountRequest>({
       query: () => ({
-        url: `https://3-gymnasium.kg/api/profile`,
+        url: `${ENDPOINTS}/profile/`,
         method: "GET",
-        credentials: "include", // Важно для передачи куки сессионного пользователя
+        credentials: 'include',
       }),
-      providesTags: ["accounts"],
+    }),
+    updateAccount: build.mutation<UpdateAccountResponse, UpdateAccountRequest>({
+      query: (body) => ({
+        url: `${ENDPOINTS}/profile/`,
+        method: "PUT",
+        body,
+        credentials: 'include',
+        headers: {
+          'X-CSRFToken': getCSRFToken() || '',
+        },
+      }),
     }),
   }),
 });
 
-export const { useGetAccountQuery } = api;
+export const { useGetAccountQuery, useUpdateAccountMutation } = profileApi;

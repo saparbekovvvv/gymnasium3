@@ -1,148 +1,491 @@
 .NewsDetailContent {
-  padding-top: 100px;
+  margin-top: 100px;
+
   .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .newsText {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    .news_head {
       display: flex;
       align-items: center;
-      justify-content: center;
-      h2 {
-        font-weight: 500;
-        border-bottom: 2px solid black;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 40px;
+
+      hr {
         width: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 30px;
+        height: 2px;
+        background: #333333;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.2;
+        color: #333333;
       }
     }
-    h1 {
-      width: 80%;
-    }
-    h6 {
-      margin-top: 16px;
-      font-size: 15px;
-      font-weight: 500;
-      color: gray;
-    }
-    img {
-      width: 100%;
-      max-width: 1000px;
 
-      height: 75vh;
-      object-fit: cover;
-      margin-block: 30px;
-    }
-    .poragraf {
+    .newsContent {
+      margin-top: 20px;
       display: flex;
-      align-items: start;
       flex-direction: column;
+      align-items: center;
       gap: 20px;
+
+      hr {
+        width: 100%;
+        height: 1px;
+        background-color: #e0e0e0;
+        margin: 30px 0;
+      }
+
+      h1 {
+        color: #333333;
+        width: 100%;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 1.3;
+        text-align: left;
+      }
+
+      img {
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
       p {
         width: 100%;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.6;
+        text-align: left;
+        color: #333333;
       }
-      .poragrafNext {
+
+      .newsInfo {
+        width: 100%;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        p {
-          width: 80%;
-        }
-        br {
-          margin-top: 50px;
-        }
-      }
-    }
-    hr {
-      margin-block: 30px;
-      color: gray;
-    }
-    .comments {
-      display: flex;
-      align-items: start;
-      flex-direction: column;
-      gap: 20px;
-      h2 {
-        font-weight: 600;
-        color: gray;
-      }
-      .commentBlocks {
-        display: flex;
-        align-items: start;
         flex-wrap: wrap;
-        gap: 30px;
-        .commentBlock {
-          width: 380px;
-          height: 300px;
-          border: 2px solid #fb8f8f;
-          border-radius: 5px;
-          background: #fff6f6;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 14px;
+        color: #666;
+
+        p {
+          margin: 0;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .commentsSection {
+      margin-top: 60px;
+
+      h2 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        color: #333;
+        border-bottom: 2px solid #ff9b9b;
+        padding-bottom: 10px;
+      }
+
+      .comment {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        margin-bottom: 25px;
+        border: 1px solid #e0e0e0;
+        transition: box-shadow 0.3s ease;
+
+        &:hover {
+          box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        &.reply {
+          margin-left: 40px;
+          border-left: 3px solid #ff9b9b;
+        }
+
+        .commentHeader {
           display: flex;
           align-items: center;
-          flex-direction: column;
-          .commentUser {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            img {
-              width: 15%;
-              height: 40%;
+          margin-bottom: 15px;
+
+          .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 15px;
+            object-fit: cover;
+          }
+
+          .commentInfo {
+            flex-grow: 1;
+
+            .commentAuthor {
+              font-weight: 600;
+              font-size: 16px;
+              color: #333;
+              display: block;
             }
-            h3 {
-              font-size: 18px;
+
+            .commentDate {
+              font-size: 12px;
+              color: #888;
             }
           }
-          p {
-            width: 80%;
-            color: rgb(94, 92, 92);
-          }
-          .commentBottom {
+        }
+
+        .commentContent {
+          font-size: 16px;
+          line-height: 1.6;
+          color: #444;
+          margin-bottom: 15px;
+        }
+
+        .commentActions {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 15px;
+          flex-wrap: wrap;
+
+          .actionButton {
+            background: none;
+            border: none;
+            color: #666;
+            cursor: pointer;
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            gap: 200px;
-            margin-top: 30px;
-            h6 {
-              font-weight: 300;
-              color: gray;
+            gap: 5px;
+            font-size: 14px;
+            transition: color 0.3s;
+
+            &:hover {
+              color: #ff9b9b;
             }
-            a {
-              font-size: 25px;
+
+            svg {
+              width: 18px;
+              height: 18px;
+            }
+          }
+
+          .moreButton {
+            padding: 5px;
+            border-radius: 50%;
+            transition: background-color 0.3s;
+
+            &:hover {
+              background-color: #f0f0f0;
+            }
+          }
+        }
+
+        .replyForm {
+          margin-top: 20px;
+          padding-top: 20px;
+          border-top: 1px solid #e0e0e0;
+        }
+      }
+
+      .replyWrapper {
+        margin-top: 20px;
+      }
+
+      .addComment, .replyForm {
+        margin-top: 30px;
+
+        .replyingTo, .addNewComment {
+          font-size: 18px;
+          font-weight: 600;
+          margin-bottom: 15px;
+          color: #444;
+        }
+
+        .commentForm {
+          background-color: #f9f9f9;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+
+          textarea {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            resize: vertical;
+            font-size: 16px;
+            margin-bottom: 15px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            min-height: 100px;
+            background-color: #fff;
+
+            &:focus {
+              border-color: #ff9b9b;
+              box-shadow: 0 0 0 2px rgba(255, 155, 155, 0.2);
+              outline: none;
+            }
+
+            &::placeholder {
+              color: #aaa;
+            }
+          }
+
+          .formActions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+
+            button {
+              padding: 12px 20px;
+              border: none;
+              border-radius: 5px;
+              font-size: 16px;
+              font-weight: 600;
               cursor: pointer;
-            }
-            .like {
-              color: blue;
+              transition: background-color 0.3s, transform 0.1s;
+
+              &:active {
+                transform: scale(0.98);
+              }
+
+              &.submitButton {
+                background-color: #ff9b9b;
+                color: white;
+
+                &:hover {
+                  background-color: #ff7f7f;
+                }
+              }
+
+              &.cancelButton {
+                background-color: #f0f0f0;
+                color: #666;
+
+                &:hover {
+                  background-color: #e0e0e0;
+                }
+              }
             }
           }
         }
       }
-    }
-    .commentInput {
-      margin-block: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      gap: 10px;
-      input {
-        width: 400px;
-        height: 70px;
-        padding-left: 20px;
-        outline: none;
-        border: 2px solid #fb8f8f;
-        border-radius: 5px;
-        background: #fff6f6;
+
+      .loginPrompt {
+        text-align: center;
+        font-size: 18px;
+        color: #666;
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        border: 1px dashed #ccc;
       }
-      button {
-        width: 400px;
-        height: 50px;
-        background: #fb8f8f;
-        border-radius: 5px;
-        color: white;
-        font-size: 20px;
-        border: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .NewsDetailContent {
+    margin-top: 60px;
+
+    .content {
+      .news_head {
+        h1 {
+          font-size: 24px;
+        }
+      }
+
+      .newsContent {
+        h1 {
+          font-size: 28px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .commentsSection {
+        h2 {
+          font-size: 22px;
+        }
+
+        .comment {
+          padding: 15px;
+
+          &.reply {
+            margin-left: 20px;
+          }
+
+          .commentHeader {
+            .avatar {
+              width: 30px;
+              height: 30px;
+            }
+
+            .commentInfo {
+              .commentAuthor {
+                font-size: 14px;
+              }
+
+              .commentDate {
+                font-size: 11px;
+              }
+            }
+          }
+
+          .commentContent {
+            font-size: 14px;
+          }
+
+          .commentActions {
+            .actionButton {
+              font-size: 12px;
+
+              svg {
+                width: 16px;
+                height: 16px;
+              }
+            }
+          }
+        }
+
+        .addComment, .replyForm {
+          .replyingTo, .addNewComment {
+            font-size: 16px;
+          }
+
+          .commentForm {
+            padding: 15px;
+
+            textarea {
+              font-size: 14px;
+            }
+
+            .formActions {
+              button {
+                padding: 10px 15px;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+
+        .loginPrompt {
+          font-size: 16px;
+          padding: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .NewsDetailContent {
+    margin-top: 40px;
+
+    .content {
+      .news_head {
+        h1 {
+          font-size: 20px;
+        }
+      }
+
+      .newsContent {
+        h1 {
+          font-size: 24px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+
+        .newsInfo {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+
+      .commentsSection {
+        h2 {
+          font-size: 20px;
+        }
+
+        .comment {
+          padding: 12px;
+
+          &.reply {
+            margin-left: 10px;
+          }
+
+          .commentHeader {
+            .avatar {
+              width: 25px;
+              height: 25px;
+            }
+
+            .commentInfo {
+              .commentAuthor {
+                font-size: 13px;
+              }
+
+              .commentDate {
+                font-size: 10px;
+              }
+            }
+          }
+
+          .commentContent {
+            font-size: 13px;
+          }
+
+          .commentActions {
+            .actionButton {
+              font-size: 11px;
+
+              svg {
+                width: 14px;
+                height: 14px;
+              }
+            }
+          }
+        }
+
+        .addComment, .replyForm {
+          .replyingTo, .addNewComment {
+            font-size: 14px;
+          }
+
+          .commentForm {
+            padding: 12px;
+
+            textarea {
+              font-size: 13px;
+            }
+
+            .formActions {
+              button {
+                padding: 8px 12px;
+                font-size: 13px;
+              }
+            }
+          }
+        }
+
+        .loginPrompt {
+          font-size: 14px;
+          padding: 12px;
+        }
       }
     }
   }

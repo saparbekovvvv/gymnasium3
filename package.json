@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
     "@reduxjs/toolkit": "^2.2.7",
     "i18next": "^23.14.0",
     "image-zoom": "^1.1.1",
+    "lucide-react": "^0.441.0",
     "next": "^14.2.11",
     "react": "^18",
     "react-debounce-input": "^3.3.0",
