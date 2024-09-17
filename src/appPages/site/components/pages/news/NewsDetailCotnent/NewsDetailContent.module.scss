@@ -1,73 +1,149 @@
 .NewsDetailContent {
-  margin-top: 100px;
+  padding-top: 100px;
   .content {
-    .news_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .newsText {
       display: flex;
       align-items: center;
-      flex-direction: column;
-      gap: 6px;
-      justify-content: space-between;
-
-      hr {
+      justify-content: center;
+      h2 {
+        font-weight: 500;
+        border-bottom: 2px solid black;
         width: 40px;
-        height: 2px;
-        background: #333333;
-      }
-
-      h1 {
-        text-align: center;
-        font-size: 28px;
-        font-weight: 600;
-        line-height: 33.6px;
-        color: #333333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
       }
     }
-    .newsContent {
-      margin-top: 20px;
+    h1 {
+      width: 80%;
+    }
+    h6 {
+      margin-top: 16px;
+      font-size: 15px;
+      font-weight: 500;
+      color: gray;
+    }
+    img {
+      width: 100%;
+      max-width: 1000px;
+
+      height: 75vh;
+      object-fit: cover;
+      margin-block: 30px;
+    }
+    .poragraf {
       display: flex;
+      align-items: start;
       flex-direction: column;
-      align-items: center;
       gap: 20px;
-
-      hr {
-        width: 1120px;
-        height: 2px;
-      }
-
-      h1 {
-        color: #333333;
-        width: 1000px;
-        font-size: 40px;
-        font-weight: 800;
-        line-height: 52px;
-        text-align: left;
-      }
-
-      img {
-        width: 800px;
-        height: 500px;
-        object-fit: cover;
-        border-radius: 10px;
-
-        -webkit-box-shadow: 23px -2px 61px 20px rgba(130, 44, 130, 0.21);
-        -moz-box-shadow: 23px -2px 61px 20px rgba(130, 44, 130, 0.21);
-        box-shadow: 23px -2px 61px 20px rgba(130, 44, 130, 0.21);
-      }
-
       p {
-        width: 1000px;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 28.92px;
-        text-align: left;
-        color: #333333;
+        width: 100%;
+      }
+      .poragrafNext {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+          width: 80%;
+        }
+        br {
+          margin-top: 50px;
+        }
       }
     }
-    .newsComments {
-      margin-top: 40px;
+    hr {
+      margin-block: 30px;
+      color: gray;
+    }
+    .comments {
       display: flex;
+      align-items: start;
       flex-direction: column;
       gap: 20px;
+      h2 {
+        font-weight: 600;
+        color: gray;
+      }
+      .commentBlocks {
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 30px;
+        .commentBlock {
+          width: 380px;
+          height: 300px;
+          border: 2px solid #fb8f8f;
+          border-radius: 5px;
+          background: #fff6f6;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          .commentUser {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            img {
+              width: 15%;
+              height: 40%;
+            }
+            h3 {
+              font-size: 18px;
+            }
+          }
+          p {
+            width: 80%;
+            color: rgb(94, 92, 92);
+          }
+          .commentBottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 200px;
+            margin-top: 30px;
+            h6 {
+              font-weight: 300;
+              color: gray;
+            }
+            a {
+              font-size: 25px;
+              cursor: pointer;
+            }
+            .like {
+              color: blue;
+            }
+          }
+        }
+      }
+    }
+    .commentInput {
+      margin-block: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+      input {
+        width: 400px;
+        height: 70px;
+        padding-left: 20px;
+        outline: none;
+        border: 2px solid #fb8f8f;
+        border-radius: 5px;
+        background: #fff6f6;
+      }
+      button {
+        width: 400px;
+        height: 50px;
+        background: #fb8f8f;
+        border-radius: 5px;
+        color: white;
+        font-size: 20px;
+        border: none;
+      }
     }
   }
 }
