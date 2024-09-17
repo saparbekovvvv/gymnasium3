@@ -50,7 +50,7 @@ const Header = () => {
 
   return (
     <header className={scss.header}>
-      <div className="container">
+      <div className="container" onClick={() => setIsMenuOpen(!isMenuOpen)}>
         <div className={scss.content}>
           <div className={scss.hamburger} onClick={handleMenu}>
             <RxHamburgerMenu />
@@ -70,7 +70,7 @@ const Header = () => {
           </div>
 
           <nav className={`${scss.nav} ${isMenuOpen ? scss.active : ""}`}>
-            <ul>
+            <ul onClick={() => setIsMenuOpen(!isMenuOpen)}>
               <li>
                 <Link href="/news">Новости</Link>
               </li>
