@@ -1,82 +1,159 @@
 /* [project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.module.scss.module.css [app-ssr] (css) */
 .AboutUsContent-module-scss-module__yNKXqq__container {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 1rem;
   text-align: center;
-}
-
-.AboutUsContent-module-scss-module__yNKXqq__title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 2rem;
+  border-radius: 12px;
 }
 
 .AboutUsContent-module-scss-module__yNKXqq__statsGrid {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 2rem;
-  margin-bottom: 2rem;
+  gap: 1.5rem;
 }
 
 .AboutUsContent-module-scss-module__yNKXqq__statItem {
-  margin-top: 30px;
-  background-color: #f7f4f4;
+  width: 240px;
+  min-height: 220px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px #0000001a;
-  height: 240px;
-  width: 240px;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px #0000001a;
   transition: transform .3s, box-shadow .3s;
+  color: #333;
+  text-align: center;
 }
 
 .AboutUsContent-module-scss-module__yNKXqq__statItem:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 12px #00000026;
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px #0003;
 }
 
 .AboutUsContent-module-scss-module__yNKXqq__icon {
   font-size: 3rem;
+  color: #ff5722;
   margin-bottom: 1rem;
 }
 
 .AboutUsContent-module-scss-module__yNKXqq__value {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #0056b3;
+  color: #007bff;
   margin-bottom: .5rem;
 }
 
 .AboutUsContent-module-scss-module__yNKXqq__label {
   font-size: 1rem;
-  color: #666;
-}
-
-.AboutUsContent-module-scss-module__yNKXqq__button {
-  background-color: #dc3545;
-  color: #fff;
-  border: none;
-  border-radius: 25px;
-  padding: .75rem 2rem;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color .3s;
-}
-
-.AboutUsContent-module-scss-module__yNKXqq__button:hover {
-  background-color: #c82333;
+  color: #555;
 }
 
 .AboutUsContent-module-scss-module__yNKXqq__loading, .AboutUsContent-module-scss-module__yNKXqq__error {
   font-size: 1.5rem;
   color: #666;
-  text-align: center;
   margin-top: 2rem;
+}
+
+@media (width <= 992px) {
+  .AboutUsContent-module-scss-module__yNKXqq__container {
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 12px;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__statsGrid {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__statItem {
+    width: 170px;
+    min-height: 190px;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__icon {
+    font-size: 38px;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__value {
+    font-size: 2.2rem;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__label {
+    font-size: 1rem;
+    color: #555;
+  }
+}
+
+@media (width <= 768px) {
+  .AboutUsContent-module-scss-module__yNKXqq__container {
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 12px;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__statsGrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__statItem {
+    width: 160px;
+    min-height: 180px;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__icon {
+    font-size: 35px;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__value {
+    font-size: 1.8rem;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__label {
+    font-size: 1rem;
+    color: #555;
+  }
+}
+
+@media (width <= 428px) {
+  .AboutUsContent-module-scss-module__yNKXqq__container {
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 12px;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__statsGrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__statItem {
+    width: 130px;
+    min-height: 140px;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__icon {
+    font-size: 28px;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__value {
+    font-size: 1.2rem;
+  }
+
+  .AboutUsContent-module-scss-module__yNKXqq__label {
+    font-size: 14px;
+    color: #555;
+  }
 }
 
 

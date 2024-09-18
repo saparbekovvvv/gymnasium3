@@ -29,7 +29,6 @@ const { useGetAboutQuery } = api;
 "[project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.module.scss.module.css [app-ssr] (css module)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
 __turbopack_export_value__({
-  "button": "AboutUsContent-module-scss-module__yNKXqq__button",
   "container": "AboutUsContent-module-scss-module__yNKXqq__container",
   "error": "AboutUsContent-module-scss-module__yNKXqq__error",
   "icon": "AboutUsContent-module-scss-module__yNKXqq__icon",
@@ -37,7 +36,6 @@ __turbopack_export_value__({
   "loading": "AboutUsContent-module-scss-module__yNKXqq__loading",
   "statItem": "AboutUsContent-module-scss-module__yNKXqq__statItem",
   "statsGrid": "AboutUsContent-module-scss-module__yNKXqq__statsGrid",
-  "title": "AboutUsContent-module-scss-module__yNKXqq__title",
   "value": "AboutUsContent-module-scss-module__yNKXqq__value",
 });
 
@@ -58,14 +56,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$c
 ;
 ;
 ;
-// Компонент для анимированного отображения числа
 const AnimatedNumber = ({ value })=>{
     const [displayValue, setDisplayValue] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         let start = 0;
-        const end = parseInt(value.toString());
+        const end = parseInt(value.toString(), 10);
         const duration = 2000;
-        const increment = end / (duration / 16); // 60 FPS
+        const increment = end / (duration / 16);
         const timer = setInterval(()=>{
             start += increment;
             if (start >= end) {
@@ -83,11 +80,10 @@ const AnimatedNumber = ({ value })=>{
         children: displayValue.toLocaleString()
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.tsx",
-        lineNumber: 29,
+        lineNumber: 38,
         columnNumber: 10
     }, this);
 };
-// Компонент для отображения отдельного элемента статистики
 const StatItem = ({ icon, value, label })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$home$2f$About_us$2f$AboutUsContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].statItem,
         children: [
@@ -96,27 +92,21 @@ const StatItem = ({ icon, value, label })=>/*#__PURE__*/ (0, __TURBOPACK__import
                 children: icon
             }, void 0, false, {
                 fileName: "[project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.tsx",
-                lineNumber: 42,
+                lineNumber: 43,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$home$2f$About_us$2f$AboutUsContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].value,
-                children: value !== undefined ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedNumber, {
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedNumber, {
                     value: value
                 }, void 0, false, {
                     fileName: "[project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.tsx",
                     lineNumber: 45,
-                    columnNumber: 9
-                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    children: "N/A"
-                }, void 0, false, {
-                    fileName: "[project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.tsx",
-                    lineNumber: 47,
-                    columnNumber: 9
+                    columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.tsx",
-                lineNumber: 43,
+                lineNumber: 44,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -124,13 +114,13 @@ const StatItem = ({ icon, value, label })=>/*#__PURE__*/ (0, __TURBOPACK__import
                 children: label
             }, void 0, false, {
                 fileName: "[project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.tsx",
-                lineNumber: 50,
+                lineNumber: 47,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.tsx",
-        lineNumber: 41,
+        lineNumber: 42,
         columnNumber: 3
     }, this);
 const AboutUsContent = ()=>{
@@ -140,7 +130,7 @@ const AboutUsContent = ()=>{
         children: "Loading..."
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.tsx",
-        lineNumber: 57,
+        lineNumber: 54,
         columnNumber: 25
     }, this);
     if (error) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -148,28 +138,28 @@ const AboutUsContent = ()=>{
         children: "Error loading data"
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.tsx",
-        lineNumber: 58,
+        lineNumber: 55,
         columnNumber: 21
     }, this);
     const stats = [
         {
-            icon: "👧🏻👦🏻",
-            value: data?.[0]?.students || 6395,
+            icon: "👦🏻",
+            value: data?.[0]?.students ?? 6395,
             label: "Учеников"
         },
         {
-            icon: "👨‍🎓",
-            value: data?.[0]?.graduates_per_year || 13283,
+            icon: "🎓",
+            value: data?.[0]?.graduates_per_year ?? 13283,
             label: "Выпускников"
         },
         {
-            icon: "🏫",
-            value: data?.[0]?.years_for_school,
-            label: "Год работы школы"
+            icon: "👨‍💼",
+            value: data?.[0]?.years_for_school ?? 330,
+            label: "Сотрудники"
         },
         {
             icon: "📖",
-            value: data?.[0]?.count_books || 85,
+            value: data?.[0]?.count_books ?? 85,
             label: "Количество книг"
         }
     ];
@@ -178,20 +168,22 @@ const AboutUsContent = ()=>{
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$home$2f$About_us$2f$AboutUsContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].statsGrid,
             children: stats.map((stat, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StatItem, {
-                    ...stat
+                    icon: stat.icon,
+                    value: stat.value,
+                    label: stat.label
                 }, index, false, {
                     fileName: "[project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.tsx",
-                    lineNumber: 83,
+                    lineNumber: 80,
                     columnNumber: 11
                 }, this))
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.tsx",
-            lineNumber: 81,
+            lineNumber: 78,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/home/About_us/AboutUsContent.tsx",
-        lineNumber: 80,
+        lineNumber: 77,
         columnNumber: 5
     }, this);
 };
