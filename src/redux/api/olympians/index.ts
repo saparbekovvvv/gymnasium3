@@ -9,7 +9,7 @@ const api = index.injectEndpoints({
             OLYMPIANS.GetOlympiansRequest
         >({
             query: () => ({
-                url: `${ENDPOINTS}/olympians/`,
+                url: `${ENDPOINTS}/students/olympians/`,
                 method: "GET",
             }),
             providesTags: ["olympians"],

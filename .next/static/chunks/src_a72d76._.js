@@ -297,7 +297,7 @@ const StudentClassTable = ()=>{
         columnNumber: 9
     }, this);
 };
-_s(StudentClassTable, "10WFUG7dT2dZV6xRVRk5af12aQY=", false, function() {
+_s(StudentClassTable, "LBg6//1MsbdgnPDBXQ1XKxc2zaI=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSearchParams"],
         __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$students$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useGetStudentsClassQuery"]

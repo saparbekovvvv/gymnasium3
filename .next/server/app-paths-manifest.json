@@ -1,5 +1,13 @@
 {
   "/(site)/(home)/page": "app/(site)/(home)/page.js",
+  "/(site)/students/page": "app/(site)/students/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(site)/graduates/page": "app/(site)/graduates/page.js"
+  "/(site)/students/olympiad/olympaids/page": "app/(site)/students/olympiad/olympaids/page.js",
+  "/(site)/students/[school_class]/page": "app/(site)/students/[school_class]/page.js",
+  "/(site)/students/olympaids/page": "app/(site)/students/olympaids/page.js",
+  "/(site)/students/olympians/page": "app/(site)/students/olympians/page.js",
+  "/(site)/graduates/page": "app/(site)/graduates/page.js",
+  "/(site)/graduates/best_graduates/page": "app/(site)/graduates/best_graduates/page.js",
+  "/(site)/students/studentsparliamenttable/page": "app/(site)/students/studentsparliamenttable/page.js"
 }

@@ -86,7 +86,7 @@
 .GraduatesFirstTab-module-scss-module__hFkc5W__tableTitle {
   display: grid;
   grid-template-columns: .1fr 2.5fr;
-  gap: 100px;
+  gap: 80px;
 }
 
 .GraduatesFirstTab-module-scss-module__hFkc5W__loading {
@@ -103,7 +103,7 @@
   display: grid;
   padding: 5px 0;
   grid-template-columns: .1fr 2.5fr;
-  gap: 100px;
+  gap: 80px;
 }
 
 .GraduatesFirstTab-module-scss-module__hFkc5W__titleText {
