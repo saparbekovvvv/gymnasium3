@@ -1,6 +1,6 @@
 /* [project]/src/appPages/site/components/pages/news/NewsDetailCotnent/NewsDetailContent.module.scss.module.css [app-ssr] (css) */
 .NewsDetailContent-module-scss-module__ntNw9W__NewsDetailContent {
-  margin-top: 100px;
+  margin-top: 130px;
 }
 
 .NewsDetailContent-module-scss-module__ntNw9W__NewsDetailContent .NewsDetailContent-module-scss-module__ntNw9W__content {
@@ -375,7 +375,7 @@
 
 @media (width <= 480px) {
   .NewsDetailContent-module-scss-module__ntNw9W__NewsDetailContent {
-    margin-top: 40px;
+    margin-top: 80px;
   }
 
   .NewsDetailContent-module-scss-module__ntNw9W__NewsDetailContent .NewsDetailContent-module-scss-module__ntNw9W__content .NewsDetailContent-module-scss-module__ntNw9W__news_head h1 {
