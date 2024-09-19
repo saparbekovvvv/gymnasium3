@@ -43,6 +43,10 @@
 
 .StudentsClass-module-scss-module__jwknLW__tableContent {
   display: flex;
+<<<<<<< HEAD
+=======
+  align-items: center;
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
   justify-content: center;
   flex-direction: column;
   gap: 10px;

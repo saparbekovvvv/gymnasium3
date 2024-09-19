@@ -68,7 +68,11 @@
 
 .GraduatesFirstTab-module-scss-module__hFkc5W__tableTitle {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: .1fr 2.5fr;
+=======
+  grid-template-columns: .1fr 2.5fr .5fr;
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
   gap: 80px;
 }
 
@@ -85,7 +89,11 @@
 .GraduatesFirstTab-module-scss-module__hFkc5W__studentInfo {
   display: grid;
   padding: 5px 0;
+<<<<<<< HEAD
   grid-template-columns: .1fr 2.5fr;
+=======
+  grid-template-columns: .1fr 2.5fr .5fr;
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
   gap: 80px;
 }
 
@@ -200,7 +208,11 @@
 @media (width <= 740px) {
   .GraduatesFirstTab-module-scss-module__hFkc5W__tableTitle {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: .1fr 2.3fr;
+=======
+    grid-template-columns: .1fr 2.3fr .4fr;
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     gap: 20px;
   }
 
@@ -234,7 +246,11 @@
   .GraduatesFirstTab-module-scss-module__hFkc5W__studentInfo {
     display: grid;
     padding: 2px 0;
+<<<<<<< HEAD
     grid-template-columns: .1fr 2.3fr;
+=======
+    grid-template-columns: .1fr 2.3fr .4fr;
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     gap: 20px;
   }
 
@@ -293,7 +309,11 @@
 
   .GraduatesFirstTab-module-scss-module__hFkc5W__tableTitle {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: .1fr 2.3fr;
+=======
+    grid-template-columns: .1fr 2.3fr .4fr;
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     gap: 10px;
   }
 
@@ -310,7 +330,11 @@
   .GraduatesFirstTab-module-scss-module__hFkc5W__studentInfo {
     display: grid;
     padding: 2px 0;
+<<<<<<< HEAD
     grid-template-columns: .1fr 2.3fr;
+=======
+    grid-template-columns: .1fr 2.3fr .4fr;
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     gap: 10px;
   }
 
@@ -340,7 +364,11 @@
 @media (width <= 380px) {
   .GraduatesFirstTab-module-scss-module__hFkc5W__tableTitle {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: .1fr 2.3fr;
+=======
+    grid-template-columns: .1fr 2.3fr .4fr;
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     gap: 8px;
   }
 
@@ -351,7 +379,11 @@
   .GraduatesFirstTab-module-scss-module__hFkc5W__studentInfo {
     display: grid;
     padding: 2px 0;
+<<<<<<< HEAD
     grid-template-columns: .1fr 2.3fr;
+=======
+    grid-template-columns: .1fr 2.3fr .4fr;
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     gap: 8px;
   }
 

@@ -8089,7 +8089,11 @@ class Router {
         };
         if ("TURBOPACK compile-time truthy", 1) {
             const { BloomFilter } = __turbopack_require__("[project]/node_modules/next/dist/shared/lib/bloom-filter.js [client] (ecmascript)");
+<<<<<<< HEAD
             const routerFilterSValue = ("TURBOPACK compile-time value", JSON.parse('{"numItems":13,"errorRate":0.0001,"numBits":250,"numHashes":14,"bitArray":[1,0,0,1,1,0,1,1,0,1,0,1,1,1,0,0,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,1,0,1,0,1,0,0,1,1,0,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,1,1,0,0,0,1,1,0,1,1,0,1,1,1,1,1,1,0,1,0,1,1,0,1,0,0,0,1,0,1,1,0,1,1,1,1,0,0,0,1,1,1,0,0,0,0,1,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,0,0,0,1,1,1,1,0,0,1,1,0,1,1,1,0,0,1,0,0,1,0,0,1,0,0,1,1,0,1,1,0,0,1,1,0,1,0,1,1,0,0,0,0,0,0,1,0,1,0,0,1,1]}'));
+=======
+            const routerFilterSValue = ("TURBOPACK compile-time value", JSON.parse('{"numItems":16,"errorRate":0.0001,"numBits":307,"numHashes":14,"bitArray":[0,0,1,0,0,1,0,1,0,0,1,1,0,0,0,1,0,1,0,1,0,0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,1,1,0,1,0,0,1,0,0,1,1,1,1,0,1,1,0,0,0,0,1,0,0,1,1,1,0,0,1,1,1,0,0,1,1,0,1,1,1,1,1,0,1,1,0,0,1,0,1,0,0,1,1,0,0,1,1,0,1,1,1,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,1,1,0,0,0,0,1,0,1,1,0,0,1,0,1,0,0,1,0,0,0,0,1,1,1,1,1,1,1,1,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,1,1,0,1,0,1,1,0,1,0,0,0,0,1,0,1,1,1,0,0,0,0,0,1,1,0,1,1,1,0,1,1,0,0,1,1,1,1,0,1,1,0,1,0,1,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,1,0,1,1,0,0,0,0,1,1,1,0,1,1,1,0,1,0,0,1,0,0,0,1,0,1,1,1,1,1,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,1,0,1,0,1,0,1,1,0,1,1,0,0,1,1,1,1,0,1,0,0,1,1,1,0,0,0,1,0,0]}'));
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
             const staticFilterData = routerFilterSValue ? routerFilterSValue : undefined;
             const routerFilterDValue = ("TURBOPACK compile-time value", JSON.parse('{"numItems":3,"errorRate":0.0001,"numBits":58,"numHashes":14,"bitArray":[1,1,1,1,1,0,0,1,1,0,1,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0,0,1,0,1,0,1,1,1,0,0,1,1,1,0,0,1,1,0,1,0,1,0,1,0,1,0,0,0,1]}'));
             const dynamicFilterData = routerFilterDValue ? routerFilterDValue : undefined;
@@ -9319,7 +9323,11 @@ function parseStack(stack) {
             const res = regexNextStatic.exec(url.pathname);
             if (res) {
                 var _process_env___NEXT_DIST_DIR_replace, _process_env___NEXT_DIST_DIR;
+<<<<<<< HEAD
                 const distDir = (_process_env___NEXT_DIST_DIR = ("TURBOPACK compile-time value", "C:\\Users\\Hp\\Desktop\\gymnasium3\\.next")) == null ? void 0 : (_process_env___NEXT_DIST_DIR_replace = _process_env___NEXT_DIST_DIR.replace(/\\/g, "/")) == null ? void 0 : _process_env___NEXT_DIST_DIR_replace.replace(/\/$/, "");
+=======
+                const distDir = (_process_env___NEXT_DIST_DIR = ("TURBOPACK compile-time value", "C:\\Users\\user\\Desktop\\gymnasium3\\.next")) == null ? void 0 : (_process_env___NEXT_DIST_DIR_replace = _process_env___NEXT_DIST_DIR.replace(/\\/g, "/")) == null ? void 0 : _process_env___NEXT_DIST_DIR_replace.replace(/\/$/, "");
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                 if (distDir) {
                     frame.file = "file://" + distDir.concat(res.pop()) + url.search;
                 }

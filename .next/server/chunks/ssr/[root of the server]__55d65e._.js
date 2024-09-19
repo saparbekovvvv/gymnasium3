@@ -600,15 +600,22 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClass$2f$StudentsClass$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.module.scss.module.css [app-rsc] (css module)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$tableAvatar$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$tableAvatar$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/assets/tableAvatar.png.mjs { IMAGE => "[project]/src/assets/tableAvatar.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
+<<<<<<< HEAD
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$graduates$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/graduates/index.ts [app-rsc] (ecmascript)");
+=======
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 ;
 ;
 ;
+<<<<<<< HEAD
 ;
 const StudentsClass = ()=>{
     const { data, isLoading } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$graduates$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["useGetGraduatesQuery"])() || undefined;
+=======
+const StudentsClass = ()=>{
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClass$2f$StudentsClass$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].StudentsClass,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -621,7 +628,11 @@ const StudentsClass = ()=>{
                         children: "4 Класс"
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+<<<<<<< HEAD
                         lineNumber: 21,
+=======
+                        lineNumber: 11,
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -635,7 +646,11 @@ const StudentsClass = ()=>{
                                         children: "No."
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+<<<<<<< HEAD
                                         lineNumber: 24,
+=======
+                                        lineNumber: 14,
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -643,7 +658,11 @@ const StudentsClass = ()=>{
                                         children: "Имя ученика"
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+<<<<<<< HEAD
                                         lineNumber: 25,
+=======
+                                        lineNumber: 15,
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -651,7 +670,11 @@ const StudentsClass = ()=>{
                                         children: "Класс"
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+<<<<<<< HEAD
                                         lineNumber: 26,
+=======
+                                        lineNumber: 16,
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -659,13 +682,21 @@ const StudentsClass = ()=>{
                                         children: "Кл. руководитель"
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+<<<<<<< HEAD
                                         lineNumber: 27,
+=======
+                                        lineNumber: 17,
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+<<<<<<< HEAD
                                 lineNumber: 23,
+=======
+                                lineNumber: 13,
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -675,6 +706,7 @@ const StudentsClass = ()=>{
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClass$2f$StudentsClass$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].hr
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+<<<<<<< HEAD
                                         lineNumber: 30,
                                         columnNumber: 29
                                     }, this),
@@ -738,28 +770,105 @@ const StudentsClass = ()=>{
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
                                 lineNumber: 29,
+=======
+                                        lineNumber: 20,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClass$2f$StudentsClass$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].studentInfo,
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClass$2f$StudentsClass$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].tableTextNumber,
+                                                children: "1"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+                                                lineNumber: 22,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClass$2f$StudentsClass$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].tableName,
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClass$2f$StudentsClass$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].studentIcon,
+                                                        src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$tableAvatar$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$tableAvatar$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
+                                                        alt: ""
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+                                                        lineNumber: 24,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    "Абдрахманов Айдарбек Капарович"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+                                                lineNumber: 23,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClass$2f$StudentsClass$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].tableText,
+                                                children: "4 а"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+                                                lineNumber: 31,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClass$2f$StudentsClass$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].tableText,
+                                                children: "М. Тарэловна"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+                                                lineNumber: 32,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+                                        lineNumber: 21,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+                                lineNumber: 19,
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+<<<<<<< HEAD
                         lineNumber: 22,
+=======
+                        lineNumber: 12,
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+<<<<<<< HEAD
                 lineNumber: 20,
+=======
+                lineNumber: 10,
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+<<<<<<< HEAD
             lineNumber: 19,
+=======
+            lineNumber: 9,
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
+<<<<<<< HEAD
         lineNumber: 18,
+=======
+        lineNumber: 8,
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
         columnNumber: 9
     }, this);
 };
