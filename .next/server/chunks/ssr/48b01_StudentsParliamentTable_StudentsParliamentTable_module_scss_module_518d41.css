@@ -15,11 +15,21 @@
 }
 
 .StudentsParliamentTable-module-scss-module__epQc2G__loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  height: 100vh;
   text-align: center;
 }
 
 .StudentsParliamentTable-module-scss-module__epQc2G__error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
   width: 100%;
   text-align: center;
 }

@@ -56,6 +56,16 @@
     }
 }
 @media (max-width: 430px) {
+    .Block:nth-child(even):hover {
+        transform: translateX(3px);
+        box-shadow: 10px 0 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .Block:nth-child(odd):hover {
+        transform: translateX(-3px);
+        box-shadow: -10px 0 15px rgba(0, 0, 0, 0.3);
+    }
+
     .Block {
         padding: 15px 0;
         font-size: 10px;

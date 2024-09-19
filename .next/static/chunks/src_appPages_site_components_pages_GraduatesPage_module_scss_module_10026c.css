@@ -59,6 +59,16 @@
 }
 
 @media (width <= 430px) {
+  .GraduatesPage-module-scss-module__NDlmPW__Block:nth-child(2n):hover {
+    transform: translateX(3px);
+    box-shadow: 10px 0 15px #0000004d;
+  }
+
+  .GraduatesPage-module-scss-module__NDlmPW__Block:nth-child(odd):hover {
+    transform: translateX(-3px);
+    box-shadow: -10px 0 15px #0000004d;
+  }
+
   .GraduatesPage-module-scss-module__NDlmPW__Block {
     padding: 15px 0;
     font-size: 10px;

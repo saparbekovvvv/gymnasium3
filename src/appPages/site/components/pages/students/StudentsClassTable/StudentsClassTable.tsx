@@ -27,9 +27,9 @@ const StudentClassTable: React.FC = () => {
         }
     }, [studentsData, classId]);
 
-    if (isLoading) return <div>Загрузка...</div>;
+    if (isLoading) return <div className={scss.loading}>Загрузка...</div>;
     if (isError || !studentsData || !classId)
-        return <div>Ошибка при загрузке данных.</div>;
+        return <div className={scss.error}>Ошибка при загрузке данных.</div>;
 
     return (
         <section className={scss.StudentClassTable}>

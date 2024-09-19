@@ -92,6 +92,26 @@
   color: #000;
 }
 
+.StudentsClassTable-module-scss-module__cH9Lta__loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.StudentsClassTable-module-scss-module__cH9Lta__error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}
+
 .StudentsClassTable-module-scss-module__cH9Lta__tableName {
   display: flex;
   flex-direction: row;
