@@ -201,10 +201,12 @@
         margin-top: 20px;
       }
 
-      .addComment, .replyForm {
+      .addComment,
+      .replyForm {
         margin-top: 30px;
 
-        .replyingTo, .addNewComment {
+        .replyingTo,
+        .addNewComment {
           font-size: 18px;
           font-weight: 600;
           margin-bottom: 15px;
@@ -360,8 +362,10 @@
           }
         }
 
-        .addComment, .replyForm {
-          .replyingTo, .addNewComment {
+        .addComment,
+        .replyForm {
+          .replyingTo,
+          .addNewComment {
             font-size: 16px;
           }
 
@@ -403,7 +407,7 @@
 
       .newsContent {
         h1 {
-          font-size: 24px;
+          font-size: 23px;
         }
 
         p {
@@ -461,8 +465,10 @@
           }
         }
 
-        .addComment, .replyForm {
-          .replyingTo, .addNewComment {
+        .addComment,
+        .replyForm {
+          .replyingTo,
+          .addNewComment {
             font-size: 14px;
           }
 
