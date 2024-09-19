@@ -1,0 +1,73 @@
+/* [project]/src/appPages/site/components/pages/StudentsPage.module.scss.module.css [app-ssr] (css) */
+.StudentsPage-module-scss-module__-bpeuG__content {
+  display: flex;
+  padding-top: 100px;
+}
+
+.StudentsPage-module-scss-module__-bpeuG__link {
+  color: #000;
+}
+
+
+/* [project]/src/appPages/site/components/pages/students/StudentsMainContent/StudentsMainContent.module.scss.module.css [app-ssr] (css) */
+.StudentsMainContent-module-scss-module__jKjW7W__classes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.StudentsMainContent-module-scss-module__jKjW7W__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 277px;
+  height: 69px;
+  border-radius: 7px;
+  text-align: center;
+  border: 3px solid #ffe5e5;
+  cursor: pointer;
+  transition: all .3s;
+  text-decoration: none;
+}
+
+.StudentsMainContent-module-scss-module__jKjW7W__block:hover {
+  background: #fff6f6;
+  border: 3px solid #ffd3d3;
+}
+
+.StudentsMainContent-module-scss-module__jKjW7W__block_text {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: left;
+}
+
+
+/* [project]/src/appPages/site/components/pages/students/StudentsOlympiad/StudentsOlympiad.module.scss.module.css [app-ssr] (css) */
+.StudentsOlympiad-module-scss-module__5sgsaa__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.StudentsOlympiad-module-scss-module__5sgsaa__OlimpBlock {
+  width: 289px;
+  height: 324px;
+  padding: 20px;
+  text-decoration: none;
+  background-image: url("/_next/static/media/studnets_olimpic.7c38a413.svg");
+}
+
+.StudentsOlympiad-module-scss-module__5sgsaa__OlimpBlock_text {
+  font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+}
+
+
+/*# sourceMappingURL=src_appPages_site_components_pages_414b41._.css.map*/
