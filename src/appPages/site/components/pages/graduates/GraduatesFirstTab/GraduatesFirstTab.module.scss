@@ -1,8 +1,5 @@
-.StudentsClass {
-    padding-top: 100px;
-}
-
 .content {
+    padding: 80px 0 50px 0;
     display: flex;
     gap: 5px;
     flex-direction: column;
@@ -54,8 +51,6 @@
     width: 450px;
 }
 
-
-
 .title::after {
     content: "";
     position: absolute;
@@ -68,8 +63,8 @@
 
 .tableTitle {
     display: grid;
-    grid-template-columns: 0.1fr 2.5fr 0.5fr;
-    gap: 80px;
+    grid-template-columns: 0.1fr 2.5fr;
+    gap: 100px;
 }
 
 .loading {
@@ -83,8 +78,8 @@
 .studentInfo {
     display: grid;
     padding: 5px 0;
-    grid-template-columns: 0.1fr 2.5fr 0.5fr;
-    gap: 80px;
+    grid-template-columns: 0.1fr 2.5fr;
+    gap: 100px;
 }
 
 .titleText {
@@ -197,7 +192,7 @@
 @media (max-width: 740px) {
     .tableTitle {
         display: grid;
-        grid-template-columns: 0.1fr 2.3fr 0.4fr;
+        grid-template-columns: 0.1fr 2.3fr;
         gap: 20px;
     }
 
@@ -230,7 +225,7 @@
     .studentInfo {
         display: grid;
         padding: 2px 0;
-        grid-template-columns: 0.1fr 2.3fr 0.4fr;
+        grid-template-columns: 0.1fr 2.3fr;
         gap: 20px;
     }
 
@@ -286,7 +281,7 @@
 
     .tableTitle {
         display: grid;
-        grid-template-columns: 0.1fr 2.3fr 0.4fr;
+        grid-template-columns: 0.1fr 2.3fr;
         gap: 10px;
     }
     .title {
@@ -301,7 +296,7 @@
     .studentInfo {
         display: grid;
         padding: 2px 0;
-        grid-template-columns: 0.1fr 2.3fr 0.4fr;
+        grid-template-columns: 0.1fr 2.3fr;
         gap: 10px;
     }
 
@@ -332,7 +327,7 @@
 @media (max-width: 380px) {
     .tableTitle {
         display: grid;
-        grid-template-columns: 0.1fr 2.3fr 0.4fr;
+        grid-template-columns: 0.1fr 2.3fr;
         gap: 8px;
     }
     .title {
@@ -342,7 +337,7 @@
     .studentInfo {
         display: grid;
         padding: 2px 0;
-        grid-template-columns: 0.1fr 2.3fr 0.4fr;
+        grid-template-columns: 0.1fr 2.3fr;
         gap: 8px;
     }
 

@@ -58,7 +58,6 @@ const GraduatesFirstTab = () => {
                         <div className={scss.tableTitle}>
                             <h1 className={scss.titleText}>No.</h1>
                             <h1 className={scss.titleText}>Имя выпускника</h1>
-                            <h1 className={scss.titleText}>Орт</h1>
                         </div>
                         <div className={scss.tableContent}>
                             <div className={scss.hr}></div>
@@ -81,9 +80,7 @@ const GraduatesFirstTab = () => {
                                         {item.surname} {item.name}{" "}
                                         {item.last_name}
                                     </h1>
-                                    <h1 className={scss.tableText}>
-                                        {item.ort}
-                                    </h1>
+                                  
                                 </div>
                             ))}
                         </div>

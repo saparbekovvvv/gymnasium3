@@ -1,15 +1,11 @@
 /* [project]/src/appPages/site/components/pages/StudentsPage.module.scss.module.css [app-client] (css) */
-.StudentsPage-module-scss-module__-bpeuG__StudentsPage {
-  padding: 0 0 80px;
-}
-
 .StudentsPage-module-scss-module__-bpeuG__content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px 0 0;
   gap: 50px;
+  padding-top: 60px;
 }
 
 @keyframes StudentsPage-module-scss-module__-bpeuG__fadeIn {

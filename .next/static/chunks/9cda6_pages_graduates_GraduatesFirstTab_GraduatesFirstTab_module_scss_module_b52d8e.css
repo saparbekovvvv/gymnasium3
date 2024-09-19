@@ -1,9 +1,6 @@
 /* [project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.module.scss.module.css [app-client] (css) */
-.GraduatesFirstTab-module-scss-module__hFkc5W__StudentsClass {
-  padding-top: 100px;
-}
-
 .GraduatesFirstTab-module-scss-module__hFkc5W__content {
+  padding: 80px 0 50px;
   display: flex;
   gap: 5px;
   flex-direction: column;
@@ -68,12 +65,8 @@
 
 .GraduatesFirstTab-module-scss-module__hFkc5W__tableTitle {
   display: grid;
-<<<<<<< HEAD
   grid-template-columns: .1fr 2.5fr;
-=======
-  grid-template-columns: .1fr 2.5fr .5fr;
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
-  gap: 80px;
+  gap: 100px;
 }
 
 .GraduatesFirstTab-module-scss-module__hFkc5W__loading {
@@ -89,12 +82,8 @@
 .GraduatesFirstTab-module-scss-module__hFkc5W__studentInfo {
   display: grid;
   padding: 5px 0;
-<<<<<<< HEAD
   grid-template-columns: .1fr 2.5fr;
-=======
-  grid-template-columns: .1fr 2.5fr .5fr;
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
-  gap: 80px;
+  gap: 100px;
 }
 
 .GraduatesFirstTab-module-scss-module__hFkc5W__titleText {
@@ -208,11 +197,7 @@
 @media (width <= 740px) {
   .GraduatesFirstTab-module-scss-module__hFkc5W__tableTitle {
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: .1fr 2.3fr;
-=======
-    grid-template-columns: .1fr 2.3fr .4fr;
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     gap: 20px;
   }
 
@@ -246,11 +231,7 @@
   .GraduatesFirstTab-module-scss-module__hFkc5W__studentInfo {
     display: grid;
     padding: 2px 0;
-<<<<<<< HEAD
     grid-template-columns: .1fr 2.3fr;
-=======
-    grid-template-columns: .1fr 2.3fr .4fr;
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     gap: 20px;
   }
 
@@ -309,11 +290,7 @@
 
   .GraduatesFirstTab-module-scss-module__hFkc5W__tableTitle {
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: .1fr 2.3fr;
-=======
-    grid-template-columns: .1fr 2.3fr .4fr;
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     gap: 10px;
   }
 
@@ -330,11 +307,7 @@
   .GraduatesFirstTab-module-scss-module__hFkc5W__studentInfo {
     display: grid;
     padding: 2px 0;
-<<<<<<< HEAD
     grid-template-columns: .1fr 2.3fr;
-=======
-    grid-template-columns: .1fr 2.3fr .4fr;
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     gap: 10px;
   }
 
@@ -364,11 +337,7 @@
 @media (width <= 380px) {
   .GraduatesFirstTab-module-scss-module__hFkc5W__tableTitle {
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: .1fr 2.3fr;
-=======
-    grid-template-columns: .1fr 2.3fr .4fr;
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     gap: 8px;
   }
 
@@ -379,11 +348,7 @@
   .GraduatesFirstTab-module-scss-module__hFkc5W__studentInfo {
     display: grid;
     padding: 2px 0;
-<<<<<<< HEAD
     grid-template-columns: .1fr 2.3fr;
-=======
-    grid-template-columns: .1fr 2.3fr .4fr;
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     gap: 8px;
   }
 

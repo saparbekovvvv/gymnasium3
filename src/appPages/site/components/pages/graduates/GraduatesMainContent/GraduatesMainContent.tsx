@@ -28,7 +28,7 @@ const GraduatesMainContent = () => {
                                     className={`${scss.mainContent_graduates} ${scss.animateFromTop}`}
                                     style={{
                                         animationDelay: `${index * 0.1}s`,
-                                    }} // Установка задержки анимации
+                                    }}
                                 >
                                     <Image
                                         quality={70}

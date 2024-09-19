@@ -32,7 +32,7 @@ const OlympaidTable: React.FC = () => {
                                     className={`${scss.studentInfo} ${scss.animateFromLeft}`}
                                     style={{
                                         animationDelay: `${index * 0.1}s`,
-                                    }} // Установка задержки анимации
+                                    }}
                                 >
                                     <h1 className={scss.tableTextNumber}>
                                         {index + 1}

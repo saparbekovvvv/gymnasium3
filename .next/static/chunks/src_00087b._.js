@@ -118,8 +118,6 @@ const GraduatesFirstTab = ()=>{
         lineNumber: 15,
         columnNumber: 16
     }, this);
-<<<<<<< HEAD
-=======
     const filterData = (year)=>{
         if (year) {
             const result = data.filter((graduate)=>graduate.year === year);
@@ -129,7 +127,6 @@ const GraduatesFirstTab = ()=>{
         }
     };
     const uniqueYears = Array.from(new Set(data.map((graduate)=>graduate.year)));
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].GraduatesFirstTab,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -142,9 +139,6 @@ const GraduatesFirstTab = ()=>{
                         children: "Список выпускников"
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-                        lineNumber: 21,
-=======
                         lineNumber: 34,
                         columnNumber: 21
                     }, this),
@@ -196,7 +190,6 @@ const GraduatesFirstTab = ()=>{
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
                         lineNumber: 35,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -210,11 +203,7 @@ const GraduatesFirstTab = ()=>{
                                         children: "No."
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-                                        lineNumber: 25,
-=======
                                         lineNumber: 59,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -222,29 +211,13 @@ const GraduatesFirstTab = ()=>{
                                         children: "Имя выпускника"
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-                                        lineNumber: 26,
-=======
                                         lineNumber: 60,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].titleText,
-                                        children: "Орт"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-                                        lineNumber: 61,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-                                lineNumber: 24,
-=======
                                 lineNumber: 58,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -254,11 +227,7 @@ const GraduatesFirstTab = ()=>{
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].hr
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-                                        lineNumber: 29,
-=======
-                                        lineNumber: 64,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+                                        lineNumber: 63,
                                         columnNumber: 29
                                     }, this),
                                     (filteredData.length > 0 ? filteredData : data)?.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -269,11 +238,7 @@ const GraduatesFirstTab = ()=>{
                                                     children: index + 1
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-                                                    lineNumber: 35,
-=======
-                                                    lineNumber: 70,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+                                                    lineNumber: 69,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -287,11 +252,7 @@ const GraduatesFirstTab = ()=>{
                                                             height: 50
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-                                                            lineNumber: 39,
-=======
-                                                            lineNumber: 74,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+                                                            lineNumber: 73,
                                                             columnNumber: 41
                                                         }, this),
                                                         item.surname,
@@ -302,77 +263,41 @@ const GraduatesFirstTab = ()=>{
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-                                                    lineNumber: 38,
-=======
-                                                    lineNumber: 73,
-                                                    columnNumber: 37
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tableText,
-                                                    children: item.ort
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-                                                    lineNumber: 84,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+                                                    lineNumber: 72,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-                                            lineNumber: 34,
-=======
-                                            lineNumber: 69,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+                                            lineNumber: 68,
                                             columnNumber: 33
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-                                lineNumber: 28,
-=======
-                                lineNumber: 63,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+                                lineNumber: 62,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-                        lineNumber: 23,
-=======
                         lineNumber: 57,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-                lineNumber: 20,
-=======
                 lineNumber: 33,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-            lineNumber: 19,
-=======
             lineNumber: 32,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
-<<<<<<< HEAD
-        lineNumber: 18,
-=======
         lineNumber: 31,
->>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
         columnNumber: 9
     }, this);
 };

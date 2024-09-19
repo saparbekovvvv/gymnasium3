@@ -31,54 +31,17 @@ const StudentClassTable: React.FC = () => {
     if (isError || !studentsData || !classId)
         return <div>Ошибка при загрузке данных.</div>;
 
-    const filterDataByParallel = (parallel?: string) => {
-        const result = studentsData.filter(
-            (item) =>
-                (parallel
-                    ? item.school_class.parallel.toLowerCase() ===
-                      parallel.toLowerCase()
-                    : true) && item.school_class.grade === String(classId)
-        );
-        setFilteredData(result);
-    };
-
-    const uniqueParallels = Array.from(
-        new Set(studentsData.map((item) => item.school_class.parallel))
-    );
-
     return (
         <section className={scss.StudentClassTable}>
             <div className="container">
                 <div className={`${scss.content} ${scss.animateFromLeft}`}>
                     <div className={scss.titleBlock}>
                         <h2 className={scss.title}>{classId} Класс</h2>
-                        <div className={scss.filterButtons}>
-                            <button
-                                className={scss.button}
-                                onClick={() => filterDataByParallel()}
-                                aria-label="Показать всех учеников"
-                            >
-                                Все
-                            </button>
-                            {uniqueParallels.map((parallel) => (
-                                <button
-                                    key={parallel}
-                                    className={scss.button}
-                                    onClick={() =>
-                                        filterDataByParallel(parallel)
-                                    }
-                                    aria-label={`Показать учеников параллели ${parallel}`}
-                                >
-                                    {parallel}
-                                </button>
-                            ))}
-                        </div>
                     </div>
                     <div className={scss.table}>
                         <div className={scss.tableTitle}>
                             <h1 className={scss.titleText}>No.</h1>
                             <h1 className={scss.titleText}>Имя ученика</h1>
-                            <h1 className={scss.titleText}>Класс</h1>
                             <h1 className={scss.titleText}>Кл. руководитель</h1>
                         </div>
                         <div className={scss.tableContent}>
@@ -103,10 +66,7 @@ const StudentClassTable: React.FC = () => {
                                             />
                                             {item.surname} {item.name}
                                         </h1>
-                                        <h1 className={scss.tableText}>
-                                            {item.school_class.grade}-
-                                            {item.school_class.parallel}
-                                        </h1>
+
                                         <h1 className={scss.tableText}>
                                             {item.classroom_teacher
                                                 .map((teacher) => teacher.name)
