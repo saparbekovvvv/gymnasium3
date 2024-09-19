@@ -1,5 +1,7 @@
 {
   "/(site)/(home)/page": "app/(site)/(home)/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(site)/graduates/page": "app/(site)/graduates/page.js"
+  "/(site)/students/page": "app/(site)/students/page.js",
+  "/(site)/graduates/page": "app/(site)/graduates/page.js",
+  "/(site)/students/olympaidtable/page": "app/(site)/students/olympaidtable/page.js"
 }
