@@ -2,6 +2,8 @@
 import { useGetSearchQuery } from "@/redux/api/search";
 import { useSearchParams } from "next/navigation";
 import React, { useMemo } from "react";
+import Link from "next/link"; // Используем Link для навигации
+import styles from "./Search.module.scss"; // Импортируем SCSS модуль
 
 const Search = () => {
   const searchParams = useSearchParams();
@@ -20,26 +22,40 @@ const Search = () => {
   });
 
   return (
-    <div style={{ paddingTop: "100px" }}>
-      <h1>Результаты поиска для: {query}</h1>
-      {isLoading && <p>Загрузка...</p>}
-      {error && <p>Произошла ошибка при поиске</p>}
+    <div className={styles.searchContainer}>
+      <h1 className={styles.title}>Результаты поиска для: {query}</h1>
+      {isLoading && <p className={styles.loading}>Загрузка...</p>}
+      {error ? (
+        <p className={styles.error}>
+          Произошла ошибка при поиске. Попробуйте снова позже.
+        </p>
+      ) : null}
       {!isLoading && !error && data && data.length > 0 ? (
-        <ul>
+        <ul className={styles.resultList}>
           {data.map((result) => (
-            <li key={result.id}>
-              {result.last_name} {result.name}{" "}
-              {result.school_class__grade &&
-                `(Класс: ${result.school_class__grade})`}
+            <li key={result.id} className={styles.resultItem}>
+              {result.school_class && result.school_class.grade ? (
+                <Link
+                  href={{
+                    pathname: "/students/school_class",
+                    query: { grade: result.school_class.grade },
+                  }}
+                  className={styles.resultLink}
+                >
+                  {result.last_name} {result.name} (Класс:{" "}
+                  {result.school_class.grade})
+                </Link>
+              ) : (
+                <span>
+                  {result.last_name} {result.name}
+                </span>
+              )}
             </li>
           ))}
         </ul>
       ) : !isLoading && !error ? (
-        <p>Результатов не найдено</p>
+        <p className={styles.noResults}>Результатов не найдено</p>
       ) : null}
-      <h1>Студенты</h1>
-      <h1>Студенты</h1>
-      <h1>Студенты</h1>
     </div>
   );
 };
