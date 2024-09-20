@@ -14,7 +14,16 @@ const api = index.injectEndpoints({
             }),
             providesTags: ["olympians"],
         }),
+        getOlympiansSelection: build.query<
+            OLYMPIANS.GetDetOlympianTypeResponse,
+            OLYMPIANS.GetDetOlympianTypeRequest
+        >({
+            query: (id) => ({
+                url: `${ENDPOINTS}/students/olympians/olymp_categories/${id}`,
+                method: "GET",
+            }),
+        }),
     }),
 });
 
-export const { useGetOlympiansQuery } = api;
+export const { useGetOlympiansQuery, useGetOlympiansSelectionQuery } = api;

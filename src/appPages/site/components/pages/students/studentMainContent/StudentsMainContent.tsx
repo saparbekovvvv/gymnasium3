@@ -1,11 +1,8 @@
-import Link from "next/link";
 import scss from "./StudentsMainContent.module.scss";
-import { useGetGimnasiumClassQuery } from "@/redux/api/gimnasium_class";
-import { useGetStudentsClassQuery } from "@/redux/api/students";
 import { useRouter } from "next/navigation";
 
 const StudentsMainContent = () => {
-    const numbers = [4, 5, 6, 7, 8, 9, 10, 11];
+    const numbers = [5, 6, 7, 8, 9, 10, 11];
     const router = useRouter();
 
     return (

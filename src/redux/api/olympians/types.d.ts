@@ -11,7 +11,10 @@ namespace OLYMPIANS {
             choosing_ru: null;
         };
     }
-    type GetOlympiansResponse = IOlympian[];
 
+    type GetOlympiansResponse = IOlympian[];
     type GetOlympiansRequest = void;
+
+    type GetDetOlympianTypeResponse = IOlympian[];
+    type GetDetOlympianTypeRequest = string | number | void;
 }

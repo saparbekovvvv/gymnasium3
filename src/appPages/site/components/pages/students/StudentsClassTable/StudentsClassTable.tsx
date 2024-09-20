@@ -23,7 +23,20 @@ const StudentClassTable: React.FC = () => {
             const filtered = studentsData.filter(
                 (student) => student.school_class.grade === String(classId)
             );
-            setFilteredData(filtered);
+
+            const updatedData = filtered.map((student, index) => {
+                let status_in_class = "";
+                if (index === 0) {
+                    status_in_class = "Президент";
+                } else if (index === 1) {
+                    status_in_class = "Муж.совет";
+                } else if (index === 2) {
+                    status_in_class = "Жен.совет";
+                }
+                return { ...student, status_in_class };
+            });
+
+            setFilteredData(updatedData);
         }
     }, [studentsData, classId]);
 
@@ -36,13 +49,22 @@ const StudentClassTable: React.FC = () => {
             <div className="container">
                 <div className={`${scss.content} ${scss.animateFromLeft}`}>
                     <div className={scss.titleBlock}>
+                        <div className={scss.titleLeftBlock}>
+                            <h1 className={scss.titleText}>Кл. руководитель</h1>{" "}
+                            <h1 className={scss.tableText}>
+                                {filteredData[0] &&
+                                    filteredData[0].classroom_teacher
+                                        .map((teacher) => teacher.name)
+                                        .join(", ")}
+                            </h1>
+                        </div>
                         <h2 className={scss.title}>{classId} Класс</h2>
                     </div>
                     <div className={scss.table}>
                         <div className={scss.tableTitle}>
                             <h1 className={scss.titleText}>No.</h1>
                             <h1 className={scss.titleText}>Имя ученика</h1>
-                            <h1 className={scss.titleText}>Кл. руководитель</h1>
+                            <h1 className={scss.titleText}>Статус</h1>
                         </div>
                         <div className={scss.tableContent}>
                             <div className={scss.hr}></div>
@@ -66,11 +88,8 @@ const StudentClassTable: React.FC = () => {
                                             />
                                             {item.surname} {item.name}
                                         </h1>
-
-                                        <h1 className={scss.tableText}>
-                                            {item.classroom_teacher
-                                                .map((teacher) => teacher.name)
-                                                .join(", ")}
+                                        <h1 className={scss.statusTable}>
+                                            {item.status_in_class}
                                         </h1>
                                     </div>
                                 ))
