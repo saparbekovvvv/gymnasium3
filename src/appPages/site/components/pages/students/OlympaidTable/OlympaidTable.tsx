@@ -24,7 +24,7 @@ const OlympaidTable = () => {
 
     return (
         <div>
-            <h2>Категория Олимпиады: {olymp_categories || "Не указана"}</h2>
+            <h2> {olymp_categories}</h2>
         </div>
     );
 };
