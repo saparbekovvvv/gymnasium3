@@ -1,15 +1,18 @@
 namespace SUCCESSFUL_GRADUATES {
   interface ISuccessfulGraduates {
-    image: null;
     content: string;
     content_ky: string;
     content_ru: string;
-    year: null;
-  }
-  type GetSuccessfulGraduatesResponse = {
-    data: ISuccessfulGraduates[];
-  };
-  type GetSuccessfulGraduatesRequest = {
+    graduate: {
+      last_name: string;
+      name: string;
+      surname: string;
+      year: number;
+    };
+    image: string;
     year: number;
-  };
+  }
+
+  type GetSuccessfulGraduatesResponse = ISuccessfulGraduates[];
+  type GetSuccessfulGraduatesRequest = void;
 }

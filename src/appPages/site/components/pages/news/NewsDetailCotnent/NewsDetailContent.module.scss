@@ -1,0 +1,560 @@
+.NewsDetailContent {
+  margin-top: 100px;
+  padding-bottom: 120px;
+
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    .news_head {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 40px;
+
+      hr {
+        width: 40px;
+        height: 2px;
+        background: #333333;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.2;
+        color: #333333;
+      }
+    }
+
+    .newsContent {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      hr {
+        width: 100%;
+        height: 1px;
+        background-color: #e0e0e0;
+        margin: 30px 0;
+      }
+
+      h1 {
+        color: #333333;
+        width: 100%;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 1.3;
+        text-align: left;
+      }
+
+      img {
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      p {
+        width: 100%;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.6;
+        text-align: left;
+        color: #333333;
+      }
+
+      .newsInfo {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 14px;
+        color: #666;
+
+        p {
+          margin: 0;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .commentsSection {
+      margin-top: 60px;
+
+      h2 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        color: #333;
+        border-bottom: 2px solid #ff9b9b;
+        padding-bottom: 10px;
+      }
+
+      .comment {
+        background-color: #fff;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+        margin-bottom: 30px;
+        border: 1px solid #e0e0e0;
+        transition: all 0.3s ease;
+
+        &:hover {
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+          transform: translateY(-2px);
+        }
+
+        &.reply {
+          margin-left: 50px;
+          border-left: 4px solid #ff9b9b;
+        }
+
+        .commentHeader {
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+
+          .avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 20px;
+            object-fit: cover;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
+
+          .commentInfo {
+            flex-grow: 1;
+
+            .commentAuthor {
+              font-weight: 600;
+              font-size: 18px;
+              color: #333;
+              display: block;
+              cursor: pointer;
+              transition: color 0.3s ease;
+
+              &:hover {
+                color: #ff9b9b;
+              }
+            }
+
+            .commentDate {
+              font-size: 14px;
+              color: #888;
+            }
+          }
+        }
+
+        .commentContent {
+          font-size: 16px;
+          line-height: 1.8;
+          color: #444;
+          margin-bottom: 20px;
+        }
+
+        .commentActions {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 20px;
+          flex-wrap: wrap;
+
+          .actionButton {
+            background: none;
+            border: none;
+            color: #666;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            padding: 8px 12px;
+            border-radius: 20px;
+
+            &:hover {
+              color: #ff9b9b;
+              background-color: rgba(255, 155, 155, 0.1);
+            }
+
+            &.liked {
+              color: #ff9b9b;
+              font-weight: 600;
+            }
+
+            svg {
+              width: 20px;
+              height: 20px;
+            }
+          }
+
+          .moreButton {
+            padding: 8px;
+            border-radius: 50%;
+            transition: background-color 0.3s;
+
+            &:hover {
+              background-color: #f0f0f0;
+            }
+          }
+        }
+
+        .replyForm {
+          margin-top: 25px;
+          padding-top: 25px;
+          border-top: 1px solid #e0e0e0;
+        }
+      }
+
+      .replyWrapper {
+        margin-top: 25px;
+      }
+    }
+  }
+
+  .fixedCommentForm {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+
+    &.hidden {
+      transform: translateY(100%);
+    }
+
+    .addComment,
+    .replyForm {
+      max-width: 1200px;
+      margin: 0 auto;
+
+      .replyingTo,
+      .addNewComment {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #444;
+      }
+
+      .commentForm {
+        background-color: #f9f9f9;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+
+        textarea {
+          width: 100%;
+          padding: 18px;
+          border: 2px solid #e0e0e0;
+          border-radius: 12px;
+          resize: vertical;
+          font-size: 16px;
+          margin-bottom: 20px;
+          transition: all 0.3s ease;
+          min-height: 120px;
+          background-color: #fff;
+
+          &:focus {
+            border-color: #ff9b9b;
+            box-shadow: 0 0 0 4px rgba(255, 155, 155, 0.2);
+            outline: none;
+          }
+
+          &::placeholder {
+            color: #aaa;
+          }
+        }
+
+        .formActions {
+          display: flex;
+          gap: 15px;
+          flex-wrap: wrap;
+
+          button {
+            padding: 14px 25px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            &:active {
+              transform: scale(0.98);
+            }
+
+            &.submitButton {
+              background-color: #ff9b9b;
+              color: white;
+
+              &:hover {
+                background-color: #ff7f7f;
+                box-shadow: 0 4px 15px rgba(255, 155, 155, 0.4);
+              }
+            }
+
+            &.cancelButton {
+              background-color: #f0f0f0;
+              color: #666;
+
+              &:hover {
+                background-color: #e0e0e0;
+                color: #333;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .loginPrompt {
+      text-align: center;
+      font-size: 18px;
+      color: #666;
+      padding: 25px;
+      background-color: #f9f9f9;
+      border-radius: 12px;
+      border: 2px dashed #ccc;
+    }
+  }
+
+  .enlargedAvatarOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+
+    &.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .enlargedAvatarContainer {
+      position: relative;
+      max-width: 90%;
+      max-height: 90%;
+
+      .enlargedAvatar {
+        max-width: 100%;
+        max-height: 90vh;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      }
+
+      .closeButton {
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        background-color: white;
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: #ff9b9b;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .NewsDetailContent {
+    margin-top: 80px;
+
+    .content {
+      .commentsSection {
+        h2 {
+          font-size: 24px;
+        }
+
+        .comment {
+          padding: 20px;
+
+          &.reply {
+            margin-left: 30px;
+          }
+
+          .commentHeader {
+            .avatar {
+              width: 40px;
+              height: 40px;
+            }
+
+            .commentInfo {
+              .commentAuthor {
+                font-size: 16px;
+              }
+
+              .commentDate {
+                font-size: 12px;
+              }
+            }
+          }
+
+          .commentContent {
+            font-size: 15px;
+          }
+
+          .commentActions {
+            .actionButton {
+              font-size: 14px;
+
+              svg {
+                width: 18px;
+                height: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .fixedCommentForm {
+      .addComment,
+      .replyForm {
+        .replyingTo,
+        .addNewComment {
+          font-size: 18px;
+        }
+
+        .commentForm {
+          padding: 20px;
+
+          textarea {
+            font-size: 15px;
+          }
+
+          .formActions {
+            button {
+              padding: 12px 20px;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      .loginPrompt {
+        font-size: 16px;
+        padding: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .NewsDetailContent {
+    margin-top: 80px;
+
+    .content {
+      .commentsSection {
+        h2 {
+          font-size: 22px;
+        }
+
+        .comment {
+          padding: 15px;
+
+          &.reply {
+            margin-left: 20px;
+          }
+
+          .commentHeader {
+            .avatar {
+              width: 35px;
+              height: 35px;
+            }
+
+            .commentInfo {
+              .commentAuthor {
+                font-size: 15px;
+              }
+
+              .commentDate {
+                font-size: 11px;
+              }
+            }
+          }
+
+          .commentContent {
+            font-size: 14px;
+          }
+
+          .commentActions {
+            .actionButton {
+              font-size: 13px;
+
+              svg {
+                width: 16px;
+                height: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .fixedCommentForm {
+      .addComment,
+      .replyForm {
+        .replyingTo,
+        .addNewComment {
+          font-size: 16px;
+        }
+
+        .commentForm {
+          padding: 15px;
+
+          textarea {
+            font-size: 14px;
+          }
+
+          .formActions {
+            button {
+              padding: 10px 15px;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
+      .loginPrompt {
+        font-size: 14px;
+        padding: 15px;
+      }
+    }
+  }
+}

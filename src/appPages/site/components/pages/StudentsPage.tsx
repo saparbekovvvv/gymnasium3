@@ -1,20 +1,17 @@
 "use client";
-import { useGetStudentsQuery } from "@/redux/api/students";
+
+import React, { useEffect, useState } from "react";
 import scss from "./StudentsPage.module.scss";
-import StudentsMainContent from "./students/StudentsMainContent/StudentsMainContent";
+import StudentsMainContent from "./students/studentMainContent/StudentsMainContent";
 import StudentsOlympiad from "./students/StudentsOlympiad/StudentsOlympiad";
 import StudentsParliament from "./students/StudentsParliament/StudentsParliament";
 
 const StudentsPage = () => {
-    const { data, error, isLoading } = useGetStudentsQuery();
+    const [showContent, setShowContent] = useState(false);
 
-    if (isLoading) {
-        return <div>Loading...</div>;
-    }
-
-    if (error) {
-        return <div>Error loading data</div>;
-    }
+    useEffect(() => {
+        setShowContent(true);
+    }, []);
 
     return (
         <section className={scss.StudentsPage}>
@@ -22,12 +19,22 @@ const StudentsPage = () => {
                 <div className={scss.content}>
                     <h1 className={scss.Title}>Все ученики</h1>
                     <div className={scss.heroContent}>
-                        <StudentsMainContent />
-                        <div className={scss.blocks}>
+                        <div
+                            className={`${scss.StudentsMainContent} ${
+                                showContent ? scss.visible : ""
+                            }`}
+                        >
+                            <StudentsMainContent />
+                        </div>
+                        <div
+                            className={`${scss.blocks} ${
+                                showContent ? scss.visible : ""
+                            }`}
+                        >
                             <StudentsOlympiad />
                             <StudentsParliament />
                         </div>
-                    </div>{" "}
+                    </div>
                 </div>
             </div>
         </section>

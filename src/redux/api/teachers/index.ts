@@ -3,26 +3,28 @@ import { api as index } from "..";
 const ENDPOINTS = process.env.NEXT_PUBLIC_ENDPOINT;
 
 const api = index.injectEndpoints({
-  endpoints: (build) => ({
-    getTeachers: build.query<
-      TEACHERS.GetTeachersResponse,
-      TEACHERS.GetTeachersRequest
-    >({
-      query: () => ({
-        url: `${ENDPOINTS}/teachers/`,
-        method: "GET",
-      }),
-      providesTags: ["teachers"],
+    endpoints: (build) => ({
+        getTeachers: build.query<
+            TEACHERS.GetTeachersResponse,
+            TEACHERS.GetTeachersRequest
+        >({
+            query: () => ({
+                url: `${ENDPOINTS}/teachers/`,
+                method: "GET",
+            }),
+
+            providesTags: ["teachers"],
+        }),
+        getDetTeacher: build.query<
+            TEACHERS.GetDetTeachersResponse,
+            TEACHERS.GetDetTeachersRequest
+        >({
+            query: (id) => ({
+                url: `${ENDPOINTS}/teachers/${id}`,
+                method: "GET",
+            }),
+        }),
     }),
-    postTeacher: build.mutation<TEACHERS.ITeacher, TEACHERS.ITeacher>({
-      query: (data) => ({
-        url: `${ENDPOINTS}/teachers/`,
-        method: "POST",
-        body: data,
-      }),
-      invalidatesTags: ["teachers"],
-    }),
-  }),
 });
 
-export const { useGetTeachersQuery, usePostTeacherMutation } = api;
+export const { useGetTeachersQuery, useGetDetTeacherQuery } = api;

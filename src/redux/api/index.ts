@@ -33,6 +33,11 @@ export const api = createApi({
     "school_parliament",
     "gimnasium_class",
     "olympians",
+    "accounts",
+    "donations",
+    "search",
+    "about",
+    "old_teachers",
   ],
   endpoints: () => ({}),
 });
