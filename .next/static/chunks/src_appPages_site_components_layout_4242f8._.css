@@ -124,7 +124,17 @@
   margin-right: 15px;
 }
 
-.Header-module-scss-module__kft5ua__header .Header-module-scss-module__kft5ua__language button {
+.Header-module-scss-module__kft5ua__header .Header-module-scss-module__kft5ua__language .Header-module-scss-module__kft5ua__bold {
+  background: #fff;
+  border-radius: 5px;
+  border: none;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.Header-module-scss-module__kft5ua__header .Header-module-scss-module__kft5ua__language .Header-module-scss-module__kft5ua__normal {
   background: none;
   border: none;
   color: #fff;
@@ -132,10 +142,6 @@
   cursor: pointer;
   padding: 5px 10px;
   transition: opacity .3s;
-}
-
-.Header-module-scss-module__kft5ua__header .Header-module-scss-module__kft5ua__language button:hover {
-  opacity: .8;
 }
 
 .Header-module-scss-module__kft5ua__header .Header-module-scss-module__kft5ua__auth button {

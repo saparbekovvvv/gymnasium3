@@ -1,7 +1,6 @@
 "use client";
-
-import React, { useState, useEffect, useCallback } from "react";
-import { useParams } from "next/navigation";
+import React, { useState, useEffect, useCallback, useRef } from "react";
+import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
 import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
 import {
@@ -10,7 +9,7 @@ import {
   Trash2,
   MessageCircle,
   ThumbsUp,
-  User,
+  X,
 } from "lucide-react";
 import scss from "./NewsDetailContent.module.scss";
 import {
@@ -24,6 +23,7 @@ import {
 import { useGetAccountQuery } from "@/redux/api/profile";
 
 const NewsDetailContent: React.FC = () => {
+  const router = useRouter();
   const params = useParams();
   const newsId =
     typeof params.newsDetail === "string"
@@ -42,6 +42,9 @@ const NewsDetailContent: React.FC = () => {
   const [currentUser, setCurrentUser] = useState<string | null>(null);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userAvatars, setUserAvatars] = useState<Record<string, string>>({});
+  const [enlargedAvatar, setEnlargedAvatar] = useState<string | null>(null);
+  const [showCommentForm, setShowCommentForm] = useState(false);
+  const commentSectionRef = useRef<HTMLDivElement>(null);
 
   const { data: accountData } = useGetAccountQuery(null);
 
@@ -117,6 +120,18 @@ const NewsDetailContent: React.FC = () => {
 
     fetchUserAvatars();
   }, [commentsData]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (commentSectionRef.current) {
+        const rect = commentSectionRef.current.getBoundingClientRect();
+        setShowCommentForm(rect.top <= window.innerHeight);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const handleAddComment = useCallback(async () => {
     if (commentText.trim() && isLoggedIn) {
@@ -203,7 +218,7 @@ const NewsDetailContent: React.FC = () => {
       <div className={scss.commentActions}>
         <button
           onClick={() => handleLikeComment(comment.id)}
-          className={scss.actionButton}
+          className={`${scss.actionButton} ${comment.is_liked ? scss.liked : ''}`}
         >
           <ThumbsUp size={16} />
           <span>{comment.likes_count}</span>
@@ -264,9 +279,12 @@ const NewsDetailContent: React.FC = () => {
             width={40}
             height={40}
             className={scss.avatar}
+            onClick={() => setEnlargedAvatar(userAvatars[comment.author])}
           />
           <div className={scss.commentInfo}>
-            <span className={scss.commentAuthor}>{comment.author}</span>
+            <span className={scss.commentAuthor}>
+              {comment.author}
+            </span>
             <span className={scss.commentDate}>
               {new Date(comment.created_at).toLocaleString()}
             </span>
@@ -338,34 +356,52 @@ const NewsDetailContent: React.FC = () => {
             </div>
             <hr />
           </div>
-          <div className={scss.commentsSection}>
+          <div className={scss.commentsSection} ref={commentSectionRef}>
             <h2>Комментарии</h2>
             {commentsData &&
               commentsData.map((comment) => renderComment(comment))}
-            {isLoggedIn ? (
-              <div className={scss.addComment}>
-                {replyingTo ? (
-                  <p className={scss.replyingTo}>
-                    Ответ на комментарий пользователя {replyingTo.author}:
-                  </p>
-                ) : (
-                  <p className={scss.addNewComment}>
-                    Добавить новый комментарий:
-                  </p>
-                )}
-                {renderCommentForm(handleAddComment, () => {
-                  setReplyingTo(null);
-                  setCommentText("");
-                })}
-              </div>
-            ) : (
-              <p className={scss.loginPrompt}>
-                Пожалуйста, войдите в систему, чтобы оставить комментарий.
-              </p>
-            )}
           </div>
         </div>
       </div>
+      <div className={`${scss.fixedCommentForm} ${showCommentForm ? '' : scss.hidden}`}>
+        {isLoggedIn ? (
+          <div className={scss.addComment}>
+            {replyingTo ? (
+              <p className={scss.replyingTo}>
+                Ответ на комментарий пользователя {replyingTo.author}:
+              </p>
+            ) : (
+              <p className={scss.addNewComment}>
+                Добавить новый комментарий:
+              </p>
+            )}
+            {renderCommentForm(handleAddComment, () => {
+              setReplyingTo(null);
+              setCommentText("");
+            })}
+          </div>
+        ) : (
+          <p className={scss.loginPrompt}>
+            Пожалуйста, войдите в систему, чтобы оставить комментарий.
+          </p>
+        )}
+      </div>
+      {enlargedAvatar && (
+        <div className={`${scss.enlargedAvatarOverlay} ${scss.visible}`} onClick={() => setEnlargedAvatar(null)}>
+          <div className={scss.enlargedAvatarContainer}>
+            <Image
+              src={enlargedAvatar}
+              alt="Enlarged avatar"
+              width={200}
+              height={200}
+              className={scss.enlargedAvatar}
+            />
+            <button className={scss.closeButton} onClick={() => setEnlargedAvatar(null)}>
+              <X size={24} />
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

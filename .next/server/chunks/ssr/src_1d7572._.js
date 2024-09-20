@@ -40,7 +40,8 @@ const api = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2
         "accounts",
         "donations",
         "search",
-        "about"
+        "about",
+        "old_teachers"
     ],
     endpoints: ()=>({})
 });
