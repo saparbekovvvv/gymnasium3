@@ -56,7 +56,7 @@ const Header = () => {
 
   return (
     <header className={scss.header}>
-      <div className="container" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+      <div className="container">
         <div className={scss.content}>
           <div className={scss.hamburger} onClick={handleMenu}>
             <RxHamburgerMenu />
@@ -77,6 +77,9 @@ const Header = () => {
 
           <nav className={`${scss.nav} ${isMenuOpen ? scss.active : ""}`}>
             <ul onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              <li className={scss.disp}>
+                <Link href="/">{t("Башкы бет", "Главная")}</Link>
+              </li>
               <li>
                 <Link href="/news">{t("Жаңылыктар", "Новости")}</Link>
               </li>
@@ -94,6 +97,9 @@ const Header = () => {
               </li>
               <li>
                 <a onClick={handleScrollTo}>{t("Байланыштар", "Контакты")}</a>
+              </li>
+              <li>
+                <Link href="/fond">{t("Фонд", "Фонд")}</Link>
               </li>
             </ul>
           </nav>
