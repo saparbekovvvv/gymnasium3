@@ -136,9 +136,13 @@ __turbopack_export_value__({
   "copyright": "Footer-module-scss-module__ptjFbW__copyright",
   "footer": "Footer-module-scss-module__ptjFbW__footer",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "logo": "Footer-module-scss-module__ptjFbW__logo",
 =======
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+  "logo": "Footer-module-scss-module__ptjFbW__logo",
+>>>>>>> 7dfd0ddb (adds)
   "section": "Footer-module-scss-module__ptjFbW__section",
   "social": "Footer-module-scss-module__ptjFbW__social",
 });
@@ -312,6 +316,9 @@ const Footer = ()=>{
                                         columnNumber: 15
                                     }, this),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
                                         lineNumber: 44,
@@ -321,27 +328,35 @@ const Footer = ()=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
                                         lineNumber: 45,
+<<<<<<< HEAD
 =======
                                     "Баткенская область, Лейлекский район, ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
                                         lineNumber: 44,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 53
                                     }, this),
                                     "село Центральное ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         lineNumber: 46,
 =======
                                         lineNumber: 45,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                        lineNumber: 46,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 32
                                     }, this),
                                     "село Жаштык",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                                         lineNumber: 47,
@@ -352,6 +367,8 @@ const Footer = ()=>{
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         lineNumber: 48,
                                         columnNumber: 15
                                     }, this),
@@ -361,6 +378,9 @@ const Footer = ()=>{
                                         columnNumber: 15
                                     }, this),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                         children: "Контакты"
                                     }, void 0, false, {
@@ -368,15 +388,21 @@ const Footer = ()=>{
                                         lineNumber: 50,
                                         columnNumber: 15
                                     }, this),
+<<<<<<< HEAD
 =======
                                     "+9963123456789",
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
                                         lineNumber: 51,
                                         columnNumber: 15
                                     }, this),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
                                         lineNumber: 52,
@@ -392,22 +418,29 @@ const Footer = ()=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
                                         lineNumber: 56,
+<<<<<<< HEAD
 =======
                                     "+996703123456",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
                                         lineNumber: 53,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 15
                                     }, this),
                                     "+996556123456",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         lineNumber: 58,
 =======
                                         lineNumber: 55,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                        lineNumber: 58,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -429,10 +462,14 @@ const Footer = ()=>{
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     lineNumber: 63,
 =======
                                     lineNumber: 60,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                    lineNumber: 63,
+>>>>>>> 7dfd0ddb (adds)
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -442,6 +479,7 @@ const Footer = ()=>{
                                             href: "https://facebook.com",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$icons$40$5$2e$3$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaFacebookF"], {}, void 0, false, {
                                                 fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                                                 lineNumber: 63,
@@ -457,6 +495,8 @@ const Footer = ()=>{
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$icons$40$5$2e$3$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaInstagram"], {}, void 0, false, {
                                                 fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                 lineNumber: 66,
                                                 columnNumber: 17
                                             }, this)
@@ -467,12 +507,17 @@ const Footer = ()=>{
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             href: "https://instagram.com",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$icons$40$5$2e$3$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaInstagram"], {}, void 0, false, {
 =======
                                             href: "https://twitter.com",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$icons$40$5$2e$3$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaTwitter"], {}, void 0, false, {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                            href: "https://instagram.com",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$icons$40$5$2e$3$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaInstagram"], {}, void 0, false, {
+>>>>>>> 7dfd0ddb (adds)
                                                 fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
                                                 lineNumber: 69,
                                                 columnNumber: 17
@@ -484,12 +529,17 @@ const Footer = ()=>{
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             href: "https://twitter.com",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$icons$40$5$2e$3$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaTwitter"], {}, void 0, false, {
 =======
                                             href: "https://linkedin.com",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$icons$40$5$2e$3$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaLinkedinIn"], {}, void 0, false, {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                            href: "https://twitter.com",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$icons$40$5$2e$3$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaTwitter"], {}, void 0, false, {
+>>>>>>> 7dfd0ddb (adds)
                                                 fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
                                                 lineNumber: 72,
                                                 columnNumber: 17
@@ -499,6 +549,9 @@ const Footer = ()=>{
                                             lineNumber: 71,
                                             columnNumber: 15
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: "https://linkedin.com",
@@ -511,27 +564,38 @@ const Footer = ()=>{
                                             fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
                                             lineNumber: 74,
                                             columnNumber: 15
+<<<<<<< HEAD
 =======
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     lineNumber: 64,
 =======
                                     lineNumber: 61,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                    lineNumber: 64,
+>>>>>>> 7dfd0ddb (adds)
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                             lineNumber: 62,
 =======
                             lineNumber: 59,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                            lineNumber: 62,
+>>>>>>> 7dfd0ddb (adds)
                             columnNumber: 11
                         }, this)
                     ]
@@ -546,10 +610,14 @@ const Footer = ()=>{
                 }, void 0, false, {
                     fileName: "[project]/src/appPages/site/components/layout/footer/Footer.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                     lineNumber: 80,
 =======
                     lineNumber: 77,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                    lineNumber: 80,
+>>>>>>> 7dfd0ddb (adds)
                     columnNumber: 9
                 }, this)
             ]

@@ -5,14 +5,20 @@ module.exports = {
 __turbopack_export_value__({
   "content": "OlympaidTable-module-scss-module__4MJNkq__content",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
   "error": "OlympaidTable-module-scss-module__4MJNkq__error",
   "errorBlock": "OlympaidTable-module-scss-module__4MJNkq__errorBlock",
   "isLoadingBlock": "OlympaidTable-module-scss-module__4MJNkq__isLoadingBlock",
   "loading": "OlympaidTable-module-scss-module__4MJNkq__loading",
+<<<<<<< HEAD
 =======
   "errorBlock": "OlympaidTable-module-scss-module__4MJNkq__errorBlock",
   "isLoadingBlock": "OlympaidTable-module-scss-module__4MJNkq__isLoadingBlock",
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
   "studentIcon": "OlympaidTable-module-scss-module__4MJNkq__studentIcon",
   "studentInfo": "OlympaidTable-module-scss-module__4MJNkq__studentInfo",
   "table": "OlympaidTable-module-scss-module__4MJNkq__table",
@@ -82,10 +88,14 @@ __turbopack_esm__({
     "default": ()=>__TURBOPACK__default__export__
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.module.scss.module.css [app-ssr] (css module)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$defaultProfile$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$defaultProfile$2e$png__$5b$app$2d$ssr$5d$__$28$static$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/assets/images/defaultProfile.png.mjs { IMAGE => "[project]/src/assets/images/defaultProfile.png [app-ssr] (static)" } [app-ssr] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
+<<<<<<< HEAD
 =======
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.module.scss.module.css [app-ssr] (css module)");
@@ -93,6 +103,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$d
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$students$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/students/index.ts [app-ssr] (ecmascript)");
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
 "__TURBOPACK__ecmascript__hoisting__location__";
 "use client";
 ;
@@ -100,16 +112,22 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$stude
 ;
 ;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
 const OlympaidTable = ()=>{
     const { data, isLoading, isError } = useGet();
     if (isLoading) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].loading,
+<<<<<<< HEAD
 =======
 ;
 const OlympaidTable = ()=>{
     const { data, isLoading, isError } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$students$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useGetStudentsQuery"])();
     if (isLoading) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
         children: "Загрузка..."
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
@@ -117,6 +135,9 @@ const OlympaidTable = ()=>{
         columnNumber: 27
     }, this);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
     if (isError || !data) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].error,
         children: "Ошибка при загрузке данных."
@@ -133,6 +154,7 @@ const OlympaidTable = ()=>{
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].content,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+<<<<<<< HEAD
 =======
     if (isError || !data) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: "Ошибка при загрузке данных."
@@ -150,11 +172,16 @@ const OlympaidTable = ()=>{
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].title,
                         children: "Олимпийцы"
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                         lineNumber: 20,
                         columnNumber: 21
                     }, this),
@@ -165,6 +192,7 @@ const OlympaidTable = ()=>{
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].tableTitle,
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+<<<<<<< HEAD
 =======
                         lineNumber: 19,
                         columnNumber: 21
@@ -177,17 +205,23 @@ const OlympaidTable = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].titleText,
                                         children: "No."
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         lineNumber: 23,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].titleText,
                                         children: "Имя ученика"
+<<<<<<< HEAD
 =======
                                         lineNumber: 22,
                                         columnNumber: 29
@@ -204,12 +238,17 @@ const OlympaidTable = ()=>{
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].titleText,
                                         children: "Класс"
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
                                         lineNumber: 24,
                                         columnNumber: 29
                                     }, this),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].titleText,
                                         children: "Класс"
@@ -219,24 +258,34 @@ const OlympaidTable = ()=>{
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+<<<<<<< HEAD
 =======
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].titleText,
                                         children: "Кл. руководитель"
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         lineNumber: 26,
 =======
                                         lineNumber: 25,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                        lineNumber: 26,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                 lineNumber: 22,
                                 columnNumber: 25
                             }, this),
@@ -254,6 +303,7 @@ const OlympaidTable = ()=>{
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].studentInfo,
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+<<<<<<< HEAD
 =======
                                 lineNumber: 21,
                                 columnNumber: 25
@@ -273,11 +323,16 @@ const OlympaidTable = ()=>{
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].tableTextNumber,
                                                     children: index + 1
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                     lineNumber: 35,
                                                     columnNumber: 37
                                                 }, this),
@@ -285,6 +340,7 @@ const OlympaidTable = ()=>{
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].tableName,
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+<<<<<<< HEAD
 =======
                                                     lineNumber: 34,
                                                     columnNumber: 37
@@ -294,16 +350,22 @@ const OlympaidTable = ()=>{
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].studentIcon,
                                                             src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$defaultProfile$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$defaultProfile$2e$png__$5b$app$2d$ssr$5d$__$28$static$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                                                             alt: "Аватар студента"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                             lineNumber: 39,
 =======
                                                             lineNumber: 38,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                                            lineNumber: 39,
+>>>>>>> 7dfd0ddb (adds)
                                                             columnNumber: 41
                                                         }, this),
                                                         item.surname,
@@ -315,16 +377,22 @@ const OlympaidTable = ()=>{
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                     lineNumber: 38,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+<<<<<<< HEAD
 =======
                                                     lineNumber: 37,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].tableText,
                                                     children: [
                                                         item.school_class.grade,
@@ -334,83 +402,117 @@ const OlympaidTable = ()=>{
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                     lineNumber: 47,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+<<<<<<< HEAD
 =======
                                                     lineNumber: 46,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].tableText,
                                                     children: item.classroom_teacher?.map((teacher)=>teacher.name).join(", ")
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                     lineNumber: 51,
 =======
                                                     lineNumber: 50,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                                    lineNumber: 51,
+>>>>>>> 7dfd0ddb (adds)
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, `${item.surname}-${item.name}-${item.last_name}-${index}`, true, {
                                             fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             lineNumber: 31,
 =======
                                             lineNumber: 30,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                            lineNumber: 31,
+>>>>>>> 7dfd0ddb (adds)
                                             columnNumber: 33
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 lineNumber: 28,
 =======
                                 lineNumber: 27,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                lineNumber: 28,
+>>>>>>> 7dfd0ddb (adds)
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                         lineNumber: 21,
 =======
                         lineNumber: 20,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                        lineNumber: 21,
+>>>>>>> 7dfd0ddb (adds)
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 lineNumber: 19,
 =======
                 lineNumber: 18,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                lineNumber: 19,
+>>>>>>> 7dfd0ddb (adds)
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
             lineNumber: 18,
 =======
             lineNumber: 17,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+            lineNumber: 18,
+>>>>>>> 7dfd0ddb (adds)
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
         lineNumber: 17,
 =======
         lineNumber: 16,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+        lineNumber: 17,
+>>>>>>> 7dfd0ddb (adds)
         columnNumber: 9
     }, this);
 };

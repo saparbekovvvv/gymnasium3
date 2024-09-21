@@ -58,10 +58,14 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/index.ts [app-client] (ecmascript)");
 <<<<<<< HEAD
+<<<<<<< HEAD
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 =======
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.11_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+>>>>>>> 7dfd0ddb (adds)
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 const ENDPOINTS = ("TURBOPACK compile-time value", "api");
@@ -88,11 +92,15 @@ __turbopack_esm__({
     "default": ()=>__TURBOPACK__default__export__
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.module.scss.module.css [app-client] (css module)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$defaultProfile$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$defaultProfile$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/assets/images/defaultProfile.png.mjs { IMAGE => "[project]/src/assets/images/defaultProfile.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/image.js [app-client] (ecmascript)");
+<<<<<<< HEAD
 =======
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.11_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.11_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
@@ -100,6 +108,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$c
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$defaultProfile$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$defaultProfile$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/assets/images/defaultProfile.png.mjs { IMAGE => "[project]/src/assets/images/defaultProfile.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.11_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/image.js [app-client] (ecmascript)");
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$graduates$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/graduates/index.ts [app-client] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
@@ -114,6 +124,7 @@ const GraduatesFirstTab = ()=>{
     _s();
     const { data, isLoading, isError } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$graduates$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useGetGraduatesQuery"])();
 <<<<<<< HEAD
+<<<<<<< HEAD
     const [filteredData, setFilteredData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(data || []);
     if (isLoading) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
 =======
@@ -121,30 +132,44 @@ const GraduatesFirstTab = ()=>{
     const [filteredData, setFilteredData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(data || []);
     if (isLoading) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+    const [filteredData, setFilteredData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(data || []);
+    if (isLoading) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+>>>>>>> 7dfd0ddb (adds)
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].loading,
         children: "Загрузка..."
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
         lineNumber: 13,
         columnNumber: 27
     }, this);
     if (isError || !data) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+<<<<<<< HEAD
 =======
         lineNumber: 14,
         columnNumber: 27
     }, this);
     if (isError || !data) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].error,
         children: "Ошибка при загрузке данных."
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
         lineNumber: 15,
 =======
         lineNumber: 16,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+        lineNumber: 15,
+>>>>>>> 7dfd0ddb (adds)
         columnNumber: 16
     }, this);
     const filterData = (year)=>{
@@ -157,6 +182,9 @@ const GraduatesFirstTab = ()=>{
     };
     const uniqueYears = Array.from(new Set(data.map((graduate)=>graduate.year)));
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].GraduatesFirstTab,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -165,6 +193,7 @@ const GraduatesFirstTab = ()=>{
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].content,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+<<<<<<< HEAD
 =======
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].GraduatesFirstTab,
@@ -175,11 +204,16 @@ const GraduatesFirstTab = ()=>{
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].title,
                         children: "Список выпускников"
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                         lineNumber: 34,
                         columnNumber: 21
                     }, this),
@@ -187,6 +221,7 @@ const GraduatesFirstTab = ()=>{
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].show,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+<<<<<<< HEAD
 =======
                         lineNumber: 35,
                         columnNumber: 21
@@ -196,11 +231,16 @@ const GraduatesFirstTab = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].showTitle,
                                 children: "Фильтрация"
                             }, void 0, false, {
                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                 lineNumber: 36,
                                 columnNumber: 25
                             }, this),
@@ -208,6 +248,7 @@ const GraduatesFirstTab = ()=>{
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].selector,
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+<<<<<<< HEAD
 =======
                                 lineNumber: 37,
                                 columnNumber: 25
@@ -217,17 +258,23 @@ const GraduatesFirstTab = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].button,
                                         onClick: ()=>filterData(),
                                         children: "Все"
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         lineNumber: 38,
                                         columnNumber: 29
                                     }, this),
                                     uniqueYears.map((year)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+<<<<<<< HEAD
 =======
                                         lineNumber: 39,
                                         columnNumber: 29
@@ -235,41 +282,58 @@ const GraduatesFirstTab = ()=>{
                                     uniqueYears.map((year)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].button,
                                                 onClick: ()=>filterData(year),
                                                 children: year
                                             }, void 0, false, {
                                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 lineNumber: 46,
 =======
                                                 lineNumber: 47,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                                lineNumber: 46,
+>>>>>>> 7dfd0ddb (adds)
                                                 columnNumber: 37
                                             }, this)
                                         }, year, false, {
                                             fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             lineNumber: 45,
 =======
                                             lineNumber: 46,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                            lineNumber: 45,
+>>>>>>> 7dfd0ddb (adds)
                                             columnNumber: 33
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 lineNumber: 37,
 =======
                                 lineNumber: 38,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                lineNumber: 37,
+>>>>>>> 7dfd0ddb (adds)
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                         lineNumber: 35,
                         columnNumber: 21
                     }, this),
@@ -280,6 +344,7 @@ const GraduatesFirstTab = ()=>{
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tableTitle,
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+<<<<<<< HEAD
 =======
                         lineNumber: 36,
                         columnNumber: 21
@@ -292,11 +357,16 @@ const GraduatesFirstTab = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].titleText,
                                         children: "No."
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         lineNumber: 59,
                                         columnNumber: 29
                                     }, this),
@@ -309,6 +379,7 @@ const GraduatesFirstTab = ()=>{
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+<<<<<<< HEAD
 =======
                                         lineNumber: 60,
                                         columnNumber: 29
@@ -323,21 +394,30 @@ const GraduatesFirstTab = ()=>{
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].titleText,
                                         children: "Орт"
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         lineNumber: 61,
 =======
                                         lineNumber: 62,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                        lineNumber: 61,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                 lineNumber: 58,
                                 columnNumber: 25
                             }, this),
@@ -355,6 +435,7 @@ const GraduatesFirstTab = ()=>{
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].studentInfo,
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+<<<<<<< HEAD
 =======
                                 lineNumber: 59,
                                 columnNumber: 25
@@ -374,11 +455,16 @@ const GraduatesFirstTab = ()=>{
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tableTextNumber,
                                                     children: index + 1
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                     lineNumber: 70,
                                                     columnNumber: 37
                                                 }, this),
@@ -386,6 +472,7 @@ const GraduatesFirstTab = ()=>{
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tableName,
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+<<<<<<< HEAD
 =======
                                                     lineNumber: 71,
                                                     columnNumber: 37
@@ -395,6 +482,8 @@ const GraduatesFirstTab = ()=>{
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].studentIcon,
                                                             src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$defaultProfile$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$defaultProfile$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                                                             alt: "Фото профиля",
@@ -403,10 +492,14 @@ const GraduatesFirstTab = ()=>{
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                             lineNumber: 74,
 =======
                                                             lineNumber: 75,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                                            lineNumber: 74,
+>>>>>>> 7dfd0ddb (adds)
                                                             columnNumber: 41
                                                         }, this),
                                                         item.surname,
@@ -418,83 +511,117 @@ const GraduatesFirstTab = ()=>{
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                     lineNumber: 73,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+<<<<<<< HEAD
 =======
                                                     lineNumber: 74,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].tableText,
                                                     children: item.ort
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                     lineNumber: 84,
 =======
                                                     lineNumber: 85,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                                    lineNumber: 84,
+>>>>>>> 7dfd0ddb (adds)
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             lineNumber: 69,
 =======
                                             lineNumber: 70,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                            lineNumber: 69,
+>>>>>>> 7dfd0ddb (adds)
                                             columnNumber: 33
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 lineNumber: 63,
 =======
                                 lineNumber: 64,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                lineNumber: 63,
+>>>>>>> 7dfd0ddb (adds)
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                         lineNumber: 57,
 =======
                         lineNumber: 58,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                        lineNumber: 57,
+>>>>>>> 7dfd0ddb (adds)
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 lineNumber: 33,
 =======
                 lineNumber: 34,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                lineNumber: 33,
+>>>>>>> 7dfd0ddb (adds)
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
             lineNumber: 32,
 =======
             lineNumber: 33,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+            lineNumber: 32,
+>>>>>>> 7dfd0ddb (adds)
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
         lineNumber: 31,
 =======
         lineNumber: 32,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+        lineNumber: 31,
+>>>>>>> 7dfd0ddb (adds)
         columnNumber: 9
     }, this);
 };
@@ -538,10 +665,14 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/index.ts [app-client] (ecmascript)");
 <<<<<<< HEAD
+<<<<<<< HEAD
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 =======
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.11_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+>>>>>>> 7dfd0ddb (adds)
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 const ENDPOINTS = ("TURBOPACK compile-time value", "api");
@@ -569,10 +700,14 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/index.ts [app-client] (ecmascript)");
 <<<<<<< HEAD
+<<<<<<< HEAD
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 =======
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.11_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+>>>>>>> 7dfd0ddb (adds)
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 const ENDPOINTS = ("TURBOPACK compile-time value", "api");
@@ -599,6 +734,7 @@ __turbopack_esm__({
     "default": ()=>__TURBOPACK__default__export__
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.module.scss.module.css [app-client] (css module)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/image.js [app-client] (ecmascript)");
@@ -608,6 +744,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$c
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.11_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$our_achievements$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/our_achievements/index.ts [app-client] (ecmascript)");
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.module.scss.module.css [app-client] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.5_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/image.js [app-client] (ecmascript)");
+>>>>>>> 7dfd0ddb (adds)
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$successful_graduates$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/successful_graduates/index.ts [app-client] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
@@ -617,10 +758,14 @@ var _s = __turbopack_refresh__.signature();
 ;
 ;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
 const GraduatesMainContent = ()=>{
     _s();
     const { data, isLoading, isError } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$successful_graduates$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useGetSuccessfulGraduatesQuery"])();
     if (isLoading) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+<<<<<<< HEAD
 =======
 ;
 const GraduatesMainContent = ()=>{
@@ -628,26 +773,37 @@ const GraduatesMainContent = ()=>{
     const { data, isLoading, isError } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$successful_graduates$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useGetSuccessfulGraduatesQuery"])();
     if (isLoading) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].loading,
         children: "Загрузка..."
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
         lineNumber: 11,
         columnNumber: 27
     }, this);
     if (isError || !data) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+<<<<<<< HEAD
 =======
         lineNumber: 12,
         columnNumber: 27
     }, this);
     if (isError || !data) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].error,
         children: "Ошибка при загрузке данных."
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
         lineNumber: 13,
         columnNumber: 16
     }, this);
@@ -659,6 +815,7 @@ const GraduatesMainContent = ()=>{
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].content,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+<<<<<<< HEAD
 =======
         lineNumber: 14,
         columnNumber: 16
@@ -673,11 +830,16 @@ const GraduatesMainContent = ()=>{
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].titleText,
                         children: "Выпускники"
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                         lineNumber: 19,
                         columnNumber: 21
                     }, this),
@@ -685,6 +847,7 @@ const GraduatesMainContent = ()=>{
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].mainContent,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+<<<<<<< HEAD
 =======
                         lineNumber: 22,
                         columnNumber: 21
@@ -694,11 +857,16 @@ const GraduatesMainContent = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].mainContent_title,
                                 children: "Гордость гимназии"
                             }, void 0, false, {
                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                 lineNumber: 21,
                                 columnNumber: 25
                             }, this),
@@ -711,6 +879,7 @@ const GraduatesMainContent = ()=>{
                                         },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+<<<<<<< HEAD
 =======
                                 lineNumber: 24,
                                 columnNumber: 25
@@ -722,6 +891,8 @@ const GraduatesMainContent = ()=>{
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                 quality: 70,
                                                 width: 700,
                                                 height: 500,
@@ -734,6 +905,9 @@ const GraduatesMainContent = ()=>{
                                                 columnNumber: 37
                                             }, this),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].graduateinfo,
                                                 children: [
@@ -744,6 +918,7 @@ const GraduatesMainContent = ()=>{
                                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].graduateName,
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+<<<<<<< HEAD
 =======
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].graduateinfo,
@@ -756,6 +931,8 @@ const GraduatesMainContent = ()=>{
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                                                         children: item.graduate.surname
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
@@ -763,10 +940,14 @@ const GraduatesMainContent = ()=>{
                                                                         columnNumber: 49
                                                                     }, this),
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
 =======
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+>>>>>>> 7dfd0ddb (adds)
                                                                         children: item.graduate.name
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
@@ -774,10 +955,14 @@ const GraduatesMainContent = ()=>{
                                                                         columnNumber: 49
                                                                     }, this),
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
 =======
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+>>>>>>> 7dfd0ddb (adds)
                                                                         children: item.graduate.last_name
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
@@ -791,10 +976,14 @@ const GraduatesMainContent = ()=>{
                                                                 columnNumber: 45
                                                             }, this),
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 =======
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+>>>>>>> 7dfd0ddb (adds)
                                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].graduateDate,
                                                                 children: item.year
                                                             }, void 0, false, {
@@ -809,16 +998,21 @@ const GraduatesMainContent = ()=>{
                                                         columnNumber: 41
                                                     }, this),
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
 =======
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
+>>>>>>> 7dfd0ddb (adds)
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].hr
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
                                                         lineNumber: 56,
                                                         columnNumber: 41
                                                     }, this),
+<<<<<<< HEAD
 <<<<<<< HEAD
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].biography,
@@ -828,6 +1022,11 @@ const GraduatesMainContent = ()=>{
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].biography,
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].biography,
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$5_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+>>>>>>> 7dfd0ddb (adds)
                                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].graduateBio,
                                                             children: item.content
                                                         }, void 0, false, {
@@ -850,57 +1049,81 @@ const GraduatesMainContent = ()=>{
                                     }, item.graduate.name, true, {
                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         lineNumber: 26,
 =======
                                         lineNumber: 29,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                        lineNumber: 26,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 33
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 lineNumber: 24,
 =======
                                 lineNumber: 27,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                lineNumber: 24,
+>>>>>>> 7dfd0ddb (adds)
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                         lineNumber: 20,
 =======
                         lineNumber: 23,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                        lineNumber: 20,
+>>>>>>> 7dfd0ddb (adds)
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 lineNumber: 18,
 =======
                 lineNumber: 21,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                lineNumber: 18,
+>>>>>>> 7dfd0ddb (adds)
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
             lineNumber: 17,
 =======
             lineNumber: 20,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+            lineNumber: 17,
+>>>>>>> 7dfd0ddb (adds)
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
         lineNumber: 16,
 =======
         lineNumber: 19,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+        lineNumber: 16,
+>>>>>>> 7dfd0ddb (adds)
         columnNumber: 9
     }, this);
 };

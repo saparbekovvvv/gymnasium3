@@ -3,6 +3,9 @@
     "/(site)/news/[newsDetail]/page": [
       "static/chunks/[root of the server]__1e9e25._.css",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
       "static/chunks/node_modules__pnpm_c0b1d5._.js",
       "static/chunks/src_7a1d0f._.js",
       "static/chunks/src_app_layout_tsx_830237._.js",
@@ -23,6 +26,7 @@
       "static/chunks/[turbopack]_dev_client_hmr-client_ts_91c708._.js",
       "static/chunks/64365_next_dist_esm_build_templates_app-page_10153a.js",
       "static/chunks/64365_next_dist_esm_build_templates_app-page_d141dd.js"
+<<<<<<< HEAD
 =======
       "static/chunks/node_modules__pnpm_4afc62._.js",
       "static/chunks/src_7a1d0f._.js",
@@ -54,6 +58,8 @@
       "static/chunks/d1431_next_dist_esm_build_templates_app-page_e2e8a8.js",
       "static/chunks/d1431_next_dist_esm_build_templates_app-page_585fab.js"
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
     ]
   }
 }
