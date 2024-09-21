@@ -43,7 +43,7 @@
 
 #TeachersContent-module-scss-module__J-1L6W__content .TeachersContent-module-scss-module__J-1L6W__teacher {
   position: absolute;
-  top: 0;
+  top: -58px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;

@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import scss from "./StudentsContent.module.scss";
-import student from "../../../../../../assets/images/image 6.png";
+import student from "../../../../../../assets/images/6W3A9339-removebg-preview.png";
 import circle from "../../../../../../assets/images/Ellipse 19.png";
 import { useRouter } from "next/navigation";
 import { useLanguageStore } from "@/stores/useLanguageStore";

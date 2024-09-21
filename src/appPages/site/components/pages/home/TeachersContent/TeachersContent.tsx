@@ -2,7 +2,7 @@
 import Image from "next/image";
 import scss from "./TeachersContent.module.scss";
 import circle from "../../../../../../assets/images/Ellipse 19.png";
-import teacher from "../../../../../../assets/images/image 9.png";
+import teacher from "../../../../../../assets/images/6W3A9306-removebg-preview.png";
 import { useRouter } from "next/navigation";
 import { useLanguageStore } from "@/stores/useLanguageStore";
 

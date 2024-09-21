@@ -39,7 +39,7 @@
 
 #StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__student {
   position: absolute;
-  top: 0;
+  top: -58px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
