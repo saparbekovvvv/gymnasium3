@@ -42,6 +42,7 @@ __turbopack_export_value__({
   "content": "OlympaidsSelection-module-scss-module__htiFGG__content",
   "error": "OlympaidsSelection-module-scss-module__htiFGG__error",
   "loading": "OlympaidsSelection-module-scss-module__htiFGG__loading",
+  "title": "OlympaidsSelection-module-scss-module__htiFGG__title",
 });
 
 })()),

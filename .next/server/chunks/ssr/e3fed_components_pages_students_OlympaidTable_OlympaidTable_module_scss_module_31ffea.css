@@ -10,7 +10,7 @@
 
 .OlympaidTable-module-scss-module__4MJNkq__tableTitle {
   display: grid;
-  grid-template-columns: .3fr 2fr 1fr;
+  grid-template-columns: .3fr 2fr;
   gap: 120px;
 }
 
@@ -36,7 +36,7 @@
 
 .OlympaidTable-module-scss-module__4MJNkq__studentInfo {
   display: grid;
-  grid-template-columns: .3fr 2fr 1fr;
+  grid-template-columns: .3fr 2fr;
   gap: 120px;
 }
 

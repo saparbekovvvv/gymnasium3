@@ -302,7 +302,7 @@
     .tableTitle {
         display: grid;
         grid-template-columns: 0.1fr 2.3fr;
-        gap: 10px;
+        gap: 20px;
     }
     .title {
         font-size: 12px;
@@ -317,29 +317,29 @@
         display: grid;
         padding: 2px 0;
         grid-template-columns: 0.1fr 2.3fr;
-        gap: 10px;
+        gap: 20px;
     }
 
     .titleText {
         padding: 0;
 
-        font-size: 10px;
+        font-size: 14px;
         font-weight: 400;
     }
     .tableText {
         padding: 0;
 
-        font-size: 10px;
+        font-size: 14px;
         font-weight: 400;
     }
 
     .tableTextNumber {
-        font-size: 10px;
+        font-size: 14px;
         font-weight: 400;
     }
 
     .tableName {
-        font-size: 10px;
+        font-size: 14px;
         font-weight: 400;
     }
 }
@@ -348,7 +348,7 @@
     .tableTitle {
         display: grid;
         grid-template-columns: 0.1fr 2.3fr;
-        gap: 8px;
+        gap: 20px;
     }
     .title {
         font-size: 12px;
@@ -356,31 +356,31 @@
 
     .studentInfo {
         display: grid;
-        padding: 2px 0;
+        padding: 0 0;
         grid-template-columns: 0.1fr 2.3fr;
-        gap: 8px;
+        gap: 20px;
     }
 
     .titleText {
         padding: 0;
 
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 400;
     }
     .tableText {
         padding: 0;
 
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 400;
     }
 
     .tableTextNumber {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 400;
     }
 
     .tableName {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 400;
     }
 }
