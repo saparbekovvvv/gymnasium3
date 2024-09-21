@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import scss from "./StudentsContent.module.scss";
-import student from "../../../../../../assets/images/image 6.png";
+import student from "../../../../../../assets/images/6W3A9339-removebg-preview.png";
 import circle from "../../../../../../assets/images/Ellipse 19.png";
 import { useRouter } from "next/navigation";
 import { useLanguageStore } from "@/stores/useLanguageStore";
@@ -13,7 +13,7 @@ const StudentsContent = () => {
   return (
     <section id={scss.content}>
       <div className="container">
-        <h1>{t("Биздин студенттер", "Наши ученики")}</h1>
+        <h1>{t("Биздин окуучулар", "Наши ученики")}</h1>
         <div className={scss.content}>
           <div className={scss.imageWrapper}>
             <Image
@@ -27,7 +27,7 @@ const StudentsContent = () => {
             className={scss.button}
             onClick={() => router.push("/students")}
           >
-            {t("Бардык студенттер", "Все ученики")}
+            {t("Бардык окуучулар", "Все ученики")}
           </button>
         </div>
       </div>
