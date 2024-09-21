@@ -3,10 +3,10 @@ const nextConfig = {
     images: {
         remotePatterns: [
             {
-                protocol: "http", // Используйте http, если ссылка начинается с http
+                protocol: "http",
                 hostname: "3-gymnasium.kg",
                 port: "",
-                pathname: "/media/images/**", // Убедитесь, что путь соответствует вашим изображениям
+                pathname: "/media/**", // Changed to cover both /media/images/ and /media/avatars/
             },
             {
                 protocol: "https",
