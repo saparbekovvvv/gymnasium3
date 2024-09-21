@@ -37,7 +37,7 @@
 
   .student {
     position: absolute;
-    top: -58px;
+    top: -60px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
@@ -55,7 +55,7 @@
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 350px;
+    margin-top: 348px;
     z-index: 3;
 
     &:hover {

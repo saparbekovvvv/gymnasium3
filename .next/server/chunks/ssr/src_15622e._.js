@@ -1033,7 +1033,7 @@ const StudentsContent = ()=>{
             className: "container",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    children: t("Биздин студенттер", "Наши ученики")
+                    children: t("Биздин окуучулар", "Наши ученики")
                 }, void 0, false, {
                     fileName: "[project]/src/appPages/site/components/pages/home/StudentsContent/StudentsContent.tsx",
                     lineNumber: 16,
@@ -1072,7 +1072,7 @@ const StudentsContent = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$home$2f$StudentsContent$2f$StudentsContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].button,
                             onClick: ()=>router.push("/students"),
-                            children: t("Бардык студенттер", "Все ученики")
+                            children: t("Бардык окуучулар", "Все ученики")
                         }, void 0, false, {
                             fileName: "[project]/src/appPages/site/components/pages/home/StudentsContent/StudentsContent.tsx",
                             lineNumber: 26,
