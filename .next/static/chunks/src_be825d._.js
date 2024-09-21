@@ -3,155 +3,181 @@
 "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
 
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$fond$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/fond/index.ts [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.module.scss.module.css [app-client] (css module)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-client] (ecmascript)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
+import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
 var _s = __turbopack_refresh__.signature();
 "use client";
-;
-;
-;
+import { useGetFondQuery } from "@/redux/api/fond";
+import scss from "./FondContent.module.scss";
+import Link from "next/link";
+import { useLanguageStore } from "@/stores/useLanguageStore";
 const FondContent = ()=>{
     _s();
-    const { data, isLoading, isError } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$fond$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useGetFondQuery"])();
-    console.log(data, "FondContent");
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].fondContent,
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].container,
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].content,
+    const { data, isLoading, isError } = useGetFondQuery();
+    const { isKyrgyz, t } = useLanguageStore();
+    const totalPrice = data ? data.reduce((total, item)=>{
+        return item.is_verified ? total + Math.floor(+item.amount) : total;
+    }, 0) : 0;
+    return /*#__PURE__*/ _jsxDEV("div", {
+        className: scss.fondContent,
+        children: /*#__PURE__*/ _jsxDEV("div", {
+            className: scss.container,
+            children: /*#__PURE__*/ _jsxDEV("div", {
+                className: scss.content,
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].title,
+                    /*#__PURE__*/ _jsxDEV("h1", {
+                        className: scss.title,
                         children: "Фонд"
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-                        lineNumber: 16,
+                        lineNumber: 22,
                         columnNumber: 11
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].divider
-                    }, void 0, false, {
-                        fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-                        lineNumber: 17,
-                        columnNumber: 11
-                    }, this),
-                    isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].message,
-                        children: "Загрузка пожертвований..."
-                    }, void 0, false, {
-                        fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-                        lineNumber: 20,
-                        columnNumber: 13
-                    }, this),
-                    isError && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].message,
-                        children: "Ошибка при загрузке пожертвований. Пожалуйста, попробуйте позже."
+                    /*#__PURE__*/ _jsxDEV("hr", {
+                        className: scss.divider
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
                         lineNumber: 23,
+                        columnNumber: 11
+                    }, this),
+                    isLoading && /*#__PURE__*/ _jsxDEV("p", {
+                        className: scss.message,
+                        children: "Загрузка пожертвований..."
+                    }, void 0, false, {
+                        fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
+                        lineNumber: 26,
                         columnNumber: 13
                     }, this),
-                    data && data.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].donationsList,
-                        children: data.map((item)=>item.is_verified ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].donationItem,
+                    isError && /*#__PURE__*/ _jsxDEV("p", {
+                        className: scss.message,
+                        children: "Ошибка при загрузке пожертвований. Пожалуйста, попробуйте позже."
+                    }, void 0, false, {
+                        fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
+                        lineNumber: 29,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ _jsxDEV("div", {
+                        className: scss.totalPrice,
+                        children: /*#__PURE__*/ _jsxDEV("h3", {
+                            children: [
+                                t("Жалпы сумма", "Общая сумма"),
+                                " ",
+                                /*#__PURE__*/ _jsxDEV("span", {
+                                    children: [
+                                        totalPrice,
+                                        " Сом"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
+                                    lineNumber: 36,
+                                    columnNumber: 49
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
+                            lineNumber: 35,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
+                        lineNumber: 34,
+                        columnNumber: 11
+                    }, this),
+                    data && data.length > 0 ? /*#__PURE__*/ _jsxDEV("div", {
+                        className: scss.donationsList,
+                        children: data.map((item)=>item.is_verified ? /*#__PURE__*/ _jsxDEV("div", {
+                                className: scss.donationItem,
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].donor,
+                                    /*#__PURE__*/ _jsxDEV("h2", {
+                                        className: scss.donor,
                                         children: [
-                                            "Отправитель: ",
+                                            " ",
+                                            t("Жөнөтүүчү", "Отправитель"),
+                                            ": ",
                                             item.user
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-                                        lineNumber: 33,
+                                        lineNumber: 45,
                                         columnNumber: 21
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].amount,
+                                    /*#__PURE__*/ _jsxDEV("p", {
+                                        className: scss.amount,
                                         children: [
                                             Math.floor(+item.amount),
                                             " Сом"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-                                        lineNumber: 34,
+                                        lineNumber: 49,
                                         columnNumber: 21
                                     }, this),
-                                    item.comment && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].comment,
+                                    item.comment && /*#__PURE__*/ _jsxDEV("p", {
+                                        className: scss.comment,
                                         children: item.comment
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-                                        lineNumber: 38,
+                                        lineNumber: 53,
                                         columnNumber: 23
                                     }, this)
                                 ]
                             }, item.id, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-                                lineNumber: 32,
+                                lineNumber: 44,
                                 columnNumber: 19
                             }, this) : null)
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-                        lineNumber: 29,
+                        lineNumber: 41,
                         columnNumber: 13
-                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].message,
-                        children: "Пожертвований не найдено."
+                    }, this) : /*#__PURE__*/ _jsxDEV("p", {
+                        className: scss.message,
+                        children: " не найдено."
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-                        lineNumber: 45,
+                        lineNumber: 60,
                         columnNumber: 13
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    /*#__PURE__*/ _jsxDEV(Link, {
                         href: "/fond/donation",
-                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].donateLink,
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].donateButton,
-                            children: "Акча салуу"
+                        className: scss.donateLink,
+                        children: /*#__PURE__*/ _jsxDEV("button", {
+                            className: scss.donateButton,
+                            children: t("Акча салуу", "Внести деньги")
                         }, void 0, false, {
                             fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-                            lineNumber: 51,
+                            lineNumber: 64,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-                        lineNumber: 50,
+                        lineNumber: 63,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-                lineNumber: 15,
+                lineNumber: 21,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-            lineNumber: 14,
+            lineNumber: 20,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
-        lineNumber: 13,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 };
-_s(FondContent, "kIHNgUWrcjVyTLq0p4UblEQnCl4=", false, function() {
+_s(FondContent, "nESufbXrNs5Uu7AtXqkxsifaM4c=", false, function() {
     return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$fond$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useGetFondQuery"]
+        useGetFondQuery,
+        useLanguageStore
     ];
 });
 _c = FondContent;
-const __TURBOPACK__default__export__ = FondContent;
+export default FondContent;
 var _c;
 __turbopack_refresh__.register(_c, "FondContent");
 
