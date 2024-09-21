@@ -7,9 +7,11 @@ import avatar from "../../../../../../assets/images/defaultProfile.png";
 import { useGetOlympiansSelectionQuery } from "@/redux/api/olympians";
 import { useParams } from "next/navigation";
 import Image from "next/image";
+import { useLanguageStore } from "@/stores/useLanguageStore";
 
 const OlympaidTable = () => {
     const { category_id } = useParams();
+    const { isKyrgyz, t } = useLanguageStore();
 
     const { data, isLoading, isError } = useGetOlympiansSelectionQuery(
         String(category_id)
@@ -17,21 +19,38 @@ const OlympaidTable = () => {
 
     console.log(data);
 
-    // if (isLoading) return <div className={scss.loading}>Загрузка...</div>;
-    // if (isError || !data) {
-    //     return <div className={scss.error}>Ошибка при загрузке данных.</div>;
-    // }
-
+    //  if (isLoading)
+    //      return (
+    //          <div className={scss.loading}>
+    //              {t("Жүктөлүүдө...", "Загрузка...")}
+    //          </div>
+    //      );
+    //  if (isError || !data) {
+    //      return (
+    //          <div className={scss.error}>
+    //              {t(
+    //                  "Маалыматты жүктөөдө ката кетти",
+    //                  "Ошибка при загрузке данных"
+    //              )}
+    //          </div>
+    //      );
+    //  }
     return (
         <section className={scss.OlympaidTable}>
             <div className="container">
                 <div className={scss.content}>
-                    <h2 className={scss.title}>Олимпийцы</h2>
+                    <h2 className={scss.title}>
+                        {" "}
+                        {t("Олимпиядачылар", "Олимпийцы")}
+                    </h2>
                     {/* <h2 className={scss.title}>{category_id}</h2> */}
                     <div className={scss.table}>
                         <div className={scss.tableTitle}>
                             <h1 className={scss.titleText}>No.</h1>
-                            <h1 className={scss.titleText}>Имя ученика</h1>
+                            <h1 className={scss.titleText}>
+                                {" "}
+                                {t("Окуучунун аты", "Имя ученика")}
+                            </h1>
                         </div>
                         <div className={scss.tableContent}>
                             <div className={scss.hr}></div>

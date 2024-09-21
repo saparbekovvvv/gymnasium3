@@ -4,22 +4,40 @@ import React from "react";
 import scss from "./GraduatesMainContent.module.scss";
 import Image from "next/image";
 import { useGetSuccessfulGraduatesQuery } from "@/redux/api/successful_graduates";
+import { useLanguageStore } from "@/stores/useLanguageStore";
 
 const GraduatesMainContent = () => {
+    const { isKyrgyz, t } = useLanguageStore();
+
     const { data, isLoading, isError } = useGetSuccessfulGraduatesQuery();
 
-    if (isLoading) return <div className={scss.loading}>Загрузка...</div>;
-    if (isError || !data)
-        return <div className={scss.error}>Ошибка при загрузке данных.</div>;
-
+    if (isLoading)
+        return (
+            <div className={scss.loading}>
+                {t("Жүктөлүүдө...", "Загрузка...")}
+            </div>
+        );
+    if (isError || !data) {
+        return (
+            <div className={scss.error}>
+                {t(
+                    "Маалыматты жүктөөдө ката кетти",
+                    "Ошибка при загрузке данных"
+                )}
+            </div>
+        );
+    }
     return (
         <section className={scss.GraduatesMainContent}>
             <div className="container">
                 <div className={scss.content}>
-                    <h1 className={scss.titleText}>Выпускники</h1>
+                    <h1 className={scss.titleText}>
+                        {" "}
+                        {t("Бүтүрүүчүлөр", "Выпускники")}
+                    </h1>
                     <div className={scss.mainContent}>
                         <h1 className={scss.mainContent_title}>
-                            Гордость гимназии
+                            {t("Гимназиянын сыймыгы", "Гордость гимназии")}
                         </h1>
                         <div className={scss.graduates}>
                             {data?.map((item, index) => (
@@ -56,7 +74,9 @@ const GraduatesMainContent = () => {
                                         <hr className={scss.hr} />
                                         <div className={scss.biography}>
                                             <h1 className={scss.graduateBio}>
-                                                {item.content}
+                                                {isKyrgyz
+                                                    ? item?.content_ky
+                                                    : item?.content_ru}
                                             </h1>
                                         </div>
                                     </div>
