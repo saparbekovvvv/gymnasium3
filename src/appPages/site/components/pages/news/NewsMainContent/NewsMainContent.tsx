@@ -5,6 +5,7 @@ import { LuMessagesSquare } from "react-icons/lu";
 import { useRouter } from "next/navigation";
 import scss from "./NewsMainContent.module.scss";
 import { useLanguageStore } from "@/stores/useLanguageStore";
+
 const NewsMainContent = () => {
   const { data } = useGetNewsQuery();
   const { isKyrgyz, t } = useLanguageStore();
@@ -20,9 +21,12 @@ const NewsMainContent = () => {
           </div>
           <div className={scss.news_cards}>
             {data?.map((item, index) => (
-              <div key={index} className={scss.news_card}>
+              <div
+                key={index}
+                className={scss.news_card}
+                onClick={() => router.push(`/news/${item.id}`)}
+              >
                 <Image
-                  onClick={() => router.push(`/news/${item.id}`)}
                   alt="news_img"
                   src={item.image}
                   width={700}

@@ -60,6 +60,7 @@ const NewsDetailContent: React.FC = () => {
     isLoading: commentsLoading,
     error: commentsError,
   } = useGetCommentsQuery(newsId);
+
   const [addComment] = useAddCommentMutation();
   const [updateComment] = useUpdateCommentMutation();
   const [deleteComment] = useDeleteCommentMutation();

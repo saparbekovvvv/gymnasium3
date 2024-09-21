@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import scss from "./StudentsContent.module.scss";
-import student from "../../../../../../assets/images/6W3A9339-removebg-preview.png";
+import student from "../../../../../../assets/images/6W3A9339-Photoroom.png";
 import circle from "../../../../../../assets/images/Ellipse 19.png";
 import { useRouter } from "next/navigation";
 import { useLanguageStore } from "@/stores/useLanguageStore";
@@ -21,7 +21,15 @@ const StudentsContent = () => {
               alt="background circle"
               className={scss.circle}
             />
-            <Image src={student} alt="student" className={scss.student} />
+            <Image
+              src={student}
+              width={900}
+              height={500}
+              quality={70}
+              priority
+              alt="student"
+              className={scss.student}
+            />
           </div>
           <button
             className={scss.button}
