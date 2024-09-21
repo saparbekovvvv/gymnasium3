@@ -13,29 +13,26 @@ const OlympaidsSelection = () => {
         return <div className={scss.error}>Ошибка при загрузке данных.</div>;
     }
 
-    console.log(data);
-
-    const uniqueChoosing = Array.from(
+    const uniqueCategories = Array.from(
         new Set(data.map((item) => item.olympian_status?.choosing))
     ).filter(Boolean);
 
+    console.log(uniqueCategories);
     return (
         <div className={scss.OlympaidsSelection}>
             <div className="container">
                 <div className={scss.content}>
                     <h1 className={scss.title}>Виды олимпиад</h1>
                     <div className={scss.cards}>
-                        {uniqueChoosing.map((choosing) => (
+                        {uniqueCategories.map((category, index) => (
                             <div
                                 onClick={() =>
-                                    router.push(
-                                        `/students/olympians/olymp_categories/${choosing}`
-                                    )
+                                    router.push(`/olymp_categories/${category}`)
                                 }
-                                key={choosing} // Используем уникальный идентификатор
+                                key={category}
                                 className={scss.card}
                             >
-                                <h2>{choosing}</h2>
+                                <h2>{category}</h2>
                             </div>
                         ))}
                     </div>

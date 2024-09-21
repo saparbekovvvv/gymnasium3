@@ -19,7 +19,7 @@ const api = index.injectEndpoints({
             OLYMPIANS.GetDetOlympianTypeRequest
         >({
             query: (id) => ({
-                url: `${ENDPOINTS}/students/olympians/olymp_categories/${id}`,
+                url: `${ENDPOINTS}/olymp_categories/${id}`,
                 method: "GET",
             }),
         }),

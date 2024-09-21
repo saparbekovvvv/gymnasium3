@@ -17,6 +17,7 @@ const StudentClassTable: React.FC = () => {
         isError,
     } = useGetStudentsClassQuery(String(classId));
     const [filteredData, setFilteredData] = useState<STUDENTS.IStudent[]>([]);
+    console.log(studentsData);
 
     useEffect(() => {
         if (studentsData) {

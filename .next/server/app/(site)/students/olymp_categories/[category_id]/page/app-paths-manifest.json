@@ -1,0 +1,3 @@
+{
+  "/(site)/students/olymp_categories/[category_id]/page": "app/(site)/students/olymp_categories/[category_id]/page.js"
+}
