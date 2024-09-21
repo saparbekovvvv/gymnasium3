@@ -152,6 +152,10 @@
 }
 
 @media (width <= 575px) {
+  .NewsMainContent-module-scss-module__T2_IYq__NewsMainContent {
+    margin-top: 60px;
+  }
+
   .NewsMainContent-module-scss-module__T2_IYq__NewsMainContent .NewsMainContent-module-scss-module__T2_IYq__content .NewsMainContent-module-scss-module__T2_IYq__news_head h1 {
     font-size: 22px;
   }
