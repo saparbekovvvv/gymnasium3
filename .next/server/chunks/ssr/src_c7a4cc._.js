@@ -91,14 +91,10 @@ const { useGetSearchQuery } = api;
 __turbopack_esm__({
     "useLanguageStore": ()=>useLanguageStore
 });
-(()=>{
-    const e = new Error("Cannot find module 'zustand'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$zustand$40$5$2e$0$2e$0$2d$rc$2e$2_$40$types$2b$react$40$18$2e$3$2e$3_immer$40$10$2e$1$2e$1_react$40$18$2e$3$2e$1_use$2d$sync$2d$external$2d$store$40$1$2e$2$2e$2_react$40$18$2e$3$2e$1_$2f$node_modules$2f$zustand$2f$esm$2f$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/zustand@5.0.0-rc.2_@types+react@18.3.3_immer@10.1.1_react@18.3.1_use-sync-external-store@1.2.2_react@18.3.1_/node_modules/zustand/esm/react.mjs [app-ssr] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
-const useLanguageStore = create((set, get)=>({
+const useLanguageStore = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$zustand$40$5$2e$0$2e$0$2d$rc$2e$2_$40$types$2b$react$40$18$2e$3$2e$3_immer$40$10$2e$1$2e$1_react$40$18$2e$3$2e$1_use$2d$sync$2d$external$2d$store$40$1$2e$2$2e$2_react$40$18$2e$3$2e$1_$2f$node_modules$2f$zustand$2f$esm$2f$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["create"])((set, get)=>({
         isKyrgyz: true,
         setIsKyrgyz: (isKyrgyz)=>set({
                 isKyrgyz
