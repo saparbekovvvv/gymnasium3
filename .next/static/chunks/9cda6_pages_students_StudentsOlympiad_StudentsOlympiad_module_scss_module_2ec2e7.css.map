@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["[project]/src/appPages/site/components/pages/students/StudentsOlympiad/StudentsOlympiad.module.scss.module.css"],"sourcesContent":[".content{display:flex;flex-direction:column;justify-content:space-between;min-height:100vh;padding-top:100px;padding-bottom:30px}.OlimpBlock{width:289px;height:324px;padding:20px;text-decoration:none;background-image:url(../../../../../../assets/images/studnets_olimpic.svg)}.OlimpBlock_text{font-size:26px;color:#fff;text-decoration:none;text-align:left}"],"names":[],"mappings":"AAAA;;;;;;;;;AAAiI;;;;;;;;AAAkJ"}},
-    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

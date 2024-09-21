@@ -1,3 +1,0 @@
-{
-  "/(site)/students/[school_class__grade=]/page": "app/(site)/students/[school_class__grade=]/page.js"
-}
