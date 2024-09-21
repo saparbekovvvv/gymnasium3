@@ -3,6 +3,9 @@
     "/(site)/fond/donation/page": [
       "static/chunks/[root of the server]__1e9e25._.css",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
       "static/chunks/node_modules_1c0b7c._.js",
       "static/chunks/src_7a1d0f._.js",
       "static/chunks/src_app_layout_tsx_f8fdfb._.js",
@@ -26,6 +29,7 @@
       "static/chunks/[turbopack]_dev_client_hmr-client_ts_4da20b._.js",
       "static/chunks/node_modules_next_dist_esm_build_templates_app-page_311624.js",
       "static/chunks/node_modules_next_dist_esm_build_templates_app-page_9aa4f0.js"
+<<<<<<< HEAD
 =======
       "static/chunks/node_modules__pnpm_4afc62._.js",
       "static/chunks/src_7a1d0f._.js",
@@ -49,6 +53,8 @@
       "static/chunks/d1431_next_dist_esm_build_templates_app-page_b29d99.js",
       "static/chunks/d1431_next_dist_esm_build_templates_app-page_2035a0.js"
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
     ]
   }
 }

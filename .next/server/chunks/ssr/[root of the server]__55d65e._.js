@@ -601,14 +601,19 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$c
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$tableAvatar$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$tableAvatar$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/assets/tableAvatar.png.mjs { IMAGE => "[project]/src/assets/tableAvatar.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 <<<<<<< HEAD
+<<<<<<< HEAD
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$graduates$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/graduates/index.ts [app-rsc] (ecmascript)");
 =======
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$graduates$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/graduates/index.ts [app-rsc] (ecmascript)");
+>>>>>>> 7dfd0ddb (adds)
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 ;
 ;
 ;
+<<<<<<< HEAD
 <<<<<<< HEAD
 ;
 const StudentsClass = ()=>{
@@ -616,6 +621,11 @@ const StudentsClass = ()=>{
 =======
 const StudentsClass = ()=>{
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+;
+const StudentsClass = ()=>{
+    const { data, isLoading } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$graduates$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["useGetGraduatesQuery"])() || undefined;
+>>>>>>> 7dfd0ddb (adds)
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClass$2f$StudentsClass$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].StudentsClass,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -629,10 +639,14 @@ const StudentsClass = ()=>{
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                         lineNumber: 21,
 =======
                         lineNumber: 11,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                        lineNumber: 21,
+>>>>>>> 7dfd0ddb (adds)
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -647,10 +661,14 @@ const StudentsClass = ()=>{
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         lineNumber: 24,
 =======
                                         lineNumber: 14,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                        lineNumber: 24,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -659,10 +677,14 @@ const StudentsClass = ()=>{
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         lineNumber: 25,
 =======
                                         lineNumber: 15,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                        lineNumber: 25,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -671,10 +693,14 @@ const StudentsClass = ()=>{
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         lineNumber: 26,
 =======
                                         lineNumber: 16,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                        lineNumber: 26,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -683,20 +709,28 @@ const StudentsClass = ()=>{
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         lineNumber: 27,
 =======
                                         lineNumber: 17,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                        lineNumber: 27,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 lineNumber: 23,
 =======
                                 lineNumber: 13,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                lineNumber: 23,
+>>>>>>> 7dfd0ddb (adds)
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -707,6 +741,9 @@ const StudentsClass = ()=>{
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         lineNumber: 30,
                                         columnNumber: 29
                                     }, this),
@@ -770,6 +807,7 @@ const StudentsClass = ()=>{
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
                                 lineNumber: 29,
+<<<<<<< HEAD
 =======
                                         lineNumber: 20,
                                         columnNumber: 29
@@ -831,44 +869,62 @@ const StudentsClass = ()=>{
                                 fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
                                 lineNumber: 19,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                         lineNumber: 22,
 =======
                         lineNumber: 12,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                        lineNumber: 22,
+>>>>>>> 7dfd0ddb (adds)
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 lineNumber: 20,
 =======
                 lineNumber: 10,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                lineNumber: 20,
+>>>>>>> 7dfd0ddb (adds)
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
             lineNumber: 19,
 =======
             lineNumber: 9,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+            lineNumber: 19,
+>>>>>>> 7dfd0ddb (adds)
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClass/StudentsClass.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
         lineNumber: 18,
 =======
         lineNumber: 8,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+        lineNumber: 18,
+>>>>>>> 7dfd0ddb (adds)
         columnNumber: 9
     }, this);
 };

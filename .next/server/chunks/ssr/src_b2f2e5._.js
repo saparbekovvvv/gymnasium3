@@ -12,6 +12,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$index
 ;
 const ENDPOINTS = ("TURBOPACK compile-time value", "api");
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // Функция для получения CSRF токена из cookie
 function getCsrfToken() {
@@ -27,6 +28,8 @@ function getCsrfToken() {
     return "";
 }
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
 const api = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["api"].injectEndpoints({
     endpoints: (build)=>({
             getFond: build.query({
@@ -40,11 +43,15 @@ const api = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$
             }),
             postDonations: build.mutation({
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                 query: (data)=>({
                         url: `${ENDPOINTS}/donations/`,
                         method: "POST",
                         body: JSON.stringify(data)
                     }),
+<<<<<<< HEAD
 =======
                 query: (data)=>{
                     console.log("postDonations called with data:", {
@@ -62,6 +69,8 @@ const api = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$
                     };
                 },
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                 invalidatesTags: [
                     "donations"
                 ]
@@ -78,6 +87,7 @@ __turbopack_export_value__({
   "donationContent": "DonationContent-module-scss-module__QxzTRW__donationContent",
   "error": "DonationContent-module-scss-module__QxzTRW__error",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "formGroup": "DonationContent-module-scss-module__QxzTRW__formGroup",
   "submitButton": "DonationContent-module-scss-module__QxzTRW__submitButton",
 =======
@@ -90,6 +100,10 @@ __turbopack_export_value__({
   "submitButton": "DonationContent-module-scss-module__QxzTRW__submitButton",
   "textarea": "DonationContent-module-scss-module__QxzTRW__textarea",
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+  "formGroup": "DonationContent-module-scss-module__QxzTRW__formGroup",
+  "submitButton": "DonationContent-module-scss-module__QxzTRW__submitButton",
+>>>>>>> 7dfd0ddb (adds)
 });
 
 })()),
@@ -100,6 +114,7 @@ __turbopack_esm__({
     "default": ()=>__TURBOPACK__default__export__
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$fond$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/fond/index.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-hook-form/dist/index.esm.mjs [app-ssr] (ecmascript)");
@@ -109,6 +124,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$fond$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/fond/index.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$hook$2d$form$40$7$2e$52$2e$2_react$40$18$2e$3$2e$1$2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/react-hook-form@7.52.2_react@18.3.1/node_modules/react-hook-form/dist/index.esm.mjs [app-ssr] (ecmascript)");
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$fond$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/fond/index.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-hook-form/dist/index.esm.mjs [app-ssr] (ecmascript)");
+>>>>>>> 7dfd0ddb (adds)
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$DonationContent$2f$DonationContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.module.scss.module.css [app-ssr] (css module)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 "use client";
@@ -117,6 +137,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$c
 ;
 ;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
 const DonationContent = ()=>{
     const [postDonationsMutation] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$fond$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["usePostDonationsMutation"])();
     const { register, handleSubmit, formState: { errors } } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useForm"])();
@@ -157,6 +180,7 @@ const DonationContent = ()=>{
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$DonationContent$2f$DonationContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].formGroup,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+<<<<<<< HEAD
 =======
 ;
 const DonationContent = ()=>{
@@ -252,11 +276,16 @@ const DonationContent = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$DonationContent$2f$DonationContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].label,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     htmlFor: "amount",
                                     children: "Сумма (сом):"
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     lineNumber: 51,
                                     columnNumber: 13
                                 }, this),
@@ -272,6 +301,7 @@ const DonationContent = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 errors.amount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+<<<<<<< HEAD
 =======
                                     lineNumber: 114,
                                     columnNumber: 13
@@ -296,21 +326,30 @@ const DonationContent = ()=>{
                                 }, this),
                                 errors.amount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$DonationContent$2f$DonationContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].error,
                                     children: errors.amount.message
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     lineNumber: 58,
 =======
                                     lineNumber: 127,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                    lineNumber: 58,
+>>>>>>> 7dfd0ddb (adds)
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                             lineNumber: 50,
                             columnNumber: 11
                         }, this),
@@ -338,6 +377,7 @@ const DonationContent = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 errors.confirmation_file && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+<<<<<<< HEAD
 =======
                             lineNumber: 113,
                             columnNumber: 11
@@ -385,21 +425,30 @@ const DonationContent = ()=>{
                                 }, this),
                                 errors.confirmation_file && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$DonationContent$2f$DonationContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].error,
                                     children: errors.confirmation_file.message
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     lineNumber: 73,
 =======
                                     lineNumber: 150,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                    lineNumber: 73,
+>>>>>>> 7dfd0ddb (adds)
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                             lineNumber: 62,
                             columnNumber: 11
                         }, this),
@@ -407,6 +456,7 @@ const DonationContent = ()=>{
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$DonationContent$2f$DonationContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].formGroup,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+<<<<<<< HEAD
 =======
                             lineNumber: 131,
                             columnNumber: 11
@@ -417,15 +467,21 @@ const DonationContent = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$DonationContent$2f$DonationContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].label,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     htmlFor: "comment",
                                     children: "Комментарий:"
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     lineNumber: 80,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+<<<<<<< HEAD
 =======
                                     lineNumber: 157,
                                     columnNumber: 13
@@ -433,21 +489,30 @@ const DonationContent = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$DonationContent$2f$DonationContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].textarea,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     id: "comment",
                                     ...register("comment")
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     lineNumber: 81,
 =======
                                     lineNumber: 158,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                    lineNumber: 81,
+>>>>>>> 7dfd0ddb (adds)
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                             lineNumber: 79,
                             columnNumber: 11
                         }, this),
@@ -458,6 +523,7 @@ const DonationContent = ()=>{
                         }, void 0, false, {
                             fileName: "[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.tsx",
                             lineNumber: 84,
+<<<<<<< HEAD
 =======
                             lineNumber: 156,
                             columnNumber: 11
@@ -471,35 +537,49 @@ const DonationContent = ()=>{
                             fileName: "[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.tsx",
                             lineNumber: 161,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                     lineNumber: 49,
 =======
                     lineNumber: 112,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                    lineNumber: 49,
+>>>>>>> 7dfd0ddb (adds)
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
             lineNumber: 47,
 =======
             lineNumber: 110,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+            lineNumber: 47,
+>>>>>>> 7dfd0ddb (adds)
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/fond/DonationContent/DonationContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
         lineNumber: 46,
 =======
         lineNumber: 109,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+        lineNumber: 46,
+>>>>>>> 7dfd0ddb (adds)
         columnNumber: 5
     }, this);
 };

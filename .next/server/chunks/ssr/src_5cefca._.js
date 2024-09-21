@@ -12,6 +12,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$index
 ;
 const ENDPOINTS = ("TURBOPACK compile-time value", "api");
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // Функция для получения CSRF токена из cookie
 function getCsrfToken() {
@@ -27,6 +28,8 @@ function getCsrfToken() {
     return "";
 }
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
 const api = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["api"].injectEndpoints({
     endpoints: (build)=>({
             getFond: build.query({
@@ -40,11 +43,15 @@ const api = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$
             }),
             postDonations: build.mutation({
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                 query: (data)=>({
                         url: `${ENDPOINTS}/donations/`,
                         method: "POST",
                         body: JSON.stringify(data)
                     }),
+<<<<<<< HEAD
 =======
                 query: (data)=>{
                     console.log("postDonations called with data:", {
@@ -62,6 +69,8 @@ const api = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$
                     };
                 },
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                 invalidatesTags: [
                     "donations"
                 ]
@@ -74,6 +83,7 @@ const { useGetFondQuery, usePostDonationsMutation } = api;
 "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.module.scss.module.css [app-ssr] (css module)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
 __turbopack_export_value__({
+<<<<<<< HEAD
 <<<<<<< HEAD
   "FondContent": "FondContent-module-scss-module__zBo9Xq__FondContent",
 =======
@@ -92,6 +102,9 @@ __turbopack_export_value__({
   "title": "FondContent-module-scss-module__zBo9Xq__title",
   "totalPrice": "FondContent-module-scss-module__zBo9Xq__totalPrice",
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+  "FondContent": "FondContent-module-scss-module__zBo9Xq__FondContent",
+>>>>>>> 7dfd0ddb (adds)
 });
 
 })()),
@@ -102,16 +115,22 @@ __turbopack_esm__({
     "default": ()=>__TURBOPACK__default__export__
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$fond$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/fond/index.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.module.scss.module.css [app-ssr] (css module)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-ssr] (ecmascript)");
+<<<<<<< HEAD
 =======
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.11_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$fond$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/fond/index.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$fond$2f$FondContent$2f$FondContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.module.scss.module.css [app-ssr] (css module)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.11_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/link.js [app-ssr] (ecmascript)");
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
 "__TURBOPACK__ecmascript__hoisting__location__";
 "use client";
 ;
@@ -120,6 +139,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 ;
 const FondContent = ()=>{
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
     const { data } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$fond$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useGetFondQuery"])();
     console.log(data, "Donation");
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -156,6 +178,7 @@ const FondContent = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     children: [
                                         item.amount,
+<<<<<<< HEAD
 =======
     const { data, isLoading, isError } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$fond$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useGetFondQuery"])();
     console.log(data, "FondContent");
@@ -262,11 +285,16 @@ const FondContent = ()=>{
                                     children: [
                                         totalPrice,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                                         " Сом"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
                                     lineNumber: 18,
                                     columnNumber: 15
                                 }, this),
@@ -296,6 +324,7 @@ const FondContent = ()=>{
                         }, void 0, false, {
                             fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
                             lineNumber: 24,
+<<<<<<< HEAD
 =======
                                     lineNumber: 56,
                                     columnNumber: 42
@@ -305,10 +334,13 @@ const FondContent = ()=>{
                             fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
                             lineNumber: 55,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
+<<<<<<< HEAD
 <<<<<<< HEAD
                         lineNumber: 23,
 =======
@@ -330,34 +362,49 @@ const FondContent = ()=>{
                         fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
                         lineNumber: 60,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                        lineNumber: 23,
+>>>>>>> 7dfd0ddb (adds)
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 lineNumber: 12,
 =======
                 lineNumber: 21,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                lineNumber: 12,
+>>>>>>> 7dfd0ddb (adds)
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
             lineNumber: 11,
 =======
             lineNumber: 20,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+            lineNumber: 11,
+>>>>>>> 7dfd0ddb (adds)
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/fond/FondContent/FondContent.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
         lineNumber: 10,
 =======
         lineNumber: 19,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+        lineNumber: 10,
+>>>>>>> 7dfd0ddb (adds)
         columnNumber: 5
     }, this);
 };

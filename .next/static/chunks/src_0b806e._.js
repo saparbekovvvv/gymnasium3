@@ -32,9 +32,13 @@ const { useGetStudentsQuery } = api;
 __turbopack_export_value__({
   "StudentsPage": "StudentsPage-module-scss-module__-bpeuG__StudentsPage",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Title": "StudentsPage-module-scss-module__-bpeuG__Title",
 =======
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+  "Title": "StudentsPage-module-scss-module__-bpeuG__Title",
+>>>>>>> 7dfd0ddb (adds)
   "blocks": "StudentsPage-module-scss-module__-bpeuG__blocks",
   "content": "StudentsPage-module-scss-module__-bpeuG__content",
   "heroContent": "StudentsPage-module-scss-module__-bpeuG__heroContent",
@@ -81,10 +85,14 @@ const StudentsMainContent = ()=>{
             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsMainContent$2f$StudentsMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].classes,
             children: numbers.map((number)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     href: `/students/studentsclass${number}`,
 =======
                     href: `/students/studentsClass/${number}`,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                    href: `/students/studentsclass${number}`,
+>>>>>>> 7dfd0ddb (adds)
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsMainContent$2f$StudentsMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].block,
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsMainContent$2f$StudentsMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].block_text,
@@ -146,10 +154,14 @@ const StudentsOlympiad = ()=>{
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsOlympiad$2f$StudentsOlympiad$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].content,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
 <<<<<<< HEAD
+<<<<<<< HEAD
             href: "students/olympaidtable",
 =======
             href: "#",
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+            href: "students/olympaidtable",
+>>>>>>> 7dfd0ddb (adds)
             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsOlympiad$2f$StudentsOlympiad$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].OlimpBlock,
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsOlympiad$2f$StudentsOlympiad$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].OlimpBlock_text,
@@ -203,10 +215,14 @@ const StudentsParliament = ()=>{
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsParliament$2f$StudentsParliament$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].content,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
 <<<<<<< HEAD
+<<<<<<< HEAD
             href: "/students/studentsparliamenttable",
 =======
             href: "/students/parliament",
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+            href: "/students/studentsparliamenttable",
+>>>>>>> 7dfd0ddb (adds)
             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsParliament$2f$StudentsParliament$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].ParliamBlock,
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsParliament$2f$StudentsParliament$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].ParliamBlock_text,
@@ -214,10 +230,14 @@ const StudentsParliament = ()=>{
             }, void 0, false, {
                 fileName: "[project]/src/appPages/site/components/pages/students/StudentsParliament/StudentsParliament.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 lineNumber: 10,
 =======
                 lineNumber: 7,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                lineNumber: 10,
+>>>>>>> 7dfd0ddb (adds)
                 columnNumber: 17
             }, this)
         }, void 0, false, {
@@ -245,19 +265,25 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$students$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/students/index.ts [app-client] (ecmascript)");
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$StudentsPage$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/StudentsPage.module.scss.module.css [app-client] (css module)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsMainContent$2f$StudentsMainContent$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/students/StudentsMainContent/StudentsMainContent.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsOlympiad$2f$StudentsOlympiad$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/students/StudentsOlympiad/StudentsOlympiad.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsParliament$2f$StudentsParliament$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/appPages/site/components/pages/students/StudentsParliament/StudentsParliament.tsx [app-client] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ;
 var _s = __turbopack_refresh__.signature();
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
 "use client";
 ;
 ;
@@ -265,6 +291,7 @@ var _s = __turbopack_refresh__.signature();
 ;
 ;
 const StudentsPage = ()=>{
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     _s();
@@ -288,6 +315,8 @@ const StudentsPage = ()=>{
         }, this);
     }
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$StudentsPage$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].StudentsPage,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -301,10 +330,14 @@ const StudentsPage = ()=>{
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/StudentsPage.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                         lineNumber: 13,
 =======
                         lineNumber: 23,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                        lineNumber: 13,
+>>>>>>> 7dfd0ddb (adds)
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -313,10 +346,14 @@ const StudentsPage = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsMainContent$2f$StudentsMainContent$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/src/appPages/site/components/pages/StudentsPage.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 lineNumber: 15,
 =======
                                 lineNumber: 25,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                lineNumber: 15,
+>>>>>>> 7dfd0ddb (adds)
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -325,39 +362,55 @@ const StudentsPage = ()=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsOlympiad$2f$StudentsOlympiad$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/StudentsPage.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         lineNumber: 17,
 =======
                                         lineNumber: 27,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                        lineNumber: 17,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsParliament$2f$StudentsParliament$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/StudentsPage.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         lineNumber: 18,
 =======
                                         lineNumber: 28,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                        lineNumber: 18,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/StudentsPage.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 lineNumber: 16,
 =======
                                 lineNumber: 26,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                lineNumber: 16,
+>>>>>>> 7dfd0ddb (adds)
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/StudentsPage.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                         lineNumber: 14,
 =======
                         lineNumber: 24,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                        lineNumber: 14,
+>>>>>>> 7dfd0ddb (adds)
                         columnNumber: 21
                     }, this),
                     " "
@@ -365,28 +418,40 @@ const StudentsPage = ()=>{
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/pages/StudentsPage.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 lineNumber: 12,
 =======
                 lineNumber: 22,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                lineNumber: 12,
+>>>>>>> 7dfd0ddb (adds)
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/StudentsPage.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
             lineNumber: 11,
 =======
             lineNumber: 21,
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+            lineNumber: 11,
+>>>>>>> 7dfd0ddb (adds)
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/StudentsPage.tsx",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
         lineNumber: 10,
         columnNumber: 9
     }, this);
 };
+<<<<<<< HEAD
 =======
         lineNumber: 20,
         columnNumber: 9
@@ -398,6 +463,8 @@ _s(StudentsPage, "V+tcjXLm/Mk/iAZKwYMxWa8xKYk=", false, function() {
     ];
 });
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
 _c = StudentsPage;
 const __TURBOPACK__default__export__ = StudentsPage;
 var _c;

@@ -1,5 +1,8 @@
 (globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
     "static/chunks/src_app_(site)_students_olympaidtable_page_tsx_1e243b._.js",
     {},
 ]);
@@ -8,6 +11,7 @@
   "chunks": [
     "static/chunks/e3fed_components_pages_students_OlympaidTable_OlympaidTable_module_scss_module_5d140c.css",
     "static/chunks/src_2e2dd9._.js"
+<<<<<<< HEAD
 =======
     "static/chunks/src_app_(site)_students_olympaidtable_page_tsx_743c9b._.js",
     {},
@@ -18,6 +22,8 @@
     "static/chunks/e3fed_components_pages_students_OlympaidTable_OlympaidTable_module_scss_module_5d140c.css",
     "static/chunks/src_81002a._.js"
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
   ],
   "source": "dynamic"
 });

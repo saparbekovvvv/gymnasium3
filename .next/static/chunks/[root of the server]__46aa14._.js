@@ -9320,10 +9320,14 @@ function parseStack(stack) {
             if (res) {
                 var _process_env___NEXT_DIST_DIR_replace, _process_env___NEXT_DIST_DIR;
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const distDir = (_process_env___NEXT_DIST_DIR = ("TURBOPACK compile-time value", "C:\\Users\\Hp\\Desktop\\gymnasium3\\.next")) == null ? void 0 : (_process_env___NEXT_DIST_DIR_replace = _process_env___NEXT_DIST_DIR.replace(/\\/g, "/")) == null ? void 0 : _process_env___NEXT_DIST_DIR_replace.replace(/\/$/, "");
 =======
                 const distDir = (_process_env___NEXT_DIST_DIR = ("TURBOPACK compile-time value", "C:\\Users\\user\\Desktop\\gymnasium3\\.next")) == null ? void 0 : (_process_env___NEXT_DIST_DIR_replace = _process_env___NEXT_DIST_DIR.replace(/\\/g, "/")) == null ? void 0 : _process_env___NEXT_DIST_DIR_replace.replace(/\/$/, "");
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                const distDir = (_process_env___NEXT_DIST_DIR = ("TURBOPACK compile-time value", "C:\\Users\\Hp\\Desktop\\gymnasium3\\.next")) == null ? void 0 : (_process_env___NEXT_DIST_DIR_replace = _process_env___NEXT_DIST_DIR.replace(/\\/g, "/")) == null ? void 0 : _process_env___NEXT_DIST_DIR_replace.replace(/\/$/, "");
+>>>>>>> 7dfd0ddb (adds)
                 if (distDir) {
                     frame.file = "file://" + distDir.concat(res.pop()) + url.search;
                 }
@@ -17785,10 +17789,14 @@ function AppContainer(param) {
                                 value: headManager,
                                 children: /*#__PURE__*/ (0, _jsxruntime.jsx)(_imageconfigcontextsharedruntime.ImageConfigContext.Provider, {
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     value: ("TURBOPACK compile-time value", JSON.parse('{"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false,"domains":["gimnasium.onrender.com","vermojctkdkrdsxvauwc.supabase.co","3-gymnasium.kg","api.dicebear.com"],"remotePatterns":[]}')),
 =======
                                     value: ("TURBOPACK compile-time value", JSON.parse('{"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false,"domains":["gimnasium.onrender.com","vermojctkdkrdsxvauwc.supabase.co","3-gymnasium.kg"],"remotePatterns":[]}')),
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+                                    value: ("TURBOPACK compile-time value", JSON.parse('{"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false,"domains":["gimnasium.onrender.com","vermojctkdkrdsxvauwc.supabase.co","3-gymnasium.kg","api.dicebear.com"],"remotePatterns":[]}')),
+>>>>>>> 7dfd0ddb (adds)
                                     children: children
                                 })
                             })

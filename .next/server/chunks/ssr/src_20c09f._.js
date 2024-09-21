@@ -115,6 +115,7 @@ const GraduatesFirstTab = ()=>{
         lineNumber: 15,
         columnNumber: 16
     }, this);
+<<<<<<< HEAD
     const filterData = (year)=>{
         if (year) {
             const result = data.filter((graduate)=>graduate.year === year);
@@ -124,7 +125,13 @@ const GraduatesFirstTab = ()=>{
         }
     };
     const uniqueYears = Array.from(new Set(data.map((graduate)=>graduate.year)));
+<<<<<<< HEAD
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+=======
+=======
+>>>>>>> 7dfd0ddb (adds)
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+>>>>>>> 1372f836dce739fdacb5efe9dc9444b0cbf8918b
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].GraduatesFirstTab,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container",
@@ -136,6 +143,7 @@ const GraduatesFirstTab = ()=>{
                         children: "Список выпускников"
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
+<<<<<<< HEAD
                         lineNumber: 34,
                         columnNumber: 21
                     }, this),
@@ -187,6 +195,9 @@ const GraduatesFirstTab = ()=>{
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
                         lineNumber: 35,
+=======
+                        lineNumber: 21,
+>>>>>>> 7dfd0ddb (adds)
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -200,7 +211,11 @@ const GraduatesFirstTab = ()=>{
                                         children: "No."
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
+<<<<<<< HEAD
                                         lineNumber: 59,
+=======
+                                        lineNumber: 25,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -208,7 +223,11 @@ const GraduatesFirstTab = ()=>{
                                         children: "Имя выпускника"
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
+<<<<<<< HEAD
                                         lineNumber: 60,
+=======
+                                        lineNumber: 26,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 29
 <<<<<<< HEAD
 =======
@@ -225,7 +244,11 @@ const GraduatesFirstTab = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
+<<<<<<< HEAD
                                 lineNumber: 58,
+=======
+                                lineNumber: 24,
+>>>>>>> 7dfd0ddb (adds)
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -235,7 +258,11 @@ const GraduatesFirstTab = ()=>{
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesFirstTab$2f$GraduatesFirstTab$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].hr
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
+<<<<<<< HEAD
                                         lineNumber: 63,
+=======
+                                        lineNumber: 29,
+>>>>>>> 7dfd0ddb (adds)
                                         columnNumber: 29
                                     }, this),
                                     (filteredData.length > 0 ? filteredData : data)?.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -246,7 +273,11 @@ const GraduatesFirstTab = ()=>{
                                                     children: index + 1
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
+<<<<<<< HEAD
                                                     lineNumber: 69,
+=======
+                                                    lineNumber: 35,
+>>>>>>> 7dfd0ddb (adds)
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -260,7 +291,11 @@ const GraduatesFirstTab = ()=>{
                                                             height: 50
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
+<<<<<<< HEAD
                                                             lineNumber: 73,
+=======
+                                                            lineNumber: 39,
+>>>>>>> 7dfd0ddb (adds)
                                                             columnNumber: 41
                                                         }, this),
                                                         item.surname,
@@ -274,6 +309,7 @@ const GraduatesFirstTab = ()=>{
 <<<<<<< HEAD
                                                     lineNumber: 72,
 =======
+<<<<<<< HEAD
                                                     lineNumber: 73,
                                                     columnNumber: 37
                                                 }, this),
@@ -284,40 +320,68 @@ const GraduatesFirstTab = ()=>{
                                                     fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
                                                     lineNumber: 84,
 >>>>>>> bc24760a7fbfcb631262593d0d49cd382fd555c8
+=======
+                                                    lineNumber: 38,
+>>>>>>> 7dfd0ddb (adds)
+>>>>>>> 1372f836dce739fdacb5efe9dc9444b0cbf8918b
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
+<<<<<<< HEAD
                                             lineNumber: 68,
+=======
+                                            lineNumber: 34,
+>>>>>>> 7dfd0ddb (adds)
                                             columnNumber: 33
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
+<<<<<<< HEAD
                                 lineNumber: 62,
+=======
+                                lineNumber: 28,
+>>>>>>> 7dfd0ddb (adds)
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
+<<<<<<< HEAD
                         lineNumber: 57,
+=======
+                        lineNumber: 23,
+>>>>>>> 7dfd0ddb (adds)
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
+<<<<<<< HEAD
                 lineNumber: 33,
+=======
+                lineNumber: 20,
+>>>>>>> 7dfd0ddb (adds)
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
+<<<<<<< HEAD
             lineNumber: 32,
+=======
+            lineNumber: 19,
+>>>>>>> 7dfd0ddb (adds)
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesFirstTab/GraduatesFirstTab.tsx",
+<<<<<<< HEAD
         lineNumber: 31,
+=======
+        lineNumber: 18,
+>>>>>>> 7dfd0ddb (adds)
         columnNumber: 9
     }, this);
 };

@@ -5,6 +5,9 @@
   "lowPriorityFiles": [],
   "rootMainFiles": [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
     "static/chunks/node_modules_next_dist_compiled_react_a1d82d._.js",
     "static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js",
     "static/chunks/node_modules_next_dist_compiled_react-dom_87a050._.js",
@@ -15,6 +18,7 @@
     "static/chunks/[turbopack]_dev_client_hmr-client_ts_4da20b._.js",
     "static/chunks/node_modules_next_dist_esm_build_templates_app-page_7bfb12.js",
     "static/chunks/node_modules_next_dist_esm_build_templates_app-page_0f1629.js"
+<<<<<<< HEAD
 =======
     "static/chunks/64365_next_dist_compiled_react_4cf784._.js",
     "static/chunks/64365_next_dist_compiled_react-dom_cjs_react-dom_development_0b4cd4.js",
@@ -27,6 +31,8 @@
     "static/chunks/64365_next_dist_esm_build_templates_app-page_79f3da.js",
     "static/chunks/64365_next_dist_esm_build_templates_app-page_22bbad.js"
 >>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
   ],
   "pages": {},
   "ampFirstPages": []

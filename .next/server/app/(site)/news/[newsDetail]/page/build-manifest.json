@@ -4,6 +4,25 @@
   "polyfillFiles": [],
   "lowPriorityFiles": [],
   "rootMainFiles": [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7dfd0ddb (adds)
+    "static/chunks/64365_next_dist_compiled_react_4cf784._.js",
+    "static/chunks/64365_next_dist_compiled_react-dom_cjs_react-dom_development_0b4cd4.js",
+    "static/chunks/64365_next_dist_compiled_react-dom_26edb1._.js",
+    "static/chunks/64365_next_dist_compiled_d1cfc0._.js",
+    "static/chunks/64365_next_dist_client_430531._.js",
+    "static/chunks/64365_next_dist_88d871._.js",
+    "static/chunks/90481_@swc_helpers_cjs_e55b81._.js",
+    "static/chunks/[turbopack]_dev_client_hmr-client_ts_91c708._.js",
+    "static/chunks/64365_next_dist_esm_build_templates_app-page_10153a.js",
+    "static/chunks/64365_next_dist_esm_build_templates_app-page_d141dd.js"
+<<<<<<< HEAD
+=======
+>>>>>>> 1372f836dce739fdacb5efe9dc9444b0cbf8918b
     "static/chunks/d1431_next_dist_compiled_react_546380._.js",
     "static/chunks/d1431_next_dist_compiled_react-dom_cjs_react-dom_development_d38563.js",
     "static/chunks/d1431_next_dist_compiled_react-dom_74e4d9._.js",
@@ -14,6 +33,12 @@
     "static/chunks/[turbopack]_dev_client_hmr-client_ts_552c3b._.js",
     "static/chunks/d1431_next_dist_esm_build_templates_app-page_e2e8a8.js",
     "static/chunks/d1431_next_dist_esm_build_templates_app-page_585fab.js"
+<<<<<<< HEAD
+=======
+>>>>>>> 3ddc0fb2368cc467b220467dc95a4a92fe885544
+=======
+>>>>>>> 7dfd0ddb (adds)
+>>>>>>> 1372f836dce739fdacb5efe9dc9444b0cbf8918b
   ],
   "pages": {},
   "ampFirstPages": []
