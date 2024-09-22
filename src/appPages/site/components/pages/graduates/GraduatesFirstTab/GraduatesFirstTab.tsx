@@ -12,6 +12,8 @@ const GraduatesFirstTab = () => {
     const [filteredData, setFilteredData] = useState(data || []);
     const { isKyrgyz, t } = useLanguageStore();
 
+    const [show, setShow] = useState(false);
+
     if (isLoading)
         return (
             <div className={scss.loading}>
@@ -57,23 +59,33 @@ const GraduatesFirstTab = () => {
                         <div className={scss.selector}>
                             <button
                                 className={scss.button}
-                                onClick={() => filterData()}
+                                onClick={() => {
+                                    filterData();
+                                    setShow(!show);
+                                }}
                             >
-                                {t("Баары", "Все")}{" "}
+                                {t("Баары", "Все")}
                             </button>
-                            {uniqueYears.map((year) => (
-                                <div key={year}>
-                                    <button
-                                        className={scss.button}
-                                        onClick={() => filterData(year!)}
-                                    >
-                                        {year}
-                                    </button>
-                                </div>
-                            ))}
+                            <div className={scss.years}>
+                                {show && (
+                                    <>
+                                        {uniqueYears.map((year) => (
+                                            <div key={year}>
+                                                <button
+                                                    className={scss.button}
+                                                    onClick={() =>
+                                                        filterData(year)
+                                                    }
+                                                >
+                                                    {year}
+                                                </button>
+                                            </div>
+                                        ))}
+                                    </>
+                                )}
+                            </div>
                         </div>
                     </div>
-                    {/* )} */}
                     <div className={scss.table}>
                         <div className={scss.tableTitle}>
                             <h1 className={scss.titleText}>No.</h1>

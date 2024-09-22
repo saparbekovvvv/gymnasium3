@@ -1,15 +1,16 @@
 "use client";
-import { useGetStudentsQuery } from "@/redux/api/students";
+
 import scss from "./OlympaidsSelection.module.scss";
 import React from "react";
 import { useRouter } from "next/navigation";
 import { useLanguageStore } from "@/stores/useLanguageStore";
+import { useGetOlympiansQuery } from "@/redux/api/olympians";
 
 const OlympaidsSelection = () => {
     const router = useRouter();
     const { isKyrgyz, t } = useLanguageStore();
 
-    const { data, isError, isLoading } = useGetStudentsQuery() || {};
+    const { data, isError, isLoading } = useGetOlympiansQuery() || {};
 
     if (isLoading)
         return (
@@ -29,10 +30,24 @@ const OlympaidsSelection = () => {
     }
 
     const uniqueCategories = Array.from(
-        new Set(data.map((item) => item.olympian_status?.choosing))
-    ).filter(Boolean);
+        new Set(
+            data.map((item) => item.name_of_olympia?.choosing).filter(Boolean)
+        )
+    )
+        .map((name) => {
+            const foundItem = data.find(
+                (item) => item.name_of_olympia?.choosing === name
+            );
 
-    console.log(uniqueCategories);
+            // Проверяем, что найденный элемент существует и имеет id
+            if (foundItem && foundItem.id) {
+                return { name: name as string, id: foundItem.id };
+            }
+
+            return null; // Если элемент не найден, возвращаем null
+        })
+        .filter(Boolean); // Фильтруем null-значения
+
     return (
         <div className={scss.OlympaidsSelection}>
             <div className="container">
@@ -44,12 +59,20 @@ const OlympaidsSelection = () => {
                         {uniqueCategories.map((category, index) => (
                             <div
                                 onClick={() =>
-                                    router.push(`/olymp_categories/${category}`)
+                                    router.push(
+                                        `/students/olympians/olymp_categories/${category?.id}`
+                                    )
                                 }
-                                key={category}
+                                key={index}
                                 className={scss.card}
                             >
-                                <h2>{category}</h2>
+                                {category?.name && (
+                                    <h2>
+                                        {isKyrgyz
+                                            ? category.name
+                                            : t(category.name, category.name)}
+                                    </h2>
+                                )}{" "}
                             </div>
                         ))}
                     </div>
