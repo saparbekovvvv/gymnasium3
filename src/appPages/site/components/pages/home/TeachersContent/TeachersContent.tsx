@@ -2,7 +2,7 @@
 import Image from "next/image";
 import scss from "./TeachersContent.module.scss";
 import circle from "../../../../../../assets/images/Ellipse 19.png";
-import teacher from "../../../../../../assets/images/6W3A9306-Photoroom.png";
+import teacher from "../../../../../../assets/images/teacher.png";
 import { useRouter } from "next/navigation";
 import { useLanguageStore } from "@/stores/useLanguageStore";
 import { useGetCommentsQuery } from "@/redux/api/news";
