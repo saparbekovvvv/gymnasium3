@@ -82,3 +82,12 @@
     }
   }
 }
+
+@media (max-width: 884px) {
+  .GalleryMainContent {
+    .gallery_card {
+      overflow-x: auto;
+      grid-template-columns: repeat(6, 1fr) !important;
+    }
+  }
+}

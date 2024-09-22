@@ -27,6 +27,10 @@
   position: relative;
 }
 
+#StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__imageWrapper img {
+  object-fit: contain;
+}
+
 #StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__circle {
   position: absolute;
   left: 50%;
@@ -42,7 +46,8 @@
   display: flex;
   align-items: center;
   top: -60px;
-  width: 680px;
+  width: 250px;
+  object-fit: contain;
   height: 450px;
   left: 50%;
   transform: translateX(-50%);

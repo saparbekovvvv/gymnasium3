@@ -43,11 +43,12 @@
 
 #TeachersContent-module-scss-module__J-1L6W__content .TeachersContent-module-scss-module__J-1L6W__teacher {
   position: absolute;
-  top: -46px;
+  top: -56px;
   left: 50%;
   transform: translateX(-50%);
-  width: 680px;
+  width: 280px;
   height: 450px;
+  object-fit: contain;
   z-index: 2;
 }
 
