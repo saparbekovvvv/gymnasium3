@@ -8086,7 +8086,7 @@ class Router {
             const { BloomFilter } = __turbopack_require__("[project]/node_modules/.pnpm/next@14.2.11_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/dist/shared/lib/bloom-filter.js [client] (ecmascript)");
             const routerFilterSValue = ("TURBOPACK compile-time value", JSON.parse('{"numItems":19,"errorRate":0.0001,"numBits":365,"numHashes":14,"bitArray":[0,1,1,0,0,1,0,0,1,1,1,0,1,0,0,0,0,1,0,1,1,1,0,1,1,0,0,0,0,1,1,0,1,1,1,1,0,1,0,0,1,0,0,1,0,0,1,1,1,1,1,0,0,1,0,1,1,1,0,0,1,0,0,0,1,1,0,1,0,1,1,1,0,0,0,1,1,0,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,0,0,0,1,0,1,1,0,0,0,1,0,0,1,0,0,1,0,0,1,0,1,0,1,0,1,0,0,1,0,1,0,1,0,0,1,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,1,1,1,0,1,0,1,0,1,1,0,0,1,0,1,0,1,1,0,1,1,1,1,0,0,1,1,0,1,0,0,1,1,1,1,1,0,1,1,0,0,1,1,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,1,1,1,1,1,1,0,0,1,0,1,0,1,0,1,1,1,0,0,1,0,0,1,1,1,1,0,0,0,1,0,1,0,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,1,0,1,0,1,1,0,1,1,0,1,1,1,1,1,1,0,0,1,0,1,0,1,1,1,1,0,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,0,1,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,1,1,1,1,0,0,0,1,0,1,0,1,1,0,1,0,0,1,0,0,0,1,0,0,1,0,1,0,1]}'));
             const staticFilterData = routerFilterSValue ? routerFilterSValue : undefined;
-            const routerFilterDValue = ("TURBOPACK compile-time value", JSON.parse('{"numItems":4,"errorRate":0.0001,"numBits":77,"numHashes":14,"bitArray":[1,1,1,0,1,1,0,1,1,1,1,1,0,1,0,0,1,0,0,0,1,1,1,1,0,0,1,0,1,1,0,1,1,0,0,0,0,1,1,1,1,1,0,1,1,1,1,0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,0,0,1]}'));
+            const routerFilterDValue = ("TURBOPACK compile-time value", JSON.parse('{"numItems":4,"errorRate":0.0001,"numBits":77,"numHashes":14,"bitArray":[1,1,0,0,1,1,0,1,0,1,1,0,0,0,1,0,1,1,0,1,1,1,1,1,0,0,1,0,1,1,0,1,1,0,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,0,0,0,0,1,0,1,1,0,1,0,0,1,1,0,0,1,0,0,1,0,0,1,1,1,0,0,1]}'));
             const dynamicFilterData = routerFilterDValue ? routerFilterDValue : undefined;
             if (staticFilterData == null ? void 0 : staticFilterData.numHashes) {
                 this._bfl_s = new BloomFilter(staticFilterData.numItems, staticFilterData.errorRate);
@@ -9372,7 +9372,7 @@ function parseStack(stack) {
             const res = regexNextStatic.exec(url.pathname);
             if (res) {
                 var _process_env___NEXT_DIST_DIR_replace, _process_env___NEXT_DIST_DIR;
-                const distDir = (_process_env___NEXT_DIST_DIR = ("TURBOPACK compile-time value", "C:\\Users\\user\\Desktop\\Gymnasium_3\\.next")) == null ? void 0 : (_process_env___NEXT_DIST_DIR_replace = _process_env___NEXT_DIST_DIR.replace(/\\/g, "/")) == null ? void 0 : _process_env___NEXT_DIST_DIR_replace.replace(/\/$/, "");
+                const distDir = (_process_env___NEXT_DIST_DIR = ("TURBOPACK compile-time value", "C:\\Users\\Hp\\Desktop\\gymnasium3\\.next")) == null ? void 0 : (_process_env___NEXT_DIST_DIR_replace = _process_env___NEXT_DIST_DIR.replace(/\\/g, "/")) == null ? void 0 : _process_env___NEXT_DIST_DIR_replace.replace(/\/$/, "");
                 if (distDir) {
                     frame.file = "file://" + distDir.concat(res.pop()) + url.search;
                 }

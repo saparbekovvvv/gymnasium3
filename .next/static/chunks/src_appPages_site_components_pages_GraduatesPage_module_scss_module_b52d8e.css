@@ -7,8 +7,9 @@
 }
 
 .GraduatesPage-module-scss-module__NDlmPW__graduatesTable {
-  display: flex;
+  display: grid;
   flex-direction: row;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 10px;
 }
@@ -69,16 +70,20 @@
     box-shadow: -10px 0 15px #0000004d;
   }
 
+  .GraduatesPage-module-scss-module__NDlmPW__graduatesTable {
+    grid-template-columns: 1fr;
+  }
+
   .GraduatesPage-module-scss-module__NDlmPW__Block {
     padding: 15px 0;
-    font-size: 10px;
+    font-size: 18px;
   }
 }
 
 @media (width <= 320px) {
   .GraduatesPage-module-scss-module__NDlmPW__Block {
     padding: 10px 0;
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 

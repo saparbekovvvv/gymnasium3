@@ -185,8 +185,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+  justify-items: start;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .GraduatesMainContent-module-scss-module__0B39iW__mainContent {

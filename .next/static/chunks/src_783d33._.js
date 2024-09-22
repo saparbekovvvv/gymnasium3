@@ -81,15 +81,15 @@ const GraduatesMainContent = ()=>{
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
         lineNumber: 15,
-        columnNumber: 7
+        columnNumber: 13
     }, this);
     if (isError || !data) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].error,
         children: t("Маалыматтарды жүктөөдө ката кетти.", "Ошибка при загрузке данных.")
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-        lineNumber: 19,
-        columnNumber: 7
+        lineNumber: 21,
+        columnNumber: 13
     }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].GraduatesMainContent,
@@ -103,8 +103,8 @@ const GraduatesMainContent = ()=>{
                         children: t("Бүтүрүүчүлөр", "Выпускники")
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                        lineNumber: 28,
-                        columnNumber: 11
+                        lineNumber: 33,
+                        columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].mainContent,
@@ -114,8 +114,8 @@ const GraduatesMainContent = ()=>{
                                 children: t("Гимназиянын сыймыгы", "Гордость гимназии")
                             }, void 0, false, {
                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                lineNumber: 30,
-                                columnNumber: 13
+                                lineNumber: 37,
+                                columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].graduates,
@@ -134,8 +134,8 @@ const GraduatesMainContent = ()=>{
                                                 alt: t("бүтүрүүчүлөр", "выпускники")
                                             }, void 0, false, {
                                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                                lineNumber: 42,
-                                                columnNumber: 19
+                                                lineNumber: 49,
+                                                columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].graduateinfo,
@@ -150,49 +150,49 @@ const GraduatesMainContent = ()=>{
                                                                         children: item.graduate.surname
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                                                        lineNumber: 53,
-                                                                        columnNumber: 25
+                                                                        lineNumber: 60,
+                                                                        columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         children: item.graduate.name
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                                                        lineNumber: 54,
-                                                                        columnNumber: 25
+                                                                        lineNumber: 63,
+                                                                        columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         children: item.graduate.last_name
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                                                        lineNumber: 55,
-                                                                        columnNumber: 25
+                                                                        lineNumber: 64,
+                                                                        columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                                                lineNumber: 52,
-                                                                columnNumber: 23
+                                                                lineNumber: 59,
+                                                                columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].graduateDate,
                                                                 children: item.year
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                                                lineNumber: 57,
-                                                                columnNumber: 23
+                                                                lineNumber: 68,
+                                                                columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                                        lineNumber: 51,
-                                                        columnNumber: 21
+                                                        lineNumber: 58,
+                                                        columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].hr
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                                        lineNumber: 59,
-                                                        columnNumber: 21
+                                                        lineNumber: 72,
+                                                        columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$graduates$2f$GraduatesMainContent$2f$GraduatesMainContent$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].biography,
@@ -201,52 +201,52 @@ const GraduatesMainContent = ()=>{
                                                             children: isKyrgyz ? item.content_ky : item.content_ru
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                                            lineNumber: 61,
-                                                            columnNumber: 23
+                                                            lineNumber: 74,
+                                                            columnNumber: 45
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                                        lineNumber: 60,
-                                                        columnNumber: 21
+                                                        lineNumber: 73,
+                                                        columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                                lineNumber: 50,
-                                                columnNumber: 19
+                                                lineNumber: 57,
+                                                columnNumber: 37
                                             }, this)
                                         ]
                                     }, item.graduate.name, true, {
                                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                        lineNumber: 35,
-                                        columnNumber: 17
+                                        lineNumber: 42,
+                                        columnNumber: 33
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                                lineNumber: 33,
-                                columnNumber: 13
+                                lineNumber: 40,
+                                columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                        lineNumber: 29,
-                        columnNumber: 11
+                        lineNumber: 36,
+                        columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-                lineNumber: 27,
-                columnNumber: 9
+                lineNumber: 32,
+                columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-            lineNumber: 26,
-            columnNumber: 7
+            lineNumber: 31,
+            columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/graduates/GraduatesMainContent/GraduatesMainContent.tsx",
-        lineNumber: 25,
-        columnNumber: 5
+        lineNumber: 30,
+        columnNumber: 9
     }, this);
 };
 _s(GraduatesMainContent, "rCHvv4avO2pfnse9X0esHSo6vJw=", false, function() {
