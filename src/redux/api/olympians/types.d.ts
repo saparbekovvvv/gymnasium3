@@ -8,15 +8,12 @@ namespace OLYMPIANS {
         name_of_olympia: {
             choosing: string;
             choosing_ky: string;
-            choosing_ru: string | null;
+            choosing_ru?: string | null;
         };
     }
 
     type GetOlympiansResponse = IOlympian[];
-
     type GetOlympiansRequest = void;
-
     type GetDetOlympianTypeResponse = IOlympian[];
-
     type GetDetOlympianTypeRequest = string | number | void;
 }

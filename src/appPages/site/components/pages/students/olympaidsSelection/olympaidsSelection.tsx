@@ -6,19 +6,27 @@ import { useRouter } from "next/navigation";
 import { useLanguageStore } from "@/stores/useLanguageStore";
 import { useGetOlympiansQuery } from "@/redux/api/olympians";
 
+type Category = {
+    choosing: string;
+    choosing_ky: string;
+    choosing_ru?: string | null;
+    id: number;
+};
+
 const OlympaidsSelection = () => {
     const router = useRouter();
     const { isKyrgyz, t } = useLanguageStore();
+    const { data, isError, isLoading } = useGetOlympiansQuery();
 
-    const { data, isError, isLoading } = useGetOlympiansQuery() || {};
-
-    if (isLoading)
+    if (isLoading) {
         return (
             <div className={scss.loading}>
                 {t("Жүктөлүүдө...", "Загрузка...")}
             </div>
         );
-    if (isError || !data) {
+    }
+
+    if (isError || !data || data.length === 0) {
         return (
             <div className={scss.error}>
                 {t(
@@ -29,24 +37,21 @@ const OlympaidsSelection = () => {
         );
     }
 
-    const uniqueCategories = Array.from(
-        new Set(
-            data.map((item) => item.name_of_olympia?.choosing).filter(Boolean)
-        )
-    )
-        .map((name) => {
-            const foundItem = data.find(
-                (item) => item.name_of_olympia?.choosing === name
-            );
-
-            // Проверяем, что найденный элемент существует и имеет id
-            if (foundItem && foundItem.id) {
-                return { name: name as string, id: foundItem.id };
-            }
-
-            return null; // Если элемент не найден, возвращаем null
-        })
-        .filter(Boolean); // Фильтруем null-значения
+    const uniqueCategories = data.reduce<Category[]>((acc, item) => {
+        const category = item.name_of_olympia;
+        if (
+            category &&
+            !acc.some((cat) => cat.choosing === category.choosing)
+        ) {
+            acc.push({
+                choosing: category.choosing,
+                choosing_ky: category.choosing_ky,
+                choosing_ru: category.choosing_ru,
+                id: item.id,
+            });
+        }
+        return acc;
+    }, []);
 
     return (
         <div className={scss.OlympaidsSelection}>
@@ -56,23 +61,40 @@ const OlympaidsSelection = () => {
                         {t("Олимпияданын түрлөрү", "Виды олимпияд")}
                     </h1>
                     <div className={scss.cards}>
-                        {uniqueCategories.map((category, index) => (
+                        {uniqueCategories.map((category) => (
                             <div
+                                key={category.id}
                                 onClick={() =>
                                     router.push(
-                                        `/students/olympians/olymp_categories/${category?.id}`
+                                        `/students/olympians/olymp_categories/${category.id}`
                                     )
                                 }
-                                key={index}
                                 className={scss.card}
+                                role="button"
+                                tabIndex={0}
+                                onKeyPress={(e) => {
+                                    if (e.key === "Enter") {
+                                        router.push(
+                                            `/students/olympians/olymp_categories/${category.id}`
+                                        );
+                                    }
+                                }}
+                                aria-label={
+                                    isKyrgyz
+                                        ? category.choosing_ky
+                                        : category.choosing_ru ||
+                                          category.choosing
+                                }
                             >
-                                {category?.name && (
-                                    <h2>
-                                        {isKyrgyz
-                                            ? category.name
-                                            : t(category.name, category.name)}
-                                    </h2>
-                                )}{" "}
+                                <h2>
+                                    {isKyrgyz
+                                        ? category.choosing_ky
+                                        : t(
+                                              category.choosing_ru ??
+                                                  category.choosing,
+                                              category.choosing
+                                          )}
+                                </h2>
                             </div>
                         ))}
                     </div>

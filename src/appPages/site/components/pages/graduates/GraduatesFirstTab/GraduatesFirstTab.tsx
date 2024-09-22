@@ -74,7 +74,9 @@ const GraduatesFirstTab = () => {
                                                 <button
                                                     className={scss.button}
                                                     onClick={() =>
-                                                        filterData(year)
+                                                        filterData(
+                                                            year || undefined
+                                                        )
                                                     }
                                                 >
                                                     {year}

@@ -33,7 +33,6 @@ const OlympaidTable = () => {
         );
     }
 
-    // Find the first item that matches the category_id
     const categoryItem = data.find((item) => item.id === Number(category_id));
 
     if (!categoryItem) {
@@ -43,25 +42,24 @@ const OlympaidTable = () => {
             </div>
         );
     }
-
-    // Filter students based on matching id and name_of_olympia.choosing
     const filteredStudents = data.filter(
         (item) =>
-            item.id === Number(category_id) &&
             item.name_of_olympia.choosing ===
-                categoryItem.name_of_olympia.choosing
+            categoryItem.name_of_olympia.choosing
     );
 
     return (
         <section className={scss.OlympaidTable}>
             <div className="container">
                 <div className={scss.content}>
-                    <h2 className={scss.title}>
-                        {t("Олимпиядачылар", "Олимпийцы")}
-                    </h2>
-                    <h2 className={scss.title}>
-                        {categoryItem.name_of_olympia.choosing}
-                    </h2>
+                    <div className={scss.titleContent}>
+                        <h2 className={scss.title}>
+                            {t("Олимпиядачылар", "Олимпийцы")}
+                        </h2>
+                        <h2 className={scss.title}>
+                            {categoryItem.name_of_olympia.choosing}
+                        </h2>
+                    </div>
                     <div className={scss.table}>
                         <div className={scss.tableTitle}>
                             <h1 className={scss.titleText}>No.</h1>
@@ -97,9 +95,6 @@ const OlympaidTable = () => {
                                                     {item.student.name}
                                                 </h1>
                                             </div>
-                                        </h1>
-                                        <h1 className={scss.tableTextNumber}>
-                                            {item.name_of_olympia.choosing}
                                         </h1>
                                     </div>
                                 ))
