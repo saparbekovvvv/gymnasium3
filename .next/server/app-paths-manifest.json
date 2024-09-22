@@ -1,8 +1,4 @@
 {
   "/(site)/(home)/page": "app/(site)/(home)/page.js",
-  "/(site)/news/page": "app/(site)/news/page.js",
-  "/(site)/graduates/page": "app/(site)/graduates/page.js",
-  "/(site)/gallery/page": "app/(site)/gallery/page.js",
-  "/(site)/graduates/graduates_table/page": "app/(site)/graduates/graduates_table/page.js",
-  "/(site)/graduates/best_graduates/page": "app/(site)/graduates/best_graduates/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
