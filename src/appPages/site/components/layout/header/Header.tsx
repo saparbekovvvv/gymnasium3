@@ -30,7 +30,7 @@ const Header = () => {
   });
 
   useEffect(() => {
-    if (hasFocusInput && query.length >= 2) {
+    if (hasFocusInput && query.length >= 1) {
       router.push(`/search?query=${encodeURIComponent(query)}`);
     }
   }, [query, hasFocusInput, router]);
@@ -42,7 +42,10 @@ const Header = () => {
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
   };
-
+  const handleBlur = () => {
+    setQuery("");
+    setHasFocusInput(false);
+  };
   const handleScrollTo = () => {
     window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
   };
@@ -53,7 +56,7 @@ const Header = () => {
 
   return (
     <header className={scss.header}>
-      <div className="container" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+      <div className="container">
         <div className={scss.content}>
           <div className={scss.hamburger} onClick={handleMenu}>
             <RxHamburgerMenu />
@@ -74,6 +77,9 @@ const Header = () => {
 
           <nav className={`${scss.nav} ${isMenuOpen ? scss.active : ""}`}>
             <ul onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              <li className={scss.disp}>
+                <Link href="/">{t("Башкы бет", "Главная")}</Link>
+              </li>
               <li>
                 <Link href="/news">{t("Жаңылыктар", "Новости")}</Link>
               </li>
@@ -92,17 +98,24 @@ const Header = () => {
               <li>
                 <a onClick={handleScrollTo}>{t("Байланыштар", "Контакты")}</a>
               </li>
+              <li>
+                <Link href="/fond">{t("Фонд", "Фонд")}</Link>
+              </li>
             </ul>
           </nav>
 
           <div className={scss.rightSection}>
             <div className={scss.search}>
               <Input
-                minLength={2}
+                minLength={1}
+                maxLength={30}
                 debounceTimeout={300}
                 onChange={handleChange}
                 onFocus={() => {
                   setHasFocusInput(true);
+                }}
+                onBlur={() => {
+                  handleBlur();
                 }}
                 value={query}
                 placeholder={t("Издөө...", "Поиск...")}
@@ -130,7 +143,7 @@ const Header = () => {
           </div>
         </div>
 
-        {query.length >= 2 && (
+        {/* {query.length >= 2 && (
           <div className={scss.searchResults}>
             {isLoading && <p>{t("Жүктөлүүдө...", "Загрузка...")}</p>}
             {!isLoading && !error && data && data.length > 0 ? (
@@ -147,7 +160,7 @@ const Header = () => {
               <p>{t("Натыйжа табылган жок", "Результатов не найдено")}</p>
             ) : null}
           </div>
-        )}
+        )} */}
       </div>
     </header>
   );
