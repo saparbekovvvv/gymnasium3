@@ -11,6 +11,7 @@
 .StudentsClassTable-module-scss-module__cH9Lta__titleBlock {
   display: grid;
   align-items: center;
+  gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -260,7 +261,7 @@
   }
 
   .StudentsClassTable-module-scss-module__cH9Lta__titleBlock {
-    gap: 9px;
+    gap: 20px;
   }
 
   .StudentsClassTable-module-scss-module__cH9Lta__button {
@@ -324,7 +325,7 @@
   }
 
   .StudentsClassTable-module-scss-module__cH9Lta__titleBlock {
-    gap: 7px;
+    gap: 20px;
   }
 
   .StudentsClassTable-module-scss-module__cH9Lta__button {
@@ -369,7 +370,7 @@
 
 @media (width <= 680px) {
   .StudentsClassTable-module-scss-module__cH9Lta__titleBlock {
-    gap: 6px;
+    gap: 20px;
   }
 
   .StudentsClassTable-module-scss-module__cH9Lta__button {
@@ -451,7 +452,7 @@
   }
 
   .StudentsClassTable-module-scss-module__cH9Lta__titleBlock {
-    gap: 0;
+    gap: 20px;
   }
 
   .StudentsClassTable-module-scss-module__cH9Lta__filterButtons {
@@ -496,7 +497,7 @@
   }
 
   .StudentsClassTable-module-scss-module__cH9Lta__titleBlock {
-    gap: 10px;
+    gap: 20px;
   }
 
   .StudentsClassTable-module-scss-module__cH9Lta__titleText {

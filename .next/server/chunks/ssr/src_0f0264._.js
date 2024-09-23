@@ -97,6 +97,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$d
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.11_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$students$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/redux/api/students/index.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/.pnpm/next@14.2.11_react-dom@18.3.1_react@18.3.1__react@18.3.1_sass@1.77.8/node_modules/next/navigation.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$stores$2f$useLanguageStore$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/stores/useLanguageStore.tsx [app-ssr] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 "use client";
 ;
@@ -106,8 +107,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 ;
 ;
 ;
+;
 const StudentClassTable = ()=>{
     const searchParams = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useSearchParams"])();
+    const { isKyrgyz, t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$stores$2f$useLanguageStore$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLanguageStore"])();
     const classId = searchParams.get("grade");
     const { data: studentsData, isLoading, isError } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$redux$2f$api$2f$students$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useGetStudentsClassQuery"])(String(classId));
     const [filteredData, setFilteredData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
@@ -120,9 +123,9 @@ const StudentClassTable = ()=>{
                 if (index === 0) {
                     status_in_class = "Президент";
                 } else if (index === 1) {
-                    status_in_class = "Муж.совет";
+                    status_in_class = t("Жиг.кенеши", "Муж.совет");
                 } else if (index === 2) {
-                    status_in_class = "Жен.совет";
+                    status_in_class = t("Кыз.кенеши", "Жен.совет");
                 }
                 return {
                     ...student,
@@ -133,24 +136,28 @@ const StudentClassTable = ()=>{
         }
     }, [
         studentsData,
-        classId
+        classId,
+        t,
+        isKyrgyz
     ]);
     if (isLoading) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClassTable$2f$StudentsClassTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].loading,
-        children: "Загрузка..."
+        children: t("Жүктөлүүдө...", "Загрузка...")
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-        lineNumber: 44,
-        columnNumber: 27
+        lineNumber: 47,
+        columnNumber: 13
     }, this);
-    if (isError || !studentsData || !classId) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClassTable$2f$StudentsClassTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].error,
-        children: "Ошибка при загрузке данных."
-    }, void 0, false, {
-        fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-        lineNumber: 46,
-        columnNumber: 16
-    }, this);
+    if (isError || !studentsData) {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClassTable$2f$StudentsClassTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].error,
+            children: t("Маалыматты жүктөөдө ката кетти", "Ошибка при загрузке данных")
+        }, void 0, false, {
+            fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
+            lineNumber: 53,
+            columnNumber: 13
+        }, this);
+    }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClassTable$2f$StudentsClassTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].StudentClassTable,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -166,10 +173,10 @@ const StudentClassTable = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClassTable$2f$StudentsClassTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].titleText,
-                                        children: "Кл. руководитель"
+                                        children: t("Кл.жетекчи", "Кл.руководитель")
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 67,
                                         columnNumber: 29
                                     }, this),
                                     " ",
@@ -178,13 +185,13 @@ const StudentClassTable = ()=>{
                                         children: filteredData[0] && filteredData[0].classroom_teacher.map((teacher)=>teacher.name).join(", ")
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 70,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                lineNumber: 53,
+                                lineNumber: 66,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -195,13 +202,13 @@ const StudentClassTable = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                lineNumber: 62,
+                                lineNumber: 77,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                        lineNumber: 52,
+                        lineNumber: 65,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -215,15 +222,18 @@ const StudentClassTable = ()=>{
                                         children: "No."
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 81,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClassTable$2f$StudentsClassTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].titleText,
-                                        children: "Имя ученика"
-                                    }, void 0, false, {
+                                        children: [
+                                            " ",
+                                            t("Окуучунун аты", "Имя ученика")
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 82,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -231,13 +241,13 @@ const StudentClassTable = ()=>{
                                         children: "Статус"
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 86,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                lineNumber: 65,
+                                lineNumber: 80,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -247,7 +257,7 @@ const StudentClassTable = ()=>{
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClassTable$2f$StudentsClassTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].hr
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 89,
                                         columnNumber: 29
                                     }, this),
                                     filteredData.length > 0 ? filteredData.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -261,7 +271,7 @@ const StudentClassTable = ()=>{
                                                     children: index + 1
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                                    lineNumber: 81,
+                                                    lineNumber: 99,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -273,7 +283,7 @@ const StudentClassTable = ()=>{
                                                             alt: `Аватар студента ${item.name} ${item.surname}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                                            lineNumber: 85,
+                                                            lineNumber: 103,
                                                             columnNumber: 45
                                                         }, this),
                                                         item.surname,
@@ -282,7 +292,7 @@ const StudentClassTable = ()=>{
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                                    lineNumber: 84,
+                                                    lineNumber: 102,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -290,52 +300,54 @@ const StudentClassTable = ()=>{
                                                     children: item.status_in_class
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 110,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, `${item.surname}-${item.name}-${index}`, true, {
                                             fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                            lineNumber: 74,
+                                            lineNumber: 92,
                                             columnNumber: 37
                                         }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$StudentsClassTable$2f$StudentsClassTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].noClass,
                                         children: [
                                             "Класс ",
                                             classId,
-                                            " не найден."
+                                            " ",
+                                            t("табылган жок", "не найден"),
+                                            "."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                        lineNumber: 98,
+                                        lineNumber: 116,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                                lineNumber: 70,
+                                lineNumber: 88,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                        lineNumber: 64,
+                        lineNumber: 79,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-                lineNumber: 51,
+                lineNumber: 64,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-            lineNumber: 50,
+            lineNumber: 63,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/students/StudentsClassTable/StudentsClassTable.tsx",
-        lineNumber: 49,
+        lineNumber: 62,
         columnNumber: 9
     }, this);
 };

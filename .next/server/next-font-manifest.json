@@ -3,6 +3,7 @@
     "[project]/src/app/(site)/(home)/page": [
       "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
     ],
+<<<<<<< HEAD
     "[project]/src/app/(site)/teachers/page": [
       "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
     ],
@@ -16,6 +17,30 @@
       "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
     ],
     "[project]/src/app/(site)/news/[newsDetail]/page": [
+=======
+    "[project]/src/app/(site)/students/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
+    ],
+    "[project]/src/app/(site)/students/olympians/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
+    ],
+    "[project]/src/app/(site)/students/olympians/olymp_categories/[category_id]/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
+    ],
+    "[project]/src/app/(site)/graduates/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
+    ],
+    "[project]/src/app/(site)/graduates/best_graduates/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
+    ],
+    "[project]/src/app/(site)/graduates/graduates_table/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
+    ],
+    "[project]/src/app/(site)/students/[school_class]/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
+    ],
+    "[project]/src/app/(site)/students/studentsparliamenttable/page": [
+>>>>>>> 3cc40179ee56c255a87dec7892fc14f76577fb28
       "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
     ]
   },

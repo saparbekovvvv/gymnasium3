@@ -41,15 +41,29 @@
 
 .GraduatesFirstTab-module-scss-module__hFkc5W__selector {
   background: #f3f3f3;
-  padding: 8px;
   border-radius: 10px;
   display: flex;
-  gap: 10px;
-  flex-direction: row;
+  padding: 5px 0 0;
+  width: 100px;
+  flex-direction: column;
   align-items: center;
 }
 
+.GraduatesFirstTab-module-scss-module__hFkc5W__years {
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 .GraduatesFirstTab-module-scss-module__hFkc5W__show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 450px;
 }
 

@@ -8,6 +8,14 @@
     justify-content: center;
 }
 
+.titleContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
 .tableTitle {
     display: grid;
     grid-template-columns: 0.3fr 2fr;
@@ -58,6 +66,7 @@
 
 .tableContent {
     display: flex;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     gap: 10px;
@@ -249,23 +258,23 @@
     }
 
     .titleText {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
     }
     .tableText {
         padding: 0 5px 0 0;
 
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
     }
 
     .tableTextNumber {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
     }
 
     .tableName {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
     }
     .studentIcon {
@@ -314,23 +323,23 @@
     }
 
     .titleText {
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 500;
     }
     .tableText {
         padding: 0 5px 0 0;
 
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 500;
     }
 
     .tableTextNumber {
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 500;
     }
 
     .tableName {
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 500;
     }
     .studentIcon {
@@ -355,23 +364,23 @@
     }
 
     .titleText {
-        font-size: 11px;
+        font-size: 14px;
         font-weight: 500;
     }
     .tableText {
         padding: 0 5px 0 0;
 
-        font-size: 11px;
+        font-size: 14px;
         font-weight: 500;
     }
 
     .tableTextNumber {
-        font-size: 11px;
+        font-size: 14px;
         font-weight: 500;
     }
 
     .tableName {
-        font-size: 11px;
+        font-size: 14px;
         font-weight: 500;
     }
     .studentIcon {
@@ -396,18 +405,18 @@
     }
 
     .titleText {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 500;
     }
     .tableText {
         padding: 0 5px 0 0;
 
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 500;
     }
 
     .tableTextNumber {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 500;
     }
     .title {
@@ -415,7 +424,7 @@
     }
 
     .tableName {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 500;
     }
     .studentIcon {
