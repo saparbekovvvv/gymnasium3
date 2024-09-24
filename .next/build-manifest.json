@@ -18,18 +18,8 @@
     "static/chunks/d1431_next_dist_e2970b._.js",
     "static/chunks/90481_@swc_helpers_cjs_e55b81._.js",
     "static/chunks/[turbopack]_dev_client_hmr-client_ts_552c3b._.js",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "static/chunks/d1431_next_dist_esm_build_templates_app-page_4561e3.js",
-    "static/chunks/d1431_next_dist_esm_build_templates_app-page_890a51.js"
-=======
-    "static/chunks/d1431_next_dist_esm_build_templates_app-page_e2e8a8.js",
-    "static/chunks/d1431_next_dist_esm_build_templates_app-page_585fab.js"
->>>>>>> 7bb31f12415188117481912368d43c18ac312b89
-=======
     "static/chunks/d1431_next_dist_esm_build_templates_app-page_49bea4.js",
     "static/chunks/d1431_next_dist_esm_build_templates_app-page_3c9e22.js"
->>>>>>> 2541af7a307024fe49ddad27a37247dc40bc3dd4
   ],
   "ampFirstPages": []
 }
