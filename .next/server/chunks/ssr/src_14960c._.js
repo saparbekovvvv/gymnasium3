@@ -9,6 +9,8 @@ __turbopack_export_value__({
   "errorBlock": "OlympaidTable-module-scss-module__4MJNkq__errorBlock",
   "fadeIn": "OlympaidTable-module-scss-module__4MJNkq__fadeIn",
   "isLoadingBlock": "OlympaidTable-module-scss-module__4MJNkq__isLoadingBlock",
+  "levelText": "OlympaidTable-module-scss-module__4MJNkq__levelText",
+  "levelTitleText": "OlympaidTable-module-scss-module__4MJNkq__levelTitleText",
   "loading": "OlympaidTable-module-scss-module__4MJNkq__loading",
   "nameContent": "OlympaidTable-module-scss-module__4MJNkq__nameContent",
   "slideInFromLeft": "OlympaidTable-module-scss-module__4MJNkq__slideInFromLeft",
@@ -17,12 +19,16 @@ __turbopack_export_value__({
   "table": "OlympaidTable-module-scss-module__4MJNkq__table",
   "tableContent": "OlympaidTable-module-scss-module__4MJNkq__tableContent",
   "tableName": "OlympaidTable-module-scss-module__4MJNkq__tableName",
+  "tablePlace": "OlympaidTable-module-scss-module__4MJNkq__tablePlace",
   "tableText": "OlympaidTable-module-scss-module__4MJNkq__tableText",
   "tableTextNumber": "OlympaidTable-module-scss-module__4MJNkq__tableTextNumber",
   "tableTitle": "OlympaidTable-module-scss-module__4MJNkq__tableTitle",
+  "tableYear": "OlympaidTable-module-scss-module__4MJNkq__tableYear",
   "title": "OlympaidTable-module-scss-module__4MJNkq__title",
   "titleContent": "OlympaidTable-module-scss-module__4MJNkq__titleContent",
+  "titlePlace": "OlympaidTable-module-scss-module__4MJNkq__titlePlace",
   "titleText": "OlympaidTable-module-scss-module__4MJNkq__titleText",
+  "titleYear": "OlympaidTable-module-scss-module__4MJNkq__titleYear",
 });
 
 })()),
@@ -114,7 +120,7 @@ const OlympaidTable = ()=>{
             children: t("Жүктөлүүдө...", "Загрузка...")
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-            lineNumber: 20,
+            lineNumber: 23,
             columnNumber: 13
         }, this);
     }
@@ -124,7 +130,7 @@ const OlympaidTable = ()=>{
             children: t("Маалыматты жүктөөдө ката кетти", "Ошибка при загрузке данных")
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-            lineNumber: 27,
+            lineNumber: 30,
             columnNumber: 13
         }, this);
     }
@@ -135,11 +141,35 @@ const OlympaidTable = ()=>{
             children: t("Категория табылган жок", "Категория не найдена")
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-            lineNumber: 40,
+            lineNumber: 43,
             columnNumber: 13
         }, this);
     }
     const filteredStudents = data.filter((item)=>item.name_of_olympia.choosing === categoryItem.name_of_olympia.choosing);
+    const getLevelText = (level)=>{
+        switch(level){
+            case "level_3":
+                return t("Республика", "Республика");
+            case "level_2":
+                return t("Область", "Область");
+            case "level_1":
+                return t("Район", "Район");
+            default:
+                return level;
+        }
+    };
+    const getPlaceText = (place)=>{
+        switch(place){
+            case "fist":
+                return "1 ";
+            case "second":
+                return "2 ";
+            case "third":
+                return "3 ";
+            default:
+                return place;
+        }
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].OlympaidTable,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -155,7 +185,7 @@ const OlympaidTable = ()=>{
                                 children: t("Олимпиядачылар", "Олимпийцы")
                             }, void 0, false, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                lineNumber: 56,
+                                lineNumber: 85,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -163,13 +193,13 @@ const OlympaidTable = ()=>{
                                 children: categoryItem.name_of_olympia.choosing
                             }, void 0, false, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                lineNumber: 59,
+                                lineNumber: 88,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                        lineNumber: 55,
+                        lineNumber: 84,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -183,7 +213,7 @@ const OlympaidTable = ()=>{
                                         children: "No."
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 94,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -191,13 +221,37 @@ const OlympaidTable = ()=>{
                                         children: t("Окуучунун аты", "Имя ученика")
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 95,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].levelTitleText,
+                                        children: t("Денгээл", "Уровень")
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
+                                        lineNumber: 98,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].titleYear,
+                                        children: t("Жыл", "Год")
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
+                                        lineNumber: 101,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].titlePlace,
+                                        children: t("Орун", "Место")
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
+                                        lineNumber: 104,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                lineNumber: 64,
+                                lineNumber: 93,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -207,7 +261,7 @@ const OlympaidTable = ()=>{
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].hr
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 109,
                                         columnNumber: 29
                                     }, this),
                                     filteredStudents.length > 0 ? filteredStudents.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -221,7 +275,7 @@ const OlympaidTable = ()=>{
                                                     children: index + 1
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                                    lineNumber: 81,
+                                                    lineNumber: 119,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -233,7 +287,7 @@ const OlympaidTable = ()=>{
                                                             alt: "img"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                                            lineNumber: 85,
+                                                            lineNumber: 123,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -244,7 +298,7 @@ const OlympaidTable = ()=>{
                                                                     children: item.student.surname
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                                                    lineNumber: 91,
+                                                                    lineNumber: 129,
                                                                     columnNumber: 49
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -252,60 +306,84 @@ const OlympaidTable = ()=>{
                                                                     children: item.student.name
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                                                    lineNumber: 94,
+                                                                    lineNumber: 132,
                                                                     columnNumber: 49
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                                            lineNumber: 90,
+                                                            lineNumber: 128,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                                    lineNumber: 84,
+                                                    lineNumber: 122,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].levelText,
+                                                    children: getLevelText(item.level)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
+                                                    lineNumber: 137,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].tableYear,
+                                                    children: item.year
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
+                                                    lineNumber: 140,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].tablePlace,
+                                                    children: getPlaceText(item.place)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
+                                                    lineNumber: 143,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                            lineNumber: 74,
+                                            lineNumber: 112,
                                             columnNumber: 37
                                         }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$appPages$2f$site$2f$components$2f$pages$2f$students$2f$OlympaidTable$2f$OlympaidTable$2e$module$2e$scss$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].noResults,
                                         children: t("Категорияга дал келген окуучулар жок", "Нет учеников, соответствующих категории")
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 149,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                                lineNumber: 70,
+                                lineNumber: 108,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                        lineNumber: 63,
+                        lineNumber: 92,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-                lineNumber: 54,
+                lineNumber: 83,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-            lineNumber: 53,
+            lineNumber: 82,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/pages/students/OlympaidTable/OlympaidTable.tsx",
-        lineNumber: 52,
+        lineNumber: 81,
         columnNumber: 9
     }, this);
 };
