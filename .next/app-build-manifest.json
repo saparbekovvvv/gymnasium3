@@ -189,7 +189,11 @@
       "static/chunks/d1431_next_dist_esm_build_templates_app-page_085d90.js",
       "static/chunks/d1431_next_dist_esm_build_templates_app-page_7951e3.js"
     ],
+<<<<<<< HEAD
     "/(site)/graduates/page": [
+=======
+    "/(site)/students/olympians/page": [
+>>>>>>> 2541af7a307024fe49ddad27a37247dc40bc3dd4
       "static/chunks/[root of the server]__1e9e25._.css",
       "static/chunks/node_modules__pnpm_4afc62._.js",
       "static/chunks/src_7a1d0f._.js",
@@ -202,9 +206,15 @@
       "static/chunks/node_modules__pnpm_19931f._.js",
       "static/chunks/src_898187._.js",
       "static/chunks/src_app_(site)_layout_tsx_0f42c1._.js",
+<<<<<<< HEAD
       "static/chunks/src_appPages_site_components_pages_GraduatesPage_module_scss_module_10026c.css",
       "static/chunks/src_c5668d._.js",
       "static/chunks/src_app_(site)_graduates_page_tsx_06b067._.js",
+=======
+      "static/chunks/9cda6_pages_students_olympaidsSelection_OlympaidsSelection_module_scss_module_fdb92b.css",
+      "static/chunks/src_2734b7._.js",
+      "static/chunks/src_app_(site)_students_olympians_page_tsx_45ef9b._.js",
+>>>>>>> 2541af7a307024fe49ddad27a37247dc40bc3dd4
       "static/chunks/d1431_next_dist_compiled_react_546380._.js",
       "static/chunks/d1431_next_dist_compiled_react-dom_cjs_react-dom_development_d38563.js",
       "static/chunks/d1431_next_dist_compiled_react-dom_74e4d9._.js",
@@ -213,10 +223,17 @@
       "static/chunks/d1431_next_dist_e2970b._.js",
       "static/chunks/90481_@swc_helpers_cjs_e55b81._.js",
       "static/chunks/[turbopack]_dev_client_hmr-client_ts_552c3b._.js",
+<<<<<<< HEAD
       "static/chunks/d1431_next_dist_esm_build_templates_app-page_cea615.js",
       "static/chunks/d1431_next_dist_esm_build_templates_app-page_db1353.js"
     ],
     "/(site)/graduates/best_graduates/page": [
+=======
+      "static/chunks/d1431_next_dist_esm_build_templates_app-page_d82a60.js",
+      "static/chunks/d1431_next_dist_esm_build_templates_app-page_65ba5d.js"
+    ],
+    "/(site)/students/olympians/olymp_categories/[category_id]/page": [
+>>>>>>> 2541af7a307024fe49ddad27a37247dc40bc3dd4
       "static/chunks/[root of the server]__1e9e25._.css",
       "static/chunks/node_modules__pnpm_4afc62._.js",
       "static/chunks/src_7a1d0f._.js",
@@ -229,9 +246,15 @@
       "static/chunks/node_modules__pnpm_19931f._.js",
       "static/chunks/src_898187._.js",
       "static/chunks/src_app_(site)_layout_tsx_0f42c1._.js",
+<<<<<<< HEAD
       "static/chunks/18e2c_graduates_GraduatesMainContent_GraduatesMainContent_module_scss_module_6f7733.css",
       "static/chunks/src_783d33._.js",
       "static/chunks/src_app_(site)_graduates_best_graduates_page_tsx_69a793._.js",
+=======
+      "static/chunks/e3fed_components_pages_students_OlympaidTable_OlympaidTable_module_scss_module_5d140c.css",
+      "static/chunks/src_dfe34f._.js",
+      "static/chunks/src_app_(site)_students_olympians_olymp_categories_[category_id]_page_tsx_1976f0._.js",
+>>>>>>> 2541af7a307024fe49ddad27a37247dc40bc3dd4
       "static/chunks/d1431_next_dist_compiled_react_546380._.js",
       "static/chunks/d1431_next_dist_compiled_react-dom_cjs_react-dom_development_d38563.js",
       "static/chunks/d1431_next_dist_compiled_react-dom_74e4d9._.js",
@@ -240,6 +263,7 @@
       "static/chunks/d1431_next_dist_e2970b._.js",
       "static/chunks/90481_@swc_helpers_cjs_e55b81._.js",
       "static/chunks/[turbopack]_dev_client_hmr-client_ts_552c3b._.js",
+<<<<<<< HEAD
       "static/chunks/d1431_next_dist_esm_build_templates_app-page_775d81.js",
       "static/chunks/d1431_next_dist_esm_build_templates_app-page_c6f580.js"
     ],
@@ -300,6 +324,10 @@
       "static/chunks/d1431_next_dist_esm_build_templates_app-page_e2e8a8.js",
       "static/chunks/d1431_next_dist_esm_build_templates_app-page_585fab.js"
 >>>>>>> 7bb31f12415188117481912368d43c18ac312b89
+=======
+      "static/chunks/d1431_next_dist_esm_build_templates_app-page_49bea4.js",
+      "static/chunks/d1431_next_dist_esm_build_templates_app-page_3c9e22.js"
+>>>>>>> 2541af7a307024fe49ddad27a37247dc40bc3dd4
     ]
   }
 }

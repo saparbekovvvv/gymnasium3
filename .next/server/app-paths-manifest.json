@@ -3,6 +3,7 @@
 <<<<<<< HEAD
   "/(site)/news/page": "app/(site)/news/page.js",
   "/(site)/students/page": "app/(site)/students/page.js",
+<<<<<<< HEAD
   "/(site)/graduates/page": "app/(site)/graduates/page.js",
   "/(site)/graduates/best_graduates/page": "app/(site)/graduates/best_graduates/page.js",
   "/(site)/graduates/graduates_table/page": "app/(site)/graduates/graduates_table/page.js",
@@ -15,4 +16,9 @@
   "/(site)/news/page": "app/(site)/news/page.js",
   "/(site)/news/[newsDetail]/page": "app/(site)/news/[newsDetail]/page.js"
 >>>>>>> 7bb31f12415188117481912368d43c18ac312b89
+=======
+  "/(site)/students/olympians/page": "app/(site)/students/olympians/page.js",
+  "/(site)/students/olympians/olymp_categories/[category_id]/page": "app/(site)/students/olympians/olymp_categories/[category_id]/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+>>>>>>> 2541af7a307024fe49ddad27a37247dc40bc3dd4
 }
