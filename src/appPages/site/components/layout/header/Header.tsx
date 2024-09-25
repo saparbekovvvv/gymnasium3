@@ -9,6 +9,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { DebounceInput as Input } from "react-debounce-input";
 import { useGetSearchQuery } from "@/redux/api/search";
 import { useLanguageStore } from "@/stores/useLanguageStore";
+import { useGetAccountQuery } from "@/redux/api/profile";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,6 +17,8 @@ const Header = () => {
   const [query, setQuery] = useState<string>("");
   const [hasFocusInput, setHasFocusInput] = useState(false);
   const { isKyrgyz, setIsKyrgyz, t } = useLanguageStore();
+  const { data: account } = useGetAccountQuery(null);
+  console.log(account, "account");
 
   const searchRequest = useMemo(() => {
     if (query.length < 2) return null;

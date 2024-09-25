@@ -43,13 +43,13 @@
 
 #TeachersContent-module-scss-module__J-1L6W__content .TeachersContent-module-scss-module__J-1L6W__teacher {
   position: absolute;
-  top: -56px;
+  top: -6px;
   left: 50%;
   transform: translateX(-50%);
   width: 280px;
-  height: 450px;
+  height: 360px;
   object-fit: contain;
-  z-index: 2;
+  z-index: 3;
 }
 
 #TeachersContent-module-scss-module__J-1L6W__content .TeachersContent-module-scss-module__J-1L6W__button {
@@ -62,12 +62,13 @@
   font-size: 1rem;
   cursor: pointer;
   transition: background-color .3s;
-  margin-top: 349px;
+  margin-top: 348px;
   z-index: 3;
 }
 
 #TeachersContent-module-scss-module__J-1L6W__content .TeachersContent-module-scss-module__J-1L6W__button:hover {
   background-color: #4a2f6d;
+  color: #fff;
 }
 
 /*# sourceMappingURL=e3fed_components_pages_home_TeachersContent_TeachersContent_module_scss_module_b52d8e.css.map*/
