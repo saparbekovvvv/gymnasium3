@@ -9,6 +9,9 @@ import { useParams } from "next/navigation";
 import Image from "next/image";
 import { useLanguageStore } from "@/stores/useLanguageStore";
 
+type Level = "level_1" | "level_2" | "level_3";
+type Place = "fist" | "second" | "third";
+
 const OlympaidTable = () => {
     const { category_id } = useParams();
     const { t } = useLanguageStore();
@@ -48,6 +51,32 @@ const OlympaidTable = () => {
             categoryItem.name_of_olympia.choosing
     );
 
+    const getLevelText = (level: Level) => {
+        switch (level) {
+            case "level_3":
+                return t("Республика", "Республика");
+            case "level_2":
+                return t("Область", "Область");
+            case "level_1":
+                return t("Район", "Район");
+            default:
+                return level;
+        }
+    };
+
+    const getPlaceText = (place: Place) => {
+        switch (place) {
+            case "fist":
+                return "1 ";
+            case "second":
+                return "2 ";
+            case "third":
+                return "3 ";
+            default:
+                return place;
+        }
+    };
+
     return (
         <section className={scss.OlympaidTable}>
             <div className="container">
@@ -65,6 +94,15 @@ const OlympaidTable = () => {
                             <h1 className={scss.titleText}>No.</h1>
                             <h1 className={scss.titleText}>
                                 {t("Окуучунун аты", "Имя ученика")}
+                            </h1>
+                            <h1 className={scss.levelTitleText}>
+                                {t("Денгээл", "Уровень")}
+                            </h1>
+                            <h1 className={scss.titleYear}>
+                                {t("Жыл", "Год")}
+                            </h1>
+                            <h1 className={scss.titlePlace}>
+                                {t("Орун", "Место")}
                             </h1>
                         </div>
                         <div className={scss.tableContent}>
@@ -95,6 +133,15 @@ const OlympaidTable = () => {
                                                     {item.student.name}
                                                 </h1>
                                             </div>
+                                        </h1>
+                                        <h1 className={scss.levelText}>
+                                            {getLevelText(item.level as Level)}
+                                        </h1>
+                                        <h1 className={scss.tableYear}>
+                                            {item.year}
+                                        </h1>
+                                        <h1 className={scss.tablePlace}>
+                                            {getPlaceText(item.place as Place)}
                                         </h1>
                                     </div>
                                 ))

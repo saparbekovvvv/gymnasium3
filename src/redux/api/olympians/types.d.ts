@@ -8,8 +8,11 @@ namespace OLYMPIANS {
         name_of_olympia: {
             choosing: string;
             choosing_ky: string;
-            choosing_ru?: string | null;
+            choosing_ru: string;
         };
+        year: number;
+        level: string;
+        place: string;
     }
 
     type GetOlympiansResponse = IOlympian[];
