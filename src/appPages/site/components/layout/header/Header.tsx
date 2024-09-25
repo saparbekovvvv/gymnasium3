@@ -16,7 +16,9 @@ const Header = () => {
   const router = useRouter();
   const [query, setQuery] = useState<string>("");
   const [hasFocusInput, setHasFocusInput] = useState(false);
+
   const { isKyrgyz, setIsKyrgyz, t } = useLanguageStore();
+
   const { data: account } = useGetAccountQuery(null);
   console.log(account, "account");
 
