@@ -41,21 +41,21 @@
   padding-top: 20px;
 }
 
+#StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__content {
+  padding-top: 50px;
+}
+
 #StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__student {
   position: absolute;
   display: flex;
   align-items: center;
-  top: -60px;
+  top: -18px;
   width: 250px;
   object-fit: contain;
-  height: 450px;
+  height: 370px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
-}
-
-#StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__content {
-  padding-top: 50px;
 }
 
 #StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__button {

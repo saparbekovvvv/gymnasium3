@@ -748,21 +748,21 @@
   padding-top: 20px;
 }
 
+#StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__content {
+  padding-top: 50px;
+}
+
 #StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__student {
   position: absolute;
   display: flex;
   align-items: center;
-  top: -60px;
+  top: -18px;
   width: 250px;
   object-fit: contain;
-  height: 450px;
+  height: 370px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
-}
-
-#StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__content {
-  padding-top: 50px;
 }
 
 #StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__button {
@@ -829,13 +829,13 @@
 
 #TeachersContent-module-scss-module__J-1L6W__content .TeachersContent-module-scss-module__J-1L6W__teacher {
   position: absolute;
-  top: -56px;
+  top: -6px;
   left: 50%;
   transform: translateX(-50%);
   width: 280px;
-  height: 450px;
+  height: 360px;
   object-fit: contain;
-  z-index: 2;
+  z-index: 3;
 }
 
 #TeachersContent-module-scss-module__J-1L6W__content .TeachersContent-module-scss-module__J-1L6W__button {
@@ -848,12 +848,13 @@
   font-size: 1rem;
   cursor: pointer;
   transition: background-color .3s;
-  margin-top: 349px;
+  margin-top: 348px;
   z-index: 3;
 }
 
 #TeachersContent-module-scss-module__J-1L6W__content .TeachersContent-module-scss-module__J-1L6W__button:hover {
   background-color: #4a2f6d;
+  color: #fff;
 }
 
 
