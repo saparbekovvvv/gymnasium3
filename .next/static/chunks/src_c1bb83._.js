@@ -245,12 +245,12 @@ const Header = ()=>{
                         onClick: handleMenu,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$icons$40$5$2e$3$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$react$2d$icons$2f$rx$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RxHamburgerMenu"], {}, void 0, false, {
                             fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                            lineNumber: 65,
+                            lineNumber: 67,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                        lineNumber: 64,
+                        lineNumber: 66,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -268,17 +268,17 @@ const Header = ()=>{
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                lineNumber: 70,
+                                lineNumber: 72,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                            lineNumber: 69,
+                            lineNumber: 71,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                        lineNumber: 68,
+                        lineNumber: 70,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -293,12 +293,12 @@ const Header = ()=>{
                                         children: t("Башкы бет", "Главная")
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                        lineNumber: 84,
+                                        lineNumber: 86,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 85,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -307,12 +307,12 @@ const Header = ()=>{
                                         children: t("Жаңылыктар", "Новости")
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                        lineNumber: 87,
+                                        lineNumber: 89,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                    lineNumber: 86,
+                                    lineNumber: 88,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -321,12 +321,12 @@ const Header = ()=>{
                                         children: t("Окуучулар", "Ученики")
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                        lineNumber: 90,
+                                        lineNumber: 92,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                    lineNumber: 89,
+                                    lineNumber: 91,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -335,12 +335,12 @@ const Header = ()=>{
                                         children: t("Мугалимдер", "Учителя")
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                        lineNumber: 93,
+                                        lineNumber: 95,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 94,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -349,12 +349,12 @@ const Header = ()=>{
                                         children: t("Бүтүрүүчүлөр", "Выпускники")
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 98,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 97,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -363,12 +363,12 @@ const Header = ()=>{
                                         children: t("Галерея", "Галерея")
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 101,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 100,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -377,12 +377,12 @@ const Header = ()=>{
                                         children: t("Байланыштар", "Контакты")
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 104,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                    lineNumber: 101,
+                                    lineNumber: 103,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -391,23 +391,23 @@ const Header = ()=>{
                                         children: t("Фонд", "Фонд")
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                        lineNumber: 105,
+                                        lineNumber: 107,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                    lineNumber: 104,
+                                    lineNumber: 106,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                            lineNumber: 82,
+                            lineNumber: 84,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                        lineNumber: 81,
+                        lineNumber: 83,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -430,12 +430,12 @@ const Header = ()=>{
                                     placeholder: t("Издөө...", "Поиск...")
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 114,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                lineNumber: 111,
+                                lineNumber: 113,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -447,7 +447,7 @@ const Header = ()=>{
                                         children: "Кырг"
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                        lineNumber: 129,
+                                        lineNumber: 131,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -456,13 +456,13 @@ const Header = ()=>{
                                         children: "Рус"
                                     }, void 0, false, {
                                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                        lineNumber: 135,
+                                        lineNumber: 137,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                lineNumber: 128,
+                                lineNumber: 130,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$14$2e$2$2e$11_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1_sass$40$1$2e$77$2e$8$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -472,34 +472,34 @@ const Header = ()=>{
                                     children: t("Кирүү", "Войти")
                                 }, void 0, false, {
                                     fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                    lineNumber: 144,
+                                    lineNumber: 146,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                                lineNumber: 143,
+                                lineNumber: 145,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                        lineNumber: 110,
+                        lineNumber: 112,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-                lineNumber: 63,
+                lineNumber: 65,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-            lineNumber: 62,
+            lineNumber: 64,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/appPages/site/components/layout/header/Header.tsx",
-        lineNumber: 61,
+        lineNumber: 63,
         columnNumber: 5
     }, this);
 };
