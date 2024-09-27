@@ -1,6 +1,7 @@
 {
   "/(site)/(home)/page": "app/(site)/(home)/page.js",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "/(site)/gallery/page": "app/(site)/gallery/page.js",
   "/(site)/students/page": "app/(site)/students/page.js",
   "/(site)/news/page": "app/(site)/news/page.js"
@@ -10,4 +11,9 @@
   "/(site)/news/page": "app/(site)/news/page.js",
   "/(site)/students/page": "app/(site)/students/page.js"
 >>>>>>> 511f892fb7175f788b48a098894ab616580f26a5
+=======
+  "/(site)/students/page": "app/(site)/students/page.js",
+  "/(site)/students/[school_class]/page": "app/(site)/students/[school_class]/page.js",
+  "/(site)/students/olympians/page": "app/(site)/students/olympians/page.js"
+>>>>>>> 17e11ac4d3ab5309cc127c12918c8bed9603496f
 }

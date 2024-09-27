@@ -4,6 +4,7 @@
       "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "[project]/src/app/(site)/gallery/page": [
       "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
     ],
@@ -18,8 +19,16 @@
     "[project]/src/app/(site)/news/page": [
       "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
     ],
+=======
+>>>>>>> 17e11ac4d3ab5309cc127c12918c8bed9603496f
     "[project]/src/app/(site)/students/page": [
 >>>>>>> 511f892fb7175f788b48a098894ab616580f26a5
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
+    ],
+    "[project]/src/app/(site)/students/[school_class]/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
+    ],
+    "[project]/src/app/(site)/students/olympians/page": [
       "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2"
     ]
   },
