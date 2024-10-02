@@ -736,7 +736,7 @@
 }
 
 #StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__imageWrapper img {
-  object-fit: contain;
+  object-fit: cover;
 }
 
 #StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__circle {
