@@ -1,29 +1,57 @@
 "use client";
+import React, { useState } from "react";
 import { useGetNewsQuery } from "@/redux/api/news";
 import Image from "next/image";
-import { LuMessagesSquare } from "react-icons/lu";
+import { MessageSquare } from "lucide-react";
 import { useRouter } from "next/navigation";
-import scss from "./NewsMainContent.module.scss";
 import { useLanguageStore } from "@/stores/useLanguageStore";
+import styles from "./NewsMainContent.module.scss";
 
-const NewsMainContent = () => {
+interface INews {
+  id: number;
+  image: string;
+  description_ky: string | null; // Nullable кылынды
+  description_ru: string | null; // Nullable кылынды
+  updated_at: string;
+}
+
+const NewsMainContent: React.FC = () => {
   const { data } = useGetNewsQuery();
   const { isKyrgyz, t } = useLanguageStore();
   const router = useRouter();
 
+  const [currentPage, setCurrentPage] = useState(1);
+  const newsPerPage = 9;
+
+  // Sort news by date, newest first (иммутабилдүү жол менен массивди өзгөртүү)
+  const sortedNews = data
+    ? [...data].sort(
+        (a: INews, b: INews) =>
+          new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime()
+      )
+    : [];
+
+  // Get current news items
+  const indexOfLastNews = currentPage * newsPerPage;
+  const indexOfFirstNews = indexOfLastNews - newsPerPage;
+  const currentNews = sortedNews.slice(indexOfFirstNews, indexOfLastNews);
+
+  // Change page
+  const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
+
   return (
-    <section className={scss.NewsMainContent}>
+    <section className={styles.NewsMainContent}>
       <div className="container">
-        <div className={scss.content}>
-          <div className={scss.news_head}>
+        <div className={styles.content}>
+          <div className={styles.news_head}>
             <h1>{t("Жаңылыктар", "Новости")}</h1>
             <hr />
           </div>
-          <div className={scss.news_cards}>
-            {data?.map((item, index) => (
+          <div className={styles.news_cards}>
+            {currentNews.map((item: INews) => (
               <div
-                key={index}
-                className={scss.news_card}
+                key={item.id}
+                className={styles.news_card}
                 onClick={() => router.push(`/news/${item.id}`)}
               >
                 <Image
@@ -34,17 +62,32 @@ const NewsMainContent = () => {
                   priority
                   quality={70}
                 />
-                <h2
-                  style={{ width: "100%", maxWidth: "320px", height: "90px" }}
-                >
-                  {isKyrgyz ? item.description_ky : item.description_ru}
+                <h2>
+                  {isKyrgyz && item.description_ky
+                    ? item.description_ky
+                    : item.description_ru ?? "Маалымат жеткиликтүү эмес"}
                 </h2>
-                <div className={scss.news_end}>
+                <div className={styles.news_end}>
                   <p>{item.updated_at.slice(0, 10)}</p>
-                  <LuMessagesSquare />
+                  <MessageSquare />
                 </div>
               </div>
             ))}
+          </div>
+          <div className={styles.pagination}>
+            <button
+              onClick={() => paginate(currentPage - 1)}
+              disabled={currentPage === 1}
+            >
+              {t("Мурунку", "Предыдущая")}
+            </button>
+            <span>{currentPage}</span>
+            <button
+              onClick={() => paginate(currentPage + 1)}
+              disabled={indexOfLastNews >= sortedNews.length}
+            >
+              {t("Кийинки", "Следующая")}
+            </button>
           </div>
         </div>
       </div>

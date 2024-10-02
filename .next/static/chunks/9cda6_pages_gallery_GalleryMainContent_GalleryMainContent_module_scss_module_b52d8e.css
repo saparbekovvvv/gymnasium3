@@ -1,4 +1,8 @@
 /* [project]/src/appPages/site/components/pages/gallery/GalleryMainContent/GalleryMainContent.module.scss.module.css [app-client] (css) */
+.GalleryMainContent-module-scss-module__pSxGZW__GalleryMainContent {
+  margin: 80px 0;
+}
+
 .GalleryMainContent-module-scss-module__pSxGZW__GalleryMainContent .GalleryMainContent-module-scss-module__pSxGZW__content {
   display: flex;
   flex-direction: column;

@@ -38,7 +38,8 @@ export const api = createApi({
     "search",
     "about",
     "old_teachers",
-    "coments",
+    "comments",
+    "video",
   ],
   endpoints: () => ({}),
 });
