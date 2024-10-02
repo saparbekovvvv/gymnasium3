@@ -319,6 +319,7 @@
 .GraduatesContent-module-scss-module__P-UWEG__content .GraduatesContent-module-scss-module__P-UWEG__graduateContent .GraduatesContent-module-scss-module__P-UWEG__image img {
   width: 100%;
   box-shadow: 0 4px 15px #0000001a;
+  object-fit: cover;
 }
 
 @media (width <= 430px) {
