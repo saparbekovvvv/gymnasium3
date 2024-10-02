@@ -535,6 +535,7 @@
 .GraduatesContent-module-scss-module__P-UWEG__content .GraduatesContent-module-scss-module__P-UWEG__graduateContent .GraduatesContent-module-scss-module__P-UWEG__image img {
   width: 100%;
   box-shadow: 0 4px 15px #0000001a;
+  object-fit: cover;
 }
 
 @media (width <= 430px) {
@@ -951,7 +952,7 @@
 }
 
 #StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__imageWrapper img {
-  object-fit: contain;
+  object-fit: cover;
 }
 
 #StudentsContent-module-scss-module__UCq7Jq__content .StudentsContent-module-scss-module__UCq7Jq__circle {
