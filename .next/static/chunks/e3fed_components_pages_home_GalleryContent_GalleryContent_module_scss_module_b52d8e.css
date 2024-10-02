@@ -38,6 +38,7 @@
   width: 380px;
   height: 258px;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .GalleryContent-module-scss-module__bTG7BW__GalleryMainContent .GalleryContent-module-scss-module__bTG7BW__content .GalleryContent-module-scss-module__bTG7BW__gallery_card .GalleryContent-module-scss-module__bTG7BW__galleryItem img:hover {
@@ -74,14 +75,14 @@
 @media (width <= 430px) {
   .GalleryContent-module-scss-module__bTG7BW__GalleryMainContent .GalleryContent-module-scss-module__bTG7BW__gallery_card {
     overflow-x: auto;
-    grid-template-columns: repeat(6, 1fr) !important;
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (width <= 884px) {
   .GalleryContent-module-scss-module__bTG7BW__GalleryMainContent .GalleryContent-module-scss-module__bTG7BW__gallery_card {
     overflow-x: auto;
-    grid-template-columns: repeat(6, 1fr) !important;
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
