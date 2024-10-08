@@ -10,7 +10,57 @@
       "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5ardu3mhPy1Fig-s.p.575a8839.woff2",
       "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0-s.p.aaa027fc.woff2"
     ],
-    "[project]/src/app/_not-found/page": [
+    "[project]/src/app/(site)/students/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5ardu3mhPy1Fig-s.p.575a8839.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0-s.p.aaa027fc.woff2"
+    ],
+    "[project]/src/app/(site)/students/[school_class]/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5ardu3mhPy1Fig-s.p.575a8839.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0-s.p.aaa027fc.woff2"
+    ],
+    "[project]/src/app/(site)/students/studentsparliamenttable/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5ardu3mhPy1Fig-s.p.575a8839.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0-s.p.aaa027fc.woff2"
+    ],
+    "[project]/src/app/(site)/students/olympians/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5ardu3mhPy1Fig-s.p.575a8839.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0-s.p.aaa027fc.woff2"
+    ],
+    "[project]/src/app/(site)/teachers/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5ardu3mhPy1Fig-s.p.575a8839.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0-s.p.aaa027fc.woff2"
+    ],
+    "[project]/src/app/(site)/fond/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5ardu3mhPy1Fig-s.p.575a8839.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0-s.p.aaa027fc.woff2"
+    ],
+    "[project]/src/app/(site)/gallery/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5ardu3mhPy1Fig-s.p.575a8839.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0-s.p.aaa027fc.woff2"
+    ],
+    "[project]/src/app/(site)/gallery/galery_video/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5ardu3mhPy1Fig-s.p.575a8839.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0-s.p.aaa027fc.woff2"
+    ],
+    "[project]/src/app/(site)/graduates/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5ardu3mhPy1Fig-s.p.575a8839.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0-s.p.aaa027fc.woff2"
+    ],
+    "[project]/src/app/(site)/graduates/best_graduates/page": [
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5ardu3mhPy1Fig-s.p.575a8839.woff2",
+      "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0-s.p.aaa027fc.woff2"
+    ],
+    "[project]/src/app/(site)/graduates/graduates_table/page": [
       "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.7b3669ea.woff2",
       "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5ardu3mhPy1Fig-s.p.575a8839.woff2",
       "static/media/o_0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0-s.p.aaa027fc.woff2"
