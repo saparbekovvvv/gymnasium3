@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/src/appPages/site/components/pages/GalleryPage.module.scss.module.css [app-client] (css module)"],"sourcesContent":["__turbopack_export_value__({\n  \"content\": \"GalleryPage-module-scss-module__1ITeqq__content\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA"}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/src/appPages/site/components/pages/GalleryPage.tsx"],"sourcesContent":["\"use client\";\nimport Link from \"next/link\";\nimport GalleryMainContent from \"./gallery/GalleryMainContent/GalleryMainContent\";\nimport scss from \"./GalleryPage.module.scss\";\nconst GalleryPage = () => {\n  return (\n    <>\n      <div className={scss.content}>\n        <div className=\"container\">\n          <div className={scss.graduatesTable}>\n            <Link className={scss.Block} href={\"/gallery/galery_photo\"}>\n              Photo Galery\n            </Link>\n            <Link className={scss.Block} href={\"/gallery/galery_video\"}>\n              Video Galery\n            </Link>\n          </div>\n        </div>\n      </div>\n    </>\n  );\n};\n\nexport default GalleryPage;\n"],"names":[],"mappings":";;;;;;;AAAA;;;;AAIA,MAAM,cAAc;IAClB,qBACE;kBACE,cAAA,kVAAC;YAAI,WAAW,8LAAA,CAAA,UAAI,CAAC,OAAO;sBAC1B,cAAA,kVAAC;gBAAI,WAAU;0BACb,cAAA,kVAAC;oBAAI,WAAW,8LAAA,CAAA,UAAI,CAAC,cAAc;;sCACjC,kVAAC,oRAAA,CAAA,UAAI;4BAAC,WAAW,8LAAA,CAAA,UAAI,CAAC,KAAK;4BAAE,MAAM;sCAAyB;;;;;;sCAG5D,kVAAC,oRAAA,CAAA,UAAI;4BAAC,WAAW,8LAAA,CAAA,UAAI,CAAC,KAAK;4BAAE,MAAM;sCAAyB;;;;;;;;;;;;;;;;;;;;;;;AAQxE;KAjBM;uCAmBS"}},
+    {"offset": {"line": 72, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

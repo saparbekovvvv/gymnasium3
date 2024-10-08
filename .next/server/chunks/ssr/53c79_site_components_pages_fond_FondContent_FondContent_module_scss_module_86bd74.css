@@ -1,16 +1,6 @@
 /* [project]/src/appPages/site/components/pages/fond/FondContent/FondContent.module.scss.module.css [app-ssr] (css) */
 .FondContent-module-scss-module__zBo9Xq__fondContent {
-  margin: 100px 0 40px;
-}
-
-.FondContent-module-scss-module__zBo9Xq__fondContent .FondContent-module-scss-module__zBo9Xq__totalPrice {
-  margin-top: 20px;
-}
-
-.FondContent-module-scss-module__zBo9Xq__fondContent .FondContent-module-scss-module__zBo9Xq__totalPrice span {
-  font-size: 22px;
-  color: #27ae60;
-  font-weight: bold;
+  margin-top: 100px;
 }
 
 .FondContent-module-scss-module__zBo9Xq__fondContent .FondContent-module-scss-module__zBo9Xq__container {
@@ -47,7 +37,6 @@
 }
 
 .FondContent-module-scss-module__zBo9Xq__fondContent .FondContent-module-scss-module__zBo9Xq__donationsList {
-  margin-top: 30px;
   display: grid;
   gap: 30px;
 }
@@ -74,6 +63,16 @@
   color: #27ae60;
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+.FondContent-module-scss-module__zBo9Xq__fondContent .FondContent-module-scss-module__zBo9Xq__totalPrice {
+  margin-top: 20px;
+}
+
+.FondContent-module-scss-module__zBo9Xq__fondContent .FondContent-module-scss-module__zBo9Xq__totalPrice span {
+  font-size: 22px;
+  color: #27ae60;
+  font-weight: bold;
 }
 
 .FondContent-module-scss-module__zBo9Xq__fondContent .FondContent-module-scss-module__zBo9Xq__comment {

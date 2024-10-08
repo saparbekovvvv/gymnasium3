@@ -1,7 +1,16 @@
 {
   "/(site)/(home)/page": "app/(site)/(home)/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(site)/news/page": "app/(site)/news/page.js",
   "/(site)/students/page": "app/(site)/students/page.js",
+  "/(site)/students/[school_class]/page": "app/(site)/students/[school_class]/page.js",
+  "/(site)/students/studentsparliamenttable/page": "app/(site)/students/studentsparliamenttable/page.js",
+  "/(site)/students/olympians/page": "app/(site)/students/olympians/page.js",
+  "/(site)/teachers/page": "app/(site)/teachers/page.js",
+  "/(site)/fond/page": "app/(site)/fond/page.js",
+  "/(site)/gallery/page": "app/(site)/gallery/page.js",
+  "/(site)/gallery/galery_video/page": "app/(site)/gallery/galery_video/page.js",
   "/(site)/graduates/page": "app/(site)/graduates/page.js",
-  "/(site)/graduates/graduates_table/page": "app/(site)/graduates/graduates_table/page.js"
+  "/(site)/graduates/best_graduates/page": "app/(site)/graduates/best_graduates/page.js",
+  "/(site)/graduates/graduates_table/page": "app/(site)/graduates/graduates_table/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

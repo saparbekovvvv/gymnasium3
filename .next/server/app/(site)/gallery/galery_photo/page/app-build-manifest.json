@@ -1,0 +1,32 @@
+{
+  "pages": {
+    "/(site)/gallery/galery_photo/page": [
+      "static/chunks/[root of the server]__d8d08d._.css",
+      "static/chunks/node_modules__pnpm_e665bf._.js",
+      "static/chunks/src_7a1d0f._.js",
+      "static/chunks/src_app_layout_tsx_40797a._.js",
+      "static/chunks/src_appPages_site_components_layout_4242f8._.css",
+      "static/chunks/13a58_next_a48359._.js",
+      "static/chunks/f8f15_react-icons_rx_index_mjs_09eb17._.js",
+      "static/chunks/f8f15_react-icons_fa_index_mjs_76c094._.js",
+      "static/chunks/f8f15_react-icons_lib_68da56._.js",
+      "static/chunks/node_modules__pnpm_32148c._.js",
+      "static/chunks/src_c1bb83._.js",
+      "static/chunks/src_app_(site)_layout_tsx_9ca721._.js",
+      "static/chunks/f8f15_react-icons_bi_index_mjs_a4ccb3._.js",
+      "static/chunks/src_5ffbde._.js",
+      "static/chunks/9cda6_pages_gallery_GalleryMainContent_GalleryMainContent_module_scss_module_9d4dba.css",
+      "static/chunks/src_app_(site)_gallery_galery_photo_page_tsx_2bd7ef._.js",
+      "static/chunks/13a58_next_dist_compiled_react_fb7099._.js",
+      "static/chunks/13a58_next_dist_compiled_react-dom_cjs_react-dom_development_86b19a.js",
+      "static/chunks/13a58_next_dist_compiled_react-dom_514257._.js",
+      "static/chunks/13a58_next_dist_compiled_64dfd6._.js",
+      "static/chunks/13a58_next_dist_client_6c0734._.js",
+      "static/chunks/13a58_next_dist_b7a4cf._.js",
+      "static/chunks/90481_@swc_helpers_cjs_e55b81._.js",
+      "static/chunks/[turbopack]_dev_client_hmr-client_ts_7c76d9._.js",
+      "static/chunks/13a58_next_dist_esm_build_templates_app-page_ffd938.js",
+      "static/chunks/13a58_next_dist_esm_build_templates_app-page_f64a79.js"
+    ]
+  }
+}
